@@ -1,0 +1,6 @@
+T1	StatusTime 14 39	Négation de l'utilisation
+A1	StatusTime T1 none
+T2	Tobacco 43 48	tabac
+T3	Alcohol 52 60	d'alcool
+R1	Status Arg1:T2 Arg2:T1	
+R2	Status Arg1:T3 Arg2:T1	

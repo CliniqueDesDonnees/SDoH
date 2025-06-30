@@ -1,0 +1,21 @@
+T1	Living_Alone 14 23	vit seule
+T2	Descendants_Yes 24 33	3 enfants
+T3	Type 26 33	enfants
+T4	Amount 24 25	3
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Employment_Working 34 43	travaille
+T6	Job 50 53	IDE
+T7	Tobacco 62 67	tabac
+T8	Alcohol 71 79	d'alcool
+T9	Drug 97 105	cannabis
+T10	StatusTime 85 93	consomme
+A1	StatusTime T10 current
+R3	Status Arg1:T9 Arg2:T10	
+T11	StatusTime 68 70	ni
+A2	StatusTime T11 none
+T12	StatusTime 55 61	pas de
+A3	StatusTime T12 none
+R4	Status Arg1:T7 Arg2:T12	
+R5	Status Arg1:T8 Arg2:T11	
+T13	Last_job 50 53	IDE

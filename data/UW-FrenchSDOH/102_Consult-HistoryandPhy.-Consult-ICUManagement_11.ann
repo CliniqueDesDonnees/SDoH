@@ -1,0 +1,8 @@
+T1	Tobacco 40 45	tabac
+T2	StatusTime 25 39	utilisation de
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 74 80	alcool
+T4	StatusTime 59 71	consommation
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	

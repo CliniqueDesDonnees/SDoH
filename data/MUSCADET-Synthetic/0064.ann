@@ -1,0 +1,27 @@
+T1	Employment_Pensioner 14 22	retraite
+T2	Last_job 30 39	carrosier
+T3	MaritalStatus_InRelationship 40 45	marié
+T4	Descendants_Yes 46 55	2 enfants
+T5	Type 48 55	enfants
+T6	Amount 46 47	2
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Tobacco 56 61	tabac
+T8	StatusTime 62 65	: 0
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 66 72	alcool
+T10	StatusTime 66 72	alcool
+A2	StatusTime T10 current
+T13	Frequency 90 95	/jour
+R4	Status Arg1:T9 Arg2:T10	
+R7	Frequency Arg1:T9 Arg2:T13	
+T14	Drug 104 110	drogue
+T15	StatusTime 97 103	pas de
+A3	StatusTime T15 none
+R8	Status Arg1:T14 Arg2:T15	
+T16	Job 30 39	carrosier
+T11	Amount 75 83	3 verres
+T12	Type 87 90	vin
+R5	Amount Arg1:T9 Arg2:T11	
+R6	Type Arg1:T9 Arg2:T12	

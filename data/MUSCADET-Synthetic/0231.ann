@@ -1,0 +1,7 @@
+T1	Last_job 14 28	Pilote d'avion
+T2	Employment_Working 14 28	Pilote d'avion
+T3	Alcohol 45 48	Ohc
+T4	StatusTime 45 48	Ohc
+A1	StatusTime T4 current
+R1	Status Arg1:T3 Arg2:T4	
+T5	Job 14 28	Pilote d'avion

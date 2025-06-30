@@ -1,0 +1,9 @@
+T1	Alcohol 33 40	alcoolo
+T2	Tobacco 41 50	tabagique
+T3	StatusTime 14 32	Pas d'intoxication
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	Employment_Working 53 64	Ferrailleur
+T5	Last_job 53 64	Ferrailleur
+T6	Job 53 64	Ferrailleur

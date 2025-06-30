@@ -1,0 +1,11 @@
+T1	Employment_Pensioner 16 24	retraité
+T2	Last_job 25 40	épicier caviste
+T3	Tobacco 54 60	fumeur
+T4	StatusTime 61 66	sevré
+A1	StatusTime T4 past
+R1	Status Arg1:T3 Arg2:T4	
+T5	History 67 80	depuis 50 ans
+R2	History Arg1:T3 Arg2:T5	
+T8	Job 25 40	épicier caviste
+T6	Amount 82 87	35 PA
+R3	Amount Arg1:T3 Arg2:T6	

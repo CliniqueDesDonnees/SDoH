@@ -1,0 +1,27 @@
+T1	Living_Alone 16 24	Vit seul
+T2	Housing_Yes 16 35	Vit seul à domicile
+T3	MaritalStatus_Widowed 36 40	veuf
+T4	Descendants_Yes 42 51	6 enfants
+T5	Type 44 51	enfants
+T6	Amount 42 43	6
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Employment_Pensioner 79 87	retraité
+T8	Last_job 60 78	conducteur de tram
+T9	Tobacco 89 98	Tabagisme
+T10	Alcohol 121 123	OH
+T11	StatusTime 124 133	chronique
+A1	StatusTime T11 current
+R3	Status Arg1:T10 Arg2:T11	
+T12	StatusTime 99 104	actif
+A2	StatusTime T12 current
+R4	Status Arg1:T9 Arg2:T12	
+T17	Frequency 167 175	par jour
+R9	Frequency Arg1:T10 Arg2:T17	
+T18	Job 60 78	conducteur de tram
+T15	Amount 143 156	une bouteille
+T16	Type 160 166	whisky
+R7	Amount Arg1:T10 Arg2:T15	
+R8	Type Arg1:T10 Arg2:T16	
+T13	Amount 114 119	20 PA
+R5	Amount Arg1:T9 Arg2:T13	

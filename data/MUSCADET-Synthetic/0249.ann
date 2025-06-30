@@ -1,0 +1,17 @@
+T1	Living_WithOthers 16 33	Vit avec son mari
+T2	MaritalStatus_InRelationship 20 33	avec son mari
+T3	PhysicalActivity_No 169 204	Ne pratique pas d'activité sportive
+T4	Last_job 229 244	femme de ménage
+T5	Tobacco 249 258	Tabagisme
+T6	StatusTime 259 264	sevré
+A1	StatusTime T6 past
+R1	Status Arg1:T5 Arg2:T6	
+T7	History 265 281	il y a 5 à 6 ans
+R2	History Arg1:T5 Arg2:T7	
+T9	Type 295 302	paquets
+T10	Frequency 303 308	année
+R4	Type Arg1:T5 Arg2:T9	
+R5	Frequency Arg1:T5 Arg2:T10	
+T11	Job 229 244	femme de ménage
+T8	Amount 292 302	17 paquets
+R3	Amount Arg1:T5 Arg2:T8	

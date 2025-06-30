@@ -1,0 +1,23 @@
+T1	Employment_Working 14 25	Esthéticien
+T2	Last_job 14 25	Esthéticien
+T3	Tobacco 27 32	Tabac
+T4	Alcohol 77 83	Alcool
+T5	StatusTime 27 32	Tabac
+A1	StatusTime T5 current
+T7	Type 39 49	cigarettes
+T8	Frequency 50 58	par jour
+R1	Status Arg1:T3 Arg2:T5	
+R4	Frequency Arg1:T3 Arg2:T8	
+T9	History 60 74	début à 15 ans
+R5	History Arg1:T3 Arg2:T9	
+T10	StatusTime 84 87	: 0
+A2	StatusTime T10 none
+R6	Status Arg1:T4 Arg2:T10	
+T11	Descendants_Yes 88 97	2 enfants
+T12	Type 90 97	enfants
+T13	Amount 88 89	2
+R7	Type Arg1:T11 Arg2:T12	
+R8	Amount Arg1:T11 Arg2:T13	
+T14	Job 14 25	Esthéticien
+T6	Amount 35 49	5-6 cigarettes
+R2	Amount Arg1:T3 Arg2:T6	

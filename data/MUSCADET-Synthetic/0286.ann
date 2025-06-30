@@ -1,0 +1,9 @@
+T1	Employment_Student 24 32	au lycée
+T2	Tobacco 37 41	fume
+T3	Alcohol 52 56	boit
+T4	StatusTime 34 45	ne fume pas
+A1	StatusTime T4 none
+R1	Status Arg1:T2 Arg2:T4	
+T5	StatusTime 46 51	ni ne
+A2	StatusTime T5 none
+R2	Status Arg1:T3 Arg2:T5	

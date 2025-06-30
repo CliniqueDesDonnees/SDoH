@@ -1,0 +1,17 @@
+T1	Employment_Working 19 28	travaille
+T2	Job 35 45	cuisinière
+T3	Last_job 35 45	cuisinière
+T4	MaritalStatus_Single 79 90	célibataire
+T5	Descendants_Yes 96 105	une fille
+T6	Type 100 105	fille
+T7	Amount 96 99	une
+R1	Type Arg1:T5 Arg2:T6	
+R2	Amount Arg1:T5 Arg2:T7	
+T8	Tobacco 118 122	fumé
+T9	StatusTime 107 117	N'a jamais
+A1	StatusTime T9 none
+R3	Status Arg1:T8 Arg2:T9	
+T10	Alcohol 149 157	d'alcool
+T11	StatusTime 124 148	Nient toute consommation
+A2	StatusTime T11 none
+R4	Status Arg1:T10 Arg2:T11	

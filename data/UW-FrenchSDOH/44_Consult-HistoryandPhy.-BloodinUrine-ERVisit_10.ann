@@ -1,0 +1,10 @@
+T1	Tobacco 28 32	fume
+T2	StatusTime 25 36	ne fume pas
+A1	StatusTime T2 none
+T3	Alcohol 64 72	d'alcool
+T4	Drug 79 96	drogues illicites
+T5	StatusTime 41 63	nie toute consommation
+A2	StatusTime T5 none
+R1	Status Arg1:T3 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	
+T6	Living_WithOthers 109 128	vit avec sa famille

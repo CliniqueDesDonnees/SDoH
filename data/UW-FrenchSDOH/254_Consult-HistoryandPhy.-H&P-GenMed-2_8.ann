@@ -1,0 +1,13 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Alcohol 59 67	d'alcool
+T3	StatusTime 43 58	ne consomme pas
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	Tobacco 72 76	fume
+T5	StatusTime 69 80	ne fume pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	
+T6	Drug 101 121	substances illicites
+T7	StatusTime 84 97	n'utilise pas
+A3	StatusTime T7 none
+R3	Status Arg1:T6 Arg2:T7	

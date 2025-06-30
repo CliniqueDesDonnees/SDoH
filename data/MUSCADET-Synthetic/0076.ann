@@ -1,0 +1,16 @@
+T1	Housing_Yes 16 30	Vit à domicile
+T2	MaritalStatus_InRelationship 31 40	en couple
+T3	Living_WithOthers 16 40	Vit à domicile en couple
+T4	Descendants_Yes 42 51	Une fille
+T5	Descendants_Yes 55 64	un garcon
+T6	Type 58 64	garcon
+T7	Amount 55 57	un
+T8	Type 46 51	fille
+T9	Amount 42 45	Une
+R1	Type Arg1:T4 Arg2:T8	
+R2	Amount Arg1:T4 Arg2:T9	
+R3	Type Arg1:T5 Arg2:T6	
+R4	Amount Arg1:T5 Arg2:T7	
+T10	Last_job 66 85	Ouvrier dans le BTP
+T11	Employment_Working 66 85	Ouvrier dans le BTP
+T12	Job 66 85	Ouvrier dans le BTP

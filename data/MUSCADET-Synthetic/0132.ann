@@ -1,0 +1,10 @@
+T1	MaritalStatus_InRelationship 14 19	marié
+T2	Employment_Pensioner 20 31	en retraite
+T3	Last_job 40 48	géomètre
+T4	Alcohol 55 61	alcool
+T5	StatusTime 62 73	occasionnel
+A1	StatusTime T5 current
+T6	Frequency 62 73	occasionnel
+R1	Frequency Arg1:T4 Arg2:T6	
+R2	Status Arg1:T4 Arg2:T5	
+T7	Job 40 48	géomètre

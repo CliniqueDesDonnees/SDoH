@@ -1,0 +1,17 @@
+T1	Housing_Yes 14 28	Vit à domicile
+T2	Living_WithOthers 14 44	Vit à domicile avec son épouse
+T3	MaritalStatus_InRelationship 29 44	avec son épouse
+T4	Last_job 53 91	commercial dans les machines agricoles
+T5	PhysicalActivity_Yes 93 128	Marche quelques jours fait du sport
+T6	Alcohol 149 155	éthylo
+T7	Tobacco 156 165	tabagique
+T8	StatusTime 130 148	Pas d'intoxication
+A1	StatusTime T8 none
+R1	Status Arg1:T6 Arg2:T8	
+R2	Status Arg1:T7 Arg2:T8	
+T9	Descendants_Yes 167 176	5 enfants
+T10	Type 169 176	enfants
+T11	Amount 167 168	5
+R3	Type Arg1:T9 Arg2:T10	
+R4	Amount Arg1:T9 Arg2:T11	
+T12	Job 53 91	commercial dans les machines agricoles

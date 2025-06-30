@@ -1,0 +1,18 @@
+T1	StatusTime 50 77	antécédents de consommation
+A1	StatusTime T1 past
+T2	Drug 81 110	méthamphétamine et de cocaïne
+T3	Type 81 96	méthamphétamine
+T4	Type 103 110	cocaïne
+T5	History 111 130	il y a environ 1 an
+R1	Type Arg1:T2 Arg2:T3	
+R2	Type Arg1:T2 Arg2:T4	
+R3	Status Arg1:T2 Arg2:T1	
+R4	History Arg1:T2 Arg2:T5	
+T6	StatusTime 151 178	antécédents de consommation
+A2	StatusTime T6 past
+T7	Drug 182 191	marijuana
+T8	Type 182 191	marijuana
+R5	Type Arg1:T7 Arg2:T8	
+R6	Status Arg1:T7 Arg2:T6	
+T9	History 192 211	il y a environ 1 an
+R7	History Arg1:T7 Arg2:T9	

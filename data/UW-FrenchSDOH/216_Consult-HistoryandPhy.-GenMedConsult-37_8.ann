@@ -1,0 +1,15 @@
+T1	Employment_Unemployed 25 40	est sans emploi
+T2	Alcohol 67 75	d'alcool
+T3	Drug 82 89	drogues
+T4	StatusTime 44 66	nie toute consommation
+A1	StatusTime T4 none
+R1	Status Arg1:T2 Arg2:T4	
+R2	Status Arg1:T3 Arg2:T4	
+T5	Tobacco 114 120	fumeur
+T6	StatusTime 94 110	était auparavant
+A2	StatusTime T6 past
+T7	History 154 167	il y a 10 ans
+T8	Frequency 123 128	léger
+R3	Status Arg1:T5 Arg2:T6	
+R4	Frequency Arg1:T5 Arg2:T8	
+R5	History Arg1:T5 Arg2:T7	

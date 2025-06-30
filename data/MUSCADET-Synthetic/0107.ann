@@ -1,0 +1,15 @@
+T1	Employment_Working 23 30	travail
+T2	Last_job 31 38	en ESAT
+T3	Housing_No 14 22	En foyer
+T4	Education 56 70	Pas de diplôme
+T5	Tobacco 75 79	fume
+T6	StatusTime 72 74	ne
+A1	StatusTime T6 none
+R1	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 84 88	boit
+T8	StatusTime 81 92	ne boit pas
+A2	StatusTime T8 none
+R2	Status Arg1:T7 Arg2:T8	
+T9	MaritalStatus_InRelationship 94 108	en concubinage
+T10	PhysicalActivity_Yes 118 127	jardinage
+T11	Job 31 38	en ESAT

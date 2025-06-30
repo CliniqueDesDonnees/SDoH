@@ -1,0 +1,32 @@
+T1	Last_job 21 30	cuisinier
+T2	Employment_Pensioner 31 39	retraité
+T3	History 40 53	depuis 23 ans
+R1	History Arg1:T2 Arg2:T3	
+T4	Living_WithOthers 55 93	Habite dans une maison avec son épouse
+T5	MaritalStatus_InRelationship 78 93	avec son épouse
+T6	Housing_Yes 55 77	Habite dans une maison
+T7	Descendants_Yes 105 111	2 fils
+T8	Descendants_Yes 115 125	2 jumelles
+T9	Type 107 111	fils
+T10	Type 117 125	jumelles
+T11	Amount 115 116	2
+T12	Amount 105 106	2
+R2	Type Arg1:T7 Arg2:T9	
+R3	Amount Arg1:T7 Arg2:T12	
+R4	Type Arg1:T8 Arg2:T10	
+R5	Amount Arg1:T8 Arg2:T11	
+T13	Tobacco 130 135	Tabac
+T14	StatusTime 138 143	aucun
+A1	StatusTime T14 none
+R6	Status Arg1:T13 Arg2:T14	
+T15	Alcohol 145 151	Alcool
+T16	StatusTime 154 165	occasionnel
+A2	StatusTime T16 current
+R7	Status Arg1:T15 Arg2:T16	
+T20	Frequency 175 184	par repas
+R11	Frequency Arg1:T15 Arg2:T20	
+T17	Job 21 30	cuisinier
+T21	Type 189 198	vin rouge
+T18	Amount 167 174	1 verre
+R8	Amount Arg1:T15 Arg2:T18	
+R9	Type Arg1:T15 Arg2:T21	

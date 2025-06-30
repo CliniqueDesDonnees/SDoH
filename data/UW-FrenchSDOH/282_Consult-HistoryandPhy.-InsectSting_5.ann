@@ -1,0 +1,7 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	StatusTime 36 39	non
+A1	StatusTime T2 none
+T3	Tobacco 40 46	fumeur
+R1	Status Arg1:T3 Arg2:T2	
+T4	Living_WithOthers 50 69	vit avec son épouse
+T5	MaritalStatus_InRelationship 59 69	son épouse

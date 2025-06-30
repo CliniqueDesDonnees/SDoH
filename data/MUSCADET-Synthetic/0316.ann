@@ -1,0 +1,16 @@
+T1	Tobacco 14 19	Tabac
+T2	Alcohol 30 36	Alcool
+T3	StatusTime 20 27	= 15 PA
+A1	StatusTime T3 current
+T4	StatusTime 37 66	= 3-4 verres de vin par repas
+A2	StatusTime T4 current
+R3	Status Arg1:T1 Arg2:T3	
+R4	Status Arg1:T2 Arg2:T4	
+T9	Frequency 57 66	par repas
+R5	Frequency Arg1:T2 Arg2:T9	
+T5	Amount 22 27	15 PA
+R1	Amount Arg1:T1 Arg2:T5	
+T6	Amount 39 49	3-4 verres
+R2	Amount Arg1:T2 Arg2:T6	
+T7	Type 53 56	vin
+R6	Type Arg1:T2 Arg2:T7	

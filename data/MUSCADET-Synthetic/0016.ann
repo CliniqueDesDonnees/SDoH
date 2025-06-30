@@ -1,0 +1,15 @@
+T1	Alcohol 33 40	alcoolo
+T2	Tobacco 41 50	tabagique
+T3	StatusTime 14 32	Pas d'intoxication
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	Living_WithOthers 53 66	Vit en couple
+T5	MaritalStatus_InRelationship 57 66	en couple
+T6	Housing_Yes 53 83	Vit en couple  dans une maison
+T7	Type 105 112	enfants
+T8	Descendants_Yes 93 112	A plusieurs enfants
+T9	Drug 114 120	drogue
+T10	StatusTime 121 124	= 0
+A2	StatusTime T10 none
+R3	Status Arg1:T9 Arg2:T10	

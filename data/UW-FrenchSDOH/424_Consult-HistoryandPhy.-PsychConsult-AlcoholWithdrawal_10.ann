@@ -1,0 +1,20 @@
+T1	Descendants_Yes 51 62	deux filles
+T2	Type 56 62	filles
+T3	Amount 51 55	deux
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Last_job 131 153	géologue chez Petrogas
+T5	Job 131 153	géologue chez Petrogas
+T6	Employment_Working 115 124	travaille
+T7	Descendants_Yes 186 197	ses enfants
+T8	Type 190 197	enfants
+R3	Type Arg1:T7 Arg2:T8	
+T10	Alcohol 347 355	d'alcool
+T11	StatusTime 334 346	consommation
+A1	StatusTime T11 current
+R4	Status Arg1:T10 Arg2:T11	
+T12	MaritalStatus_InRelationship 357 365	Sa femme
+T9	Drug 526 543	drogues illicites
+T13	StatusTime 501 516	ne rapporte pas
+A2	StatusTime T13 none
+R5	Status Arg1:T9 Arg2:T13	

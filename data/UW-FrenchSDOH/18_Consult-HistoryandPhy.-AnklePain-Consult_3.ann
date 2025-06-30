@@ -1,0 +1,9 @@
+T1	Employment_Student 79 98	scolarisée au lycée
+T2	Living_WithOthers 102 122	vit avec ses parents
+T3	PhysicalActivity_Yes 190 200	basketball
+T4	Tobacco 361 366	tabac
+T5	Alcohol 370 378	d'alcool
+T6	StatusTime 291 332	ne présente pas de comportements à risque
+A1	StatusTime T6 none
+R1	Status Arg1:T4 Arg2:T6	
+R2	Status Arg1:T5 Arg2:T6	

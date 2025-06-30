@@ -1,0 +1,10 @@
+T1	Tobacco 61 65	fume
+T2	StatusTime 58 69	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 90 98	d'alcool
+T4	StatusTime 74 89	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	MaritalStatus_Single 107 118	célibataire
+T6	Living_WithOthers 123 147	vit avec une petite amie

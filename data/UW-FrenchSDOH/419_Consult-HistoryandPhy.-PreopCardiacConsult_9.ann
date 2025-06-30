@@ -1,0 +1,27 @@
+T1	Tobacco 28 32	fumé
+T2	Duration 57 81	de 14 ans jusqu'à 43 ans
+T3	Type 37 47	cigarettes
+R1	Type Arg1:T1 Arg2:T3	
+T4	StatusTime 26 32	a fumé
+A1	StatusTime T4 past
+R2	Status Arg1:T1 Arg2:T4	
+R3	Duration Arg1:T1 Arg2:T2	
+T5	Alcohol 153 161	d'alcool
+T6	Drug 182 199	drogues illicites
+T7	StatusTime 165 178	n'utilise pas
+A2	StatusTime T7 none
+R4	Status Arg1:T6 Arg2:T7	
+T8	StatusTime 137 152	ne consomme pas
+A3	StatusTime T8 none
+R5	Status Arg1:T5 Arg2:T8	
+T9	Living_Alone 206 215	vit seule
+T10	MaritalStatus_Widowed 223 228	veuve
+T11	Job 243 265	gardienne d'université
+T12	Last_job 243 265	gardienne d'université
+T13	Employment_Pensioner 266 279	à la retraite
+T14	Descendants_Yes 346 354	sa fille
+T15	Descendants_Yes 358 372	son petit-fils
+T16	Type 362 372	petit-fils
+T17	Type 349 354	fille
+R6	Type Arg1:T14 Arg2:T17	
+R7	Type Arg1:T15 Arg2:T16	

@@ -1,0 +1,4 @@
+T1	Tobacco 120 125	Tabac
+T2	StatusTime 128 133	Aucun
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	

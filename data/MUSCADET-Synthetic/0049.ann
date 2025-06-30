@@ -1,0 +1,19 @@
+T1	MaritalStatus_Single 14 35	Vit à BabelOued seule
+T2	Housing_Yes 36 51	dans une maison
+T3	MaritalStatus_Widowed 61 66	Veuve
+T4	Tobacco 141 146	tabac
+T5	StatusTime 162 167	sevré
+A1	StatusTime T5 past
+R1	Status Arg1:T4 Arg2:T5	
+T6	History 168 181	depuis 20 ans
+R2	History Arg1:T4 Arg2:T6	
+T7	Duration 147 161	pendant 40 ans
+R3	Duration Arg1:T4 Arg2:T7	
+T8	Alcohol 203 211	d'alcool
+T9	Drug 229 236	toxique
+T10	StatusTime 213 228	Pas de prise de
+A2	StatusTime T10 none
+T11	StatusTime 183 202	Pas de consommation
+A3	StatusTime T11 none
+R4	Status Arg1:T8 Arg2:T11	
+R5	Status Arg1:T9 Arg2:T10	

@@ -1,0 +1,12 @@
+T1	Living_WithOthers 45 93	vit de manière intermittente avec sa petite amie
+T2	MaritalStatus_InRelationship 79 93	sa petite amie
+T3	StatusTime 213 226	testé positif
+A1	StatusTime T3 current
+T7	Type 270 278	cannabis
+T4	Type 256 263	cocaïne
+T5	Type 236 251	benzodiazépines
+T6	Drug 175 193	Abus de substances
+R1	Status Arg1:T6 Arg2:T3	
+R2	Type Arg1:T6 Arg2:T5	
+R3	Type Arg1:T6 Arg2:T4	
+R4	Type Arg1:T6 Arg2:T7	

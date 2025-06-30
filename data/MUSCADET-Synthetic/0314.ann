@@ -1,0 +1,7 @@
+T1	Tobacco 22 27	tabac
+T2	StatusTime 14 18	Fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Living_Alone 74 83	vit seule
+T4	Housing_Yes 84 103	dans un appartement
+T5	MaritalStatus_Widowed 29 64	son mari est malheureusement décédé

@@ -1,0 +1,12 @@
+T1	Living_WithOthers 26 42	vit avec sa mère
+T2	Job 194 222	technicienne en comptabilité
+T3	Last_job 194 222	technicienne en comptabilité
+T4	Employment_Other 176 187	a travaillé
+T5	Alcohol 264 272	d'alcool
+T6	Tobacco 277 282	tabac
+T7	Drug 289 306	drogues illicites
+T8	StatusTime 246 263	nie l'utilisation
+A1	StatusTime T8 none
+R1	Status Arg1:T5 Arg2:T8	
+R2	Status Arg1:T6 Arg2:T8	
+R3	Status Arg1:T7 Arg2:T8	

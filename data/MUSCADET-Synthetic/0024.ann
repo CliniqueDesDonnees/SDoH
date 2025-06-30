@@ -1,0 +1,14 @@
+T1	Last_job 14 23	Comptable
+T2	Employment_Working 14 23	Comptable
+T3	Descendants_Yes 24 36	deux enfants
+T4	Type 29 36	enfants
+T5	Amount 24 28	deux
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Tobacco 52 61	tabagisme
+T7	StatusTime 62 67	sevré
+A1	StatusTime T7 past
+T8	History 68 80	depuis 6 ans
+R3	Status Arg1:T6 Arg2:T7	
+R4	History Arg1:T6 Arg2:T8	
+T9	Job 14 23	Comptable

@@ -1,0 +1,15 @@
+T1	Amount 32 49	un à deux paquets
+T2	Frequency 50 58	par jour
+T3	MaritalStatus_InRelationship 196 210	Son partenaire
+T4	Alcohol 246 254	l'alcool
+T5	StatusTime 234 242	consomme
+A1	StatusTime T5 current
+R1	Status Arg1:T4 Arg2:T5	
+T6	Frequency 255 272	occasionnellement
+R2	Frequency Arg1:T4 Arg2:T6	
+T7	StatusTime 345 364	rapporte avoir fumé
+A2	StatusTime T7 past
+T8	Drug 368 376	cannabis
+T9	Type 368 376	cannabis
+R3	Type Arg1:T8 Arg2:T9	
+R4	Status Arg1:T8 Arg2:T7	

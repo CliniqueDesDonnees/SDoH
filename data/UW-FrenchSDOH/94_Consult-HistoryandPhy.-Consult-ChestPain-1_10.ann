@@ -1,0 +1,12 @@
+T1	Tobacco 14 20	Fumeur
+T2	StatusTime 21 26	actif
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 44 52	d'alcool
+T4	StatusTime 28 43	Ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Drug 83 102	drogues récréatives
+T6	StatusTime 54 79	Pas d'antécédents d'usage
+A3	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	

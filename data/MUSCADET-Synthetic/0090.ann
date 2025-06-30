@@ -1,0 +1,15 @@
+T1	Tobacco 14 19	tabac
+T2	StatusTime 20 23	: 0
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 24 30	alcool
+T4	StatusTime 41 46	sevré
+A2	StatusTime T4 past
+R2	Status Arg1:T3 Arg2:T4	
+T5	History 47 60	depuis f6 ans
+R3	History Arg1:T3 Arg2:T5	
+T6	Living_WithOthers 73 90	Vit avec sa femme
+T7	MaritalStatus_InRelationship 77 90	avec sa femme
+T8	Last_job 91 98	editeur
+T9	Employment_Pensioner 99 112	à la retraite
+T10	Job 91 98	editeur

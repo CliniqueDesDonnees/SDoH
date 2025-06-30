@@ -1,0 +1,10 @@
+T1	Descendants_Yes 19 28	5 enfants
+T2	MaritalStatus_InRelationship 11 17	mariée
+T3	Type 21 28	enfants
+T4	Amount 19 20	5
+R1	Type Arg1:T1 Arg2:T3	
+R2	Amount Arg1:T1 Arg2:T4	
+T5	Employment_Working 30 44	chef de projet
+T6	Last_job 30 44	chef de projet
+T7	PhysicalActivity_Yes 46 54	sportive
+T8	Job 30 44	chef de projet

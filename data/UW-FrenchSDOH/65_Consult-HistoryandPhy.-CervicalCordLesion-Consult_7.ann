@@ -1,0 +1,19 @@
+T1	Tobacco 25 29	fume
+T2	StatusTime 25 29	fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 30 47	un paquet et demi
+T4	Type 51 61	cigarettes
+T5	Frequency 62 70	par jour
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	Alcohol 86 94	l'alcool
+T7	StatusTime 74 82	consomme
+A2	StatusTime T7 current
+R5	Status Arg1:T6 Arg2:T7	
+T8	Frequency 104 131	plusieurs jours par semaine
+R6	Frequency Arg1:T6 Arg2:T8	
+T9	Employment_Working 136 147	est employé
+T10	Last_job 148 175	dans le domaine de la vente
+T11	Job 148 175	dans le domaine de la vente

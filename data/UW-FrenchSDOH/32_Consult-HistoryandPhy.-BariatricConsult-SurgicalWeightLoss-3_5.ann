@@ -1,0 +1,6 @@
+T1	MaritalStatus_Single 28 39	célibataire
+T2	Descendants_Yes 42 51	un enfant
+T3	Type 45 51	enfant
+T4	Amount 42 44	un
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	

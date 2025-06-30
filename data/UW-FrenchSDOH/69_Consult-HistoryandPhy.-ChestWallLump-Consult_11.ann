@@ -1,0 +1,24 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	Employment_Working 39 48	travaille
+T3	Job 55 74	chauffeur de camion
+T4	Last_job 55 74	chauffeur de camion
+T5	Tobacco 99 103	fume
+T6	StatusTime 99 103	fume
+A1	StatusTime T6 current
+T7	Amount 104 116	deux paquets
+T8	Frequency 117 125	par jour
+R1	Status Arg1:T5 Arg2:T6	
+R2	Amount Arg1:T5 Arg2:T7	
+R3	Frequency Arg1:T5 Arg2:T8	
+T9	Alcohol 143 149	bières
+T10	StatusTime 129 137	consomme
+A2	StatusTime T10 current
+T11	Amount 138 149	deux bières
+T12	Frequency 150 158	par jour
+R4	Amount Arg1:T9 Arg2:T11	
+R5	Frequency Arg1:T9 Arg2:T12	
+R6	Status Arg1:T9 Arg2:T10	
+T13	Drug 201 218	drogues illégales
+T14	StatusTime 182 197	ne consomme pas
+A3	StatusTime T14 none
+R7	Status Arg1:T13 Arg2:T14	

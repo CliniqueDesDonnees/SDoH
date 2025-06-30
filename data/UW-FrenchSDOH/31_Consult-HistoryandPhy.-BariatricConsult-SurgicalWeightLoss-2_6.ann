@@ -1,0 +1,21 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Job 47 69	gestionnaire de bureau
+T3	Last_job 47 69	gestionnaire de bureau
+T4	MaritalStatus_InRelationship 102 114	Son conjoint
+T5	Alcohol 159 167	l'alcool
+T6	StatusTime 147 155	consomme
+A1	StatusTime T6 current
+R1	Status Arg1:T5 Arg2:T6	
+T7	Tobacco 195 199	fume
+T8	StatusTime 195 199	fume
+A2	StatusTime T8 current
+R2	Status Arg1:T7 Arg2:T8	
+T9	Amount 208 234	deux paquets de cigarettes
+T10	Frequency 235 246	par semaine
+T11	Type 224 234	cigarettes
+R3	Amount Arg1:T7 Arg2:T9	
+R4	Type Arg1:T7 Arg2:T11	
+R5	Frequency Arg1:T7 Arg2:T10	
+T12	Duration 277 291	environ 35 ans
+R6	Duration Arg1:T7 Arg2:T12	
+R7	Duration Arg1:T5 Arg2:T12	

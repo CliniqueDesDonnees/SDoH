@@ -1,0 +1,20 @@
+T1	Descendants_Yes 142 150	1 enfant
+T2	Type 144 150	enfant
+T3	Amount 142 143	1
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Employment_Working 152 155	VRP
+T5	Last_job 152 155	VRP
+T6	StatusTime 14 48	Rapporte des expériences multiples
+A1	StatusTime T6 past
+T7	Drug 50 86	cocaine, LSD, amphétamine, Cathinone
+T8	Type 50 57	cocaine
+T9	Type 59 62	LSD
+T10	Type 64 75	amphétamine
+T11	Type 77 86	Cathinone
+R3	Type Arg1:T7 Arg2:T9	
+R4	Type Arg1:T7 Arg2:T10	
+R5	Type Arg1:T7 Arg2:T8	
+R6	Type Arg1:T7 Arg2:T11	
+R7	Status Arg1:T7 Arg2:T6	
+T12	Job 152 155	VRP

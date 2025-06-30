@@ -1,0 +1,22 @@
+T1	Tobacco 26 30	fume
+T2	StatusTime 26 37	fume encore
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 38 64	environ un tiers de paquet
+T4	Type 58 64	paquet
+T5	Frequency 65 73	par jour
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	Frequency 118 135	occasionnellement
+T7	Alcohol 97 117	boissons alcoolisées
+T8	StatusTime 80 88	consomme
+A2	StatusTime T8 current
+R5	Status Arg1:T7 Arg2:T8	
+R6	Frequency Arg1:T7 Arg2:T6	
+T9	MaritalStatus_InRelationship 146 152	mariée
+T10	Descendants_Yes 161 171	trois fils
+T11	Type 167 171	fils
+T12	Amount 161 166	trois
+R7	Amount Arg1:T10 Arg2:T12	
+R8	Type Arg1:T10 Arg2:T11	

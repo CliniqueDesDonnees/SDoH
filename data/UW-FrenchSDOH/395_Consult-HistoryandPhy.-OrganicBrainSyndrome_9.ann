@@ -1,0 +1,8 @@
+T1	Tobacco 35 44	tabagisme
+T2	StatusTime 14 31	Pas d'antécédents
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 59 67	d'alcool
+R2	Status Arg1:T3 Arg2:T2	
+T4	Drug 81 88	drogues
+R3	Status Arg1:T4 Arg2:T2	

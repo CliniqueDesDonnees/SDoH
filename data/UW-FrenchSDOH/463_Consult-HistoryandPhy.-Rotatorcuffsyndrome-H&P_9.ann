@@ -1,0 +1,8 @@
+T1	Tobacco 29 34	fumer
+T2	StatusTime 25 28	nie
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 49 57	l'alcool
+T4	Drug 91 108	drogues illicites
+R2	Status Arg1:T3 Arg2:T2	
+R3	Status Arg1:T4 Arg2:T2	

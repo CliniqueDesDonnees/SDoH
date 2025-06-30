@@ -1,0 +1,15 @@
+T1	Employment_Working 14 38	Assistante parlementaire
+T2	Last_job 14 38	Assistante parlementaire
+T3	MaritalStatus_InRelationship 40 46	mariée
+T4	Descendants_Yes 48 57	2 enfants
+T5	Type 50 57	enfants
+T6	Amount 48 49	2
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Drug 105 108	LSD
+T8	Type 105 108	LSD
+T9	StatusTime 93 101	consomme
+A1	StatusTime T9 current
+R3	Status Arg1:T7 Arg2:T9	
+R4	Type Arg1:T7 Arg2:T8	
+T10	Job 14 38	Assistante parlementaire

@@ -1,0 +1,15 @@
+T1	MaritalStatus_Widowed 14 19	veuve
+T2	Employment_Pensioner 57 66	retraitée
+T3	Last_job 29 43	aide soignante
+T4	Tobacco 68 73	Tabac
+T5	StatusTime 74 79	sevré
+A1	StatusTime T5 past
+R1	Status Arg1:T4 Arg2:T5	
+T6	PhysicalActivity_Yes 81 93	Fait du vélo
+T7	Frequency 101 119	tous les dimanches
+R2	Frequency Arg1:T6 Arg2:T7	
+T8	Drug 140 146	drogue
+T9	StatusTime 121 136	Ne consomme pas
+A2	StatusTime T9 none
+R3	Status Arg1:T8 Arg2:T9	
+T10	Job 29 43	aide soignante

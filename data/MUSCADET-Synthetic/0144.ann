@@ -1,0 +1,9 @@
+T1	Last_job 83 93	professeur
+T2	MaritalStatus_InRelationship 95 100	marié
+T3	MaritalStatus_InRelationship 102 107	femme
+T4	Descendants_Yes 111 118	enfants
+T5	Type 111 118	enfants
+R1	Type Arg1:T4 Arg2:T5	
+T6	Housing_No 128 154	vit chez des connaissances
+T7	Employment_Unemployed 156 167	sans emploi
+T8	Job 83 93	professeur

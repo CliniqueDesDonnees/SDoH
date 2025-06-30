@@ -1,0 +1,9 @@
+T1	Tobacco 14 21	fumeuse
+T2	StatusTime 14 21	fumeuse
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 35 43	d'alcool
+T4	StatusTime 23 34	ne boit pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Income 54 57	AAH

@@ -1,0 +1,7 @@
+T1	Tobacco 106 110	fume
+T2	StatusTime 106 110	fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Last_job 62 104	commercial dans le secteur agroalimentaire
+T4	Housing_Yes 14 53	Réside dans un foyer logement autonomie
+T5	Job 62 104	commercial dans le secteur agroalimentaire

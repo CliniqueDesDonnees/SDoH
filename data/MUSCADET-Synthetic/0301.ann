@@ -1,0 +1,9 @@
+T1	Employment_Working 14 39	Surveillant pénitentiaire
+T2	Last_job 14 39	Surveillant pénitentiaire
+T3	Tobacco 48 53	tabac
+T4	Alcohol 57 65	d'alcool
+T5	StatusTime 41 47	pas de
+A1	StatusTime T5 none
+R1	Status Arg1:T3 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	
+T6	Job 14 39	Surveillant pénitentiaire

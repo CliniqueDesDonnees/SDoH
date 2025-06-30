@@ -1,0 +1,11 @@
+T1	MaritalStatus_InRelationship 34 39	Marié
+T2	Living_WithOthers 43 60	vit avec sa femme
+T3	MaritalStatus_InRelationship 52 60	sa femme
+T4	Tobacco 78 82	fume
+T5	Alcohol 106 114	d'alcool
+T6	StatusTime 90 105	ne consomme pas
+A1	StatusTime T6 none
+R1	Status Arg1:T5 Arg2:T6	
+T7	StatusTime 75 86	Ne fume pas
+A2	StatusTime T7 none
+R2	Status Arg1:T4 Arg2:T7	

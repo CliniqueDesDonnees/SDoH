@@ -1,0 +1,19 @@
+T1	Employment_Working 14 38	Professeur de géographie
+T2	Last_job 14 38	Professeur de géographie
+T3	MaritalStatus_InRelationship 40 45	marié
+T4	Employment_Working 47 56	travaille
+T5	Tobacco 80 84	fume
+T6	StatusTime 77 89	ne fume plus
+A1	StatusTime T6 past
+R1	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 119 127	d'alcool
+T8	Drug 129 137	cannabis
+T9	StatusTime 138 143	sevré
+A2	StatusTime T9 past
+R2	Status Arg1:T8 Arg2:T9	
+T10	Type 129 137	cannabis
+R3	Type Arg1:T8 Arg2:T10	
+T11	StatusTime 99 118	pas de consommation
+A3	StatusTime T11 none
+R4	Status Arg1:T7 Arg2:T11	
+T12	Job 14 38	Professeur de géographie

@@ -1,0 +1,12 @@
+T1	Tobacco 28 32	fume
+T2	StatusTime 25 36	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 54 62	d'alcool
+T4	StatusTime 38 53	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Drug 83 90	drogues
+T6	StatusTime 66 79	n'utilise pas
+A3	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	

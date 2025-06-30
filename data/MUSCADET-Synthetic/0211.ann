@@ -1,0 +1,6 @@
+T1	Living_WithOthers 14 36	vit avec son compagnon
+T2	Tobacco 56 60	fume
+T3	StatusTime 53 65	ne fume plus
+A1	StatusTime T3 past
+R1	Status Arg1:T2 Arg2:T3	
+T4	MaritalStatus_InRelationship 23 36	son compagnon

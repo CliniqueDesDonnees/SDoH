@@ -1,0 +1,8 @@
+T1	Living_WithOthers 14 30	Habite en couple
+T2	MaritalStatus_InRelationship 21 30	en couple
+T3	Descendants_Yes 32 40	1 enfant
+T4	Type 34 40	enfant
+T5	Amount 32 33	1
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Employment_Pensioner 70 83	à la retraite

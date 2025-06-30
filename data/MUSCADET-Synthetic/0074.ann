@@ -1,0 +1,21 @@
+T1	Last_job 14 35	Directrice d'un hôtel
+T2	Employment_Working 14 35	Directrice d'un hôtel
+T3	Housing_Yes 37 51	Vit à domicile
+T4	Living_WithOthers 37 65	Vit à domicile avec sa femme
+T5	MaritalStatus_InRelationship 52 65	avec sa femme
+T6	Descendants_Yes 67 76	2 enfants
+T7	Type 69 76	enfants
+T8	Amount 67 68	2
+R1	Type Arg1:T6 Arg2:T7	
+R2	Amount Arg1:T6 Arg2:T8	
+T9	Tobacco 79 88	Tabagisme
+T10	StatusTime 89 94	actif
+A1	StatusTime T10 current
+R3	Status Arg1:T9 Arg2:T10	
+T13	Alcohol 106 110	d'OH
+T14	StatusTime 102 105	pas
+A2	StatusTime T14 none
+R6	Status Arg1:T13 Arg2:T14	
+T15	Job 14 35	Directrice d'un hôtel
+T11	Amount 95 101	130 PA
+R4	Amount Arg1:T9 Arg2:T11	

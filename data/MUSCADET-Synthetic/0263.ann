@@ -1,0 +1,10 @@
+T1	Alcohol 88 96	d'alcool
+T2	Tobacco 103 108	fumer
+T3	StatusTime 97 102	ni de
+A1	StatusTime T3 none
+T4	StatusTime 73 87	ne pas prendre
+A2	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T3	
+T5	MaritalStatus_Single 110 121	Célibataire
+T6	Descendants_No 122 133	sans enfant

@@ -1,0 +1,8 @@
+T1	Tobacco 51 56	tabac
+T2	StatusTime 44 50	Pas de
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Last_job 14 31	Employé de maison
+T4	Employment_Working 14 31	Employé de maison
+T5	Living_Alone 33 42	vit seule
+T6	Job 14 31	Employé de maison

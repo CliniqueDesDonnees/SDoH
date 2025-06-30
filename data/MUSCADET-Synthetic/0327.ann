@@ -1,0 +1,8 @@
+T1	Tobacco 22 27	Tabac
+T2	Alcohol 14 16	OH
+T3	StatusTime 17 20	: 0
+A1	StatusTime T3 none
+T4	StatusTime 28 31	: 0
+A2	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T3	

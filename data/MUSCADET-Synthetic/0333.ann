@@ -1,0 +1,9 @@
+T1	Last_job 14 21	Fermier
+T2	Employment_Working 14 21	Fermier
+T3	MaritalStatus_InRelationship 30 36	mariée
+T4	Descendants_Yes 38 47	1 enfants
+T5	Type 40 47	enfants
+T6	Amount 38 39	1
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Job 14 21	Fermier

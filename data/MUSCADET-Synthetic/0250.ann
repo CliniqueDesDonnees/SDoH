@@ -1,0 +1,12 @@
+T1	Tobacco 17 21	fume
+T2	StatusTime 14 16	Ne
+A1	StatusTime T2 none
+T3	Alcohol 26 30	boit
+T4	StatusTime 23 25	ne
+A2	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T2	
+R2	Status Arg1:T3 Arg2:T4	
+T5	Last_job 32 41	buraliste
+T6	Employment_Working 32 53	buraliste en activité
+T7	MaritalStatus_InRelationship 85 98	avec sa femme
+T8	Job 32 41	buraliste

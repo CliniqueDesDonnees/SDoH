@@ -1,0 +1,35 @@
+T1	MaritalStatus_InRelationship 51 59	Conjoint
+T2	Living_WithOthers 28 59	Composition du foyer : Conjoint
+T3	MaritalStatus_Divorced 61 68	Divorcé
+T4	Job 73 81	plombier
+T5	Last_job 83 91	couvreur
+T6	Employment_Working 83 104	couvreur actuellement
+T7	Tobacco 106 110	fume
+T8	StatusTime 106 110	fume
+A1	StatusTime T8 current
+R1	Status Arg1:T7 Arg2:T8	
+T11	Frequency 118 126	par jour
+R4	Frequency Arg1:T7 Arg2:T11	
+T12	Drug 128 133	joint
+T13	Type 128 133	joint
+R5	Type Arg1:T12 Arg2:T13	
+T14	StatusTime 128 133	joint
+A2	StatusTime T14 current
+R6	Status Arg1:T12 Arg2:T14	
+T15	Frequency 134 141	le soir
+R7	Frequency Arg1:T12 Arg2:T15	
+T16	Alcohol 145 147	OH
+T17	Frequency 168 170	/J
+T18	Amount 157 160	1-2
+T19	Type 161 167	bières
+T20	StatusTime 145 147	OH
+A3	StatusTime T20 current
+R8	Status Arg1:T16 Arg2:T20	
+R9	Amount Arg1:T16 Arg2:T18	
+R10	Type Arg1:T16 Arg2:T19	
+R11	Frequency Arg1:T16 Arg2:T17	
+T21	Descendants_No 186 198	Pas d'enfant
+T22	PhysicalActivity_No 172 184	pas de sport
+T23	Job 83 91	couvreur
+T9	Amount 111 117	1,5 PA
+R2	Amount Arg1:T7 Arg2:T9	

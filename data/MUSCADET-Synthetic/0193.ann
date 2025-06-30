@@ -1,0 +1,12 @@
+T1	Tobacco 22 26	fume
+T2	StatusTime 19 30	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Drug 32 35	THC
+T4	StatusTime 32 35	THC
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	
+T5	Employment_Working 155 162	travail
+T6	Last_job 163 178	à l'hypermarché
+T7	Income 141 145	SMIC
+T8	Job 163 178	à l'hypermarché

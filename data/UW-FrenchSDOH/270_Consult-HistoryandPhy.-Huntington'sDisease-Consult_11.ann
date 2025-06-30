@@ -1,0 +1,18 @@
+T1	Living_WithOthers 26 43	vit avec son mari
+T2	MaritalStatus_InRelationship 35 43	son mari
+T3	Last_job 84 94	infirmière
+T4	Job 84 94	infirmière
+T5	MaritalStatus_InRelationship 105 113	Son mari
+T6	Frequency 300 308	rarement
+T7	Alcohol 295 299	boit
+T8	StatusTime 295 299	boit
+A1	StatusTime T8 current
+R1	Status Arg1:T7 Arg2:T8	
+R2	Frequency Arg1:T7 Arg2:T6	
+T9	Drug 360 380	substances illicites
+T10	StatusTime 334 356	nie toute consommation
+A2	StatusTime T10 none
+R3	Status Arg1:T9 Arg2:T10	
+T11	Employment_Other 64 103	a exercé en tant qu'infirmière diplômée
+T12	MaritalStatus_InRelationship 382 390	Son mari
+T13	MaritalStatus_InRelationship 553 561	son mari

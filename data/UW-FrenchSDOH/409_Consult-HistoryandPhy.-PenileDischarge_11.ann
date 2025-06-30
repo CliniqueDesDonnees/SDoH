@@ -1,0 +1,12 @@
+T1	Living_Alone 25 33	vit seul
+T2	Employment_Unemployed 42 53	sans emploi
+T3	Tobacco 123 128	tabac
+T4	StatusTime 86 103	a des antécédents
+A1	StatusTime T4 past
+R1	Status Arg1:T3 Arg2:T4	
+T5	StatusTime 133 155	nie toute consommation
+A2	StatusTime T5 none
+T6	Alcohol 156 164	d'alcool
+T7	Drug 171 178	drogues
+R2	Status Arg1:T6 Arg2:T5	
+R3	Status Arg1:T7 Arg2:T5	

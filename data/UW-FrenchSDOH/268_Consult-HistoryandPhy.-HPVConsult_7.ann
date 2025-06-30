@@ -1,0 +1,19 @@
+T1	Tobacco 29 35	fumeur
+T2	StatusTime 25 35	est fumeur
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 52 60	l'alcool
+T4	StatusTime 40 48	consomme
+A2	StatusTime T4 current
+T5	Frequency 72 85	occasionnelle
+R2	Status Arg1:T3 Arg2:T4	
+R3	Frequency Arg1:T3 Arg2:T5	
+T6	Employment_Working 90 99	travaille
+T7	Last_job 100 129	dans le domaine des explosifs
+T8	Job 100 129	dans le domaine des explosifs
+T9	MaritalStatus_InRelationship 285 290	marié
+T10	Descendants_Yes 296 303	un fils
+T11	Type 299 303	fils
+T12	Amount 296 298	un
+R4	Type Arg1:T10 Arg2:T11	
+R5	Amount Arg1:T10 Arg2:T12	

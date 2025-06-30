@@ -1,0 +1,8 @@
+T1	Tobacco 14 19	tabac
+T2	StatusTime 20 25	= non
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 27 33	alcool
+T4	StatusTime 34 39	= non
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	

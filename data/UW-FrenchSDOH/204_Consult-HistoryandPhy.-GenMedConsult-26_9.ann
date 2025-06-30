@@ -1,0 +1,14 @@
+T1	Tobacco 41 46	tabac
+T2	Alcohol 51 57	alcool
+T3	Drug 62 69	drogues
+T4	StatusTime 26 37	ne consomme
+A1	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T4	
+R3	Status Arg1:T3 Arg2:T4	
+T5	MaritalStatus_InRelationship 132 137	Marié
+T6	Descendants_Yes 143 155	deux enfants
+T7	Type 148 155	enfants
+T8	Amount 143 147	deux
+R4	Type Arg1:T6 Arg2:T7	
+R5	Amount Arg1:T6 Arg2:T8	

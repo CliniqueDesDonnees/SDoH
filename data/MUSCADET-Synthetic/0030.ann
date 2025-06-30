@@ -1,0 +1,12 @@
+T1	Housing_No 25 54	vit en hébergement temporaire
+T2	Employment_Pensioner 60 78	maison de retraite
+T3	Last_job 92 109	avocat au barreau
+T4	Tobacco 111 115	Fume
+T5	StatusTime 111 115	Fume
+A1	StatusTime T5 current
+R1	Status Arg1:T4 Arg2:T5	
+T6	Type 120 127	cigares
+T7	History 128 141	depuis 30 ans
+R2	Type Arg1:T4 Arg2:T6	
+R3	History Arg1:T4 Arg2:T7	
+T8	Job 92 109	avocat au barreau

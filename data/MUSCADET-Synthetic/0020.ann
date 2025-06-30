@@ -1,0 +1,15 @@
+T1	Tobacco 49 54	tabac
+T2	Alcohol 60 68	d'alcool
+T3	Drug 77 83	drogue
+T4	StatusTime 42 48	Pas de
+A1	StatusTime T4 none
+T5	StatusTime 56 59	Pas
+A2	StatusTime T5 none
+T6	StatusTime 70 76	Pas de
+A3	StatusTime T6 none
+R1	Status Arg1:T3 Arg2:T6	
+R2	Status Arg1:T2 Arg2:T5	
+R3	Status Arg1:T1 Arg2:T4	
+T7	Employment_Working 85 94	travaille
+T8	Last_job 95 115	dans la restauration
+T9	Job 95 115	dans la restauration

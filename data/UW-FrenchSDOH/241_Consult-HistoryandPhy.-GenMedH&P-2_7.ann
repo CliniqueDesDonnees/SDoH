@@ -1,0 +1,15 @@
+T1	Alcohol 37 45	l'alcool
+T2	Tobacco 77 81	fume
+T3	StatusTime 25 33	consomme
+A1	StatusTime T3 current
+R1	Status Arg1:T1 Arg2:T3	
+T4	Frequency 46 70	de manière occasionnelle
+R2	Frequency Arg1:T1 Arg2:T4	
+T5	StatusTime 74 85	ne fume pas
+A2	StatusTime T5 none
+R3	Status Arg1:T2 Arg2:T5	
+T6	Drug 217 224	drogues
+T7	StatusTime 192 213	nie toute utilisation
+A3	StatusTime T7 none
+R4	Status Arg1:T6 Arg2:T7	
+T8	Employment_Working 256 276	actuellement employé

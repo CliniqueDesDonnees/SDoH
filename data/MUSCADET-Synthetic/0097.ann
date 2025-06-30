@@ -1,0 +1,33 @@
+T1	MaritalStatus_InRelationship 14 23	En couple
+T2	Last_job 24 38	aide soignante
+T3	Employment_Working 24 38	aide soignante
+T4	Drug 40 76	consommation de cocaine et d'héroine
+T5	StatusTime 77 82	sevré
+A1	StatusTime T5 past
+T6	Type 69 76	héroine
+T7	Type 56 63	cocaine
+R1	Type Arg1:T4 Arg2:T7	
+R2	Type Arg1:T4 Arg2:T6	
+R3	Status Arg1:T4 Arg2:T5	
+T8	Drug 84 88	MDMA
+T9	StatusTime 89 96	festive
+A2	StatusTime T9 current
+R4	Status Arg1:T8 Arg2:T9	
+T10	Type 84 88	MDMA
+R5	Type Arg1:T8 Arg2:T10	
+T11	Alcohol 111 119	d'alcool
+T12	StatusTime 98 110	pas de prise
+A3	StatusTime T12 none
+R6	Status Arg1:T11 Arg2:T12	
+T13	Tobacco 121 125	fume
+T14	StatusTime 121 125	fume
+A4	StatusTime T14 current
+R7	Status Arg1:T13 Arg2:T14	
+T16	Type 128 138	cigarettes
+T17	Frequency 139 142	/ J
+R10	Frequency Arg1:T13 Arg2:T17	
+T18	Housing_Yes 144 167	Vit dans un appartement
+T19	Job 24 38	aide soignante
+T15	Amount 126 138	5 cigarettes
+R8	Type Arg1:T13 Arg2:T16	
+R9	Amount Arg1:T13 Arg2:T15	

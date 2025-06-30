@@ -1,0 +1,19 @@
+T1	Tobacco 25 29	fume
+T2	StatusTime 25 29	fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 30 56	deux paquets de cigarettes
+T4	Frequency 57 65	par jour
+T5	Type 35 56	paquets de cigarettes
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T5	
+R4	Frequency Arg1:T1 Arg2:T4	
+T6	Alcohol 85 91	alcool
+T7	Drug 95 102	drogues
+T8	StatusTime 70 81	ne consomme
+A2	StatusTime T8 none
+R5	Status Arg1:T6 Arg2:T8	
+R6	Status Arg1:T7 Arg2:T8	
+T9	Employment_Working 107 127	exerce la profession
+T10	Last_job 131 138	peintre
+T11	Job 131 138	peintre

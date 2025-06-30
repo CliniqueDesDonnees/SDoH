@@ -1,0 +1,11 @@
+T1	MaritalStatus_InRelationship 66 71	marié
+T2	Job 120 128	bûcheron
+T3	Last_job 120 128	bûcheron
+T4	Employment_Other 86 102	en congé médical
+T5	Living_WithOthers 133 172	vit avec sa femme et leurs cinq enfants
+T6	MaritalStatus_InRelationship 142 150	sa femme
+T7	Descendants_Yes 160 172	cinq enfants
+T8	Type 165 172	enfants
+T9	Amount 160 164	cinq
+R1	Type Arg1:T7 Arg2:T8	
+R2	Amount Arg1:T7 Arg2:T9	

@@ -1,0 +1,12 @@
+T1	Tobacco 43 47	fumé
+T2	StatusTime 26 42	nie avoir jamais
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	StatusTime 49 71	nie toute consommation
+A2	StatusTime T3 none
+T4	Alcohol 86 94	d'alcool
+R2	Status Arg1:T4 Arg2:T3	
+T5	Living_WithOthers 98 115	vit avec sa fille
+T6	Descendants_Yes 107 115	sa fille
+T7	Type 110 115	fille
+R3	Type Arg1:T6 Arg2:T7	

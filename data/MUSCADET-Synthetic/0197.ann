@@ -1,0 +1,4 @@
+T1	Tobacco 14 23	Tabagisme
+T2	StatusTime 24 29	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	

@@ -1,0 +1,6 @@
+T1	Tobacco 29 34	fumer
+T2	StatusTime 17 25	a arrêté
+A1	StatusTime T2 past
+T3	History 35 42	en 1968
+R1	History Arg1:T1 Arg2:T3	
+R2	Status Arg1:T1 Arg2:T2	

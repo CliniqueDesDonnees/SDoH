@@ -1,0 +1,9 @@
+T1	Employment_Working 14 17	CPE
+T2	Last_job 14 17	CPE
+T3	Tobacco 45 49	fume
+T4	StatusTime 45 54	fume plus
+A1	StatusTime T4 current
+R1	Status Arg1:T3 Arg2:T4	
+T5	MaritalStatus_InRelationship 69 74	Marié
+T6	Descendants_No 80 98	jamais eu d'enfant
+T7	Job 14 17	CPE

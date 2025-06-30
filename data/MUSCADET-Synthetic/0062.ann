@@ -1,0 +1,36 @@
+T1	MaritalStatus_InRelationship 14 19	Marié
+T2	Descendants_Yes 20 33	trois enfants
+T3	Type 26 33	enfants
+T4	Amount 20 25	trois
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Last_job 34 44	viticuleur
+T6	Employment_Working 34 44	viticuleur
+T7	Tobacco 54 59	tabac
+T8	StatusTime 45 50	arrêt
+A1	StatusTime T8 past
+R3	Status Arg1:T7 Arg2:T8	
+T9	History 60 73	deouys 23 ans
+R4	History Arg1:T7 Arg2:T9	
+T10	Alcohol 96 104	d'alcool
+T11	StatusTime 107 117	Abstinence
+A2	StatusTime T11 past
+R5	Status Arg1:T10 Arg2:T11	
+T12	History 118 136	depuis une semaine
+R6	History Arg1:T10 Arg2:T12	
+T15	Frequency 156 161	/jour
+R9	Frequency Arg1:T10 Arg2:T15	
+T16	StatusTime 183 191	consomme
+A3	StatusTime T16 current
+T17	Drug 198 205	cocaïne
+T18	Type 198 205	cocaïne
+R10	Type Arg1:T17 Arg2:T18	
+R11	Status Arg1:T17 Arg2:T16	
+T19	Frequency 206 220	tous les soirs
+T20	Amount 235 237	1g
+R12	Amount Arg1:T17 Arg2:T20	
+R13	Frequency Arg1:T17 Arg2:T19	
+T13	Amount 148 156	4 verres
+R7	Amount Arg1:T10 Arg2:T13	
+T14	Type 172 181	vin rouge
+R8	Type Arg1:T10 Arg2:T14	

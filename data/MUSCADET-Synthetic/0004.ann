@@ -1,0 +1,22 @@
+T1	Living_Alone 16 25	Vit seule
+T2	Employment_Unemployed 37 48	sans emploi
+T3	Tobacco 49 58	tabagisme
+T4	Alcohol 134 137	CDA
+T5	StatusTime 138 141	= 0
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	PhysicalActivity_Yes 106 114	natation
+T7	Type 64 74	cigarettes
+T8	Frequency 75 83	par jour
+T10	StatusTime 49 58	tabagisme
+A2	StatusTime T10 current
+R2	Status Arg1:T3 Arg2:T10	
+R4	Type Arg1:T3 Arg2:T7	
+R5	Frequency Arg1:T3 Arg2:T8	
+T11	Duration 115 123	2 heures
+T12	Frequency 124 132	par jour
+R6	Duration Arg1:T6 Arg2:T11	
+R7	Frequency Arg1:T6 Arg2:T12	
+T13	Housing_Yes 16 36	Vit seule à domicile
+T9	Amount 61 74	15 cigarettes
+R3	Amount Arg1:T3 Arg2:T9	

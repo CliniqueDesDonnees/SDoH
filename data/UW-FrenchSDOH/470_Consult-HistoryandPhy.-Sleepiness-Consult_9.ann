@@ -1,0 +1,9 @@
+T1	Living_WithOthers 19 36	vit avec son mari
+T2	MaritalStatus_InRelationship 28 36	son mari
+T3	MaritalStatus_InRelationship 140 148	son mari
+T4	Alcohol 175 183	d'alcool
+T5	Tobacco 190 199	tabagisme
+T6	StatusTime 150 167	Pas d'antécédents
+A1	StatusTime T6 none
+R1	Status Arg1:T4 Arg2:T6	
+R2	Status Arg1:T5 Arg2:T6	

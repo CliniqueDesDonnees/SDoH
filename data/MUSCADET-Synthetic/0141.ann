@@ -1,0 +1,22 @@
+T1	Living_Alone 16 24	Vit seul
+T2	Housing_Yes 16 35	Vit seul à domicile
+T3	Descendants_Yes 155 164	2 enfants
+T4	Type 157 164	enfants
+T5	Amount 155 156	2
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Employment_Pensioner 208 216	Retraité
+T7	Last_job 225 231	Barman
+T8	Tobacco 318 327	tabagisme
+T9	StatusTime 328 333	sevré
+A1	StatusTime T9 past
+R3	Status Arg1:T8 Arg2:T9	
+T10	Drug 342 350	toxiques
+T11	StatusTime 335 341	pas de
+A2	StatusTime T11 none
+R4	Status Arg1:T10 Arg2:T11	
+T12	Alcohol 301 310	ethylisme
+T13	StatusTime 311 316	sevré
+A3	StatusTime T13 past
+R5	Status Arg1:T12 Arg2:T13	
+T14	Job 225 231	Barman

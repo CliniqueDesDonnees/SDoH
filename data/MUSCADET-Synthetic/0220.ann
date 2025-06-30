@@ -1,0 +1,22 @@
+T1	Living_WithOthers 16 35	Vit avec son épouse
+T2	MaritalStatus_InRelationship 20 35	avec son épouse
+T3	Housing_Yes 36 50	en appartement
+T4	Descendants_Yes 116 124	son fils
+T5	Type 120 124	fils
+R1	Type Arg1:T4 Arg2:T5	
+T6	Descendants_Yes 146 152	1 fils
+T7	Type 148 152	fils
+T8	Amount 146 147	1
+R2	Type Arg1:T6 Arg2:T7	
+R3	Amount Arg1:T6 Arg2:T8	
+T9	Type 168 173	fille
+T10	Descendants_Yes 168 173	fille
+R4	Type Arg1:T10 Arg2:T9	
+T11	Drug 215 222	toxique
+T12	Alcohol 215 222	toxique
+T13	Tobacco 215 222	toxique
+T14	StatusTime 192 214	pas de consommation de
+A1	StatusTime T14 none
+R5	Status Arg1:T12 Arg2:T14	
+R6	Status Arg1:T11 Arg2:T14	
+R7	Status Arg1:T13 Arg2:T14	

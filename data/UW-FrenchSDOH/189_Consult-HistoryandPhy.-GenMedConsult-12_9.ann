@@ -1,0 +1,8 @@
+T1	MaritalStatus_Widowed 23 28	veuve
+T2	Living_Alone 32 41	vit seule
+T3	Tobacco 74 79	tabac
+T4	Alcohol 83 91	d'alcool
+T5	StatusTime 48 70	nie toute consommation
+A1	StatusTime T5 none
+R1	Status Arg1:T3 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	

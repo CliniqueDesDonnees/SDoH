@@ -1,0 +1,14 @@
+T1	Tobacco 17 21	fume
+T2	StatusTime 14 26	Ne fume plus
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 33 37	boit
+T4	StatusTime 30 42	ne boit plus
+A2	StatusTime T4 past
+R2	Status Arg1:T3 Arg2:T4	
+T5	PhysicalActivity_Yes 44 53	Marche ++
+T6	Employment_Pensioner 55 63	retraité
+T7	History 64 77	depuis 1 mois
+R3	History Arg1:T6 Arg2:T7	
+T8	Last_job 86 103	conducteur de bus
+T9	Job 86 103	conducteur de bus

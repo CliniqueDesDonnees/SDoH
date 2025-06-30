@@ -1,0 +1,7 @@
+T1	Last_job 21 28	notaire
+T2	Employment_Pensioner 29 42	à la retraire
+T3	Alcohol 114 123	éthylique
+T4	StatusTime 92 113	notion d'intoxication
+A1	StatusTime T4 current
+R1	Status Arg1:T3 Arg2:T4	
+T5	Job 21 28	notaire

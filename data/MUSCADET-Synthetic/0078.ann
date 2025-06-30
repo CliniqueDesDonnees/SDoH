@@ -1,0 +1,24 @@
+T1	Employment_Student 14 38	Etudiant en informatique
+T2	Tobacco 40 49	Tabagisme
+T3	StatusTime 50 55	actif
+A1	StatusTime T3 current
+T5	Type 62 68	paquet
+T6	Frequency 68 73	/jour
+R1	Status Arg1:T2 Arg2:T3	
+R3	Type Arg1:T2 Arg2:T5	
+R4	Frequency Arg1:T2 Arg2:T6	
+T7	Living_WithOthers 75 92	Vit en colocation
+T8	Housing_Yes 93 118	dans un logement étudiant
+T9	Descendants_No 120 132	pas d'enfant
+T10	Employment_Working 134 143	travaille
+T11	Last_job 152 176	dans le soutien scolaire
+T12	PhysicalActivity_No 178 190	pas de sport
+T13	Alcohol 243 251	d'alcool
+T14	Drug 258 264	drogue
+T15	StatusTime 239 242	Pas
+A2	StatusTime T15 none
+R5	Status Arg1:T13 Arg2:T15	
+R6	Status Arg1:T14 Arg2:T15	
+T16	Job 152 176	dans le soutien scolaire
+T4	Amount 58 68	1/2 paquet
+R2	Amount Arg1:T2 Arg2:T4	

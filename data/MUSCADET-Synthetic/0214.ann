@@ -1,0 +1,11 @@
+T1	Tobacco 25 29	fume
+T2	StatusTime 22 34	ne fume plus
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Employment_Other 54 67	En invalidité
+T4	Last_job 76 94	tailleur de pierre
+T5	Ethnicity 105 111	Egypte
+T6	Descendants_Yes 138 149	ses enfants
+T7	Type 142 149	enfants
+R2	Type Arg1:T6 Arg2:T7	
+T8	Job 76 94	tailleur de pierre

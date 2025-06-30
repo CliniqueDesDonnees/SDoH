@@ -1,0 +1,12 @@
+T1	MaritalStatus_InRelationship 14 19	Marié
+T2	Tobacco 28 34	fumeur
+T3	StatusTime 21 27	ancien
+A1	StatusTime T3 past
+T4	Alcohol 52 60	d'alcool
+T5	StatusTime 36 51	ne consomme pas
+A2	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	StatusTime 62 87	Pas d'antécédents d'usage
+A3	StatusTime T6 none
+T7	Drug 91 110	drogues récréatives
+R2	Status Arg1:T7 Arg2:T6	

@@ -1,0 +1,11 @@
+T1	Tobacco 89 94	tabac
+T2	Alcohol 79 85	alcool
+T3	StatusTime 64 75	ne consomme
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+R2	Status Arg1:T1 Arg2:T3	
+T4	Descendants_Yes 126 135	un enfant
+T5	Type 129 135	enfant
+T6	Amount 126 128	un
+R3	Type Arg1:T4 Arg2:T5	
+R4	Amount Arg1:T4 Arg2:T6	

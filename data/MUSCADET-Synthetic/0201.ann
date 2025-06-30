@@ -1,0 +1,13 @@
+T2	Tobacco 42 46	fume
+T3	StatusTime 39 50	ne fume pas
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	Alcohol 57 61	boit
+T5	StatusTime 54 65	ne boit pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	
+T6	Job 74 84	pharmacien
+T7	Employment_Working 86 105	carrosier en France
+T8	Last_job 86 95	carrosier
+T1	Ethnicity 28 37	Zimbabawe
+T9	Job 86 95	carrosier

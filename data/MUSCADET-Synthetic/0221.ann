@@ -1,0 +1,17 @@
+T1	Drug 32 40	cannabis
+T2	Type 32 40	cannabis
+R1	Type Arg1:T1 Arg2:T2	
+T3	StatusTime 14 28	Usage régulier
+A1	StatusTime T3 current
+R2	Status Arg1:T1 Arg2:T3	
+T4	Alcohol 46 54	d'alcool
+T5	StatusTime 42 45	pas
+A2	StatusTime T5 none
+R3	Status Arg1:T4 Arg2:T5	
+T6	Tobacco 84 89	tabac
+T7	StatusTime 56 80	A arreté sa consommation
+A3	StatusTime T7 past
+R4	Status Arg1:T6 Arg2:T7	
+T8	Employment_Unemployed 91 108	Ne travaille plus
+T9	Last_job 117 125	forgeron
+T10	Job 117 125	forgeron

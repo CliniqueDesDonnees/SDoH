@@ -1,0 +1,13 @@
+T1	PhysicalActivity_Yes 21 38	pratique du sport
+T2	Amount 39 41	3*
+T3	Frequency 41 49	/semaine
+R1	Amount Arg1:T1 Arg2:T2	
+R2	Frequency Arg1:T1 Arg2:T3	
+T4	Tobacco 90 94	fume
+T5	Alcohol 75 83	d'alcool
+T6	StatusTime 84 89	ni ne
+A1	StatusTime T6 none
+R3	Status Arg1:T4 Arg2:T6	
+T7	StatusTime 63 74	ne boit pas
+A2	StatusTime T7 none
+R4	Status Arg1:T5 Arg2:T7	

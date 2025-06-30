@@ -1,0 +1,10 @@
+T1	Tobacco 62 66	fume
+T2	StatusTime 59 71	Ne fume plus
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 78 82	boit
+T4	StatusTime 75 87	ne boit plus
+A2	StatusTime T4 past
+R2	Status Arg1:T3 Arg2:T4	
+T5	Employment_Unemployed 222 232	Au chômage
+T6	MaritalStatus_Divorced 200 220	son ancien compagnon

@@ -1,0 +1,13 @@
+T1	Tobacco 27 32	tabac
+T2	Alcohol 36 42	alcool
+T3	StatusTime 14 26	N'utilise ni
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	MaritalStatus_Divorced 53 61	divorcée
+T5	Amount 67 71	deux
+T6	Type 72 79	enfants
+T7	Descendants_Yes 67 79	deux enfants
+R3	Type Arg1:T7 Arg2:T6	
+R4	Amount Arg1:T7 Arg2:T5	
+T8	Living_WithOthers 86 103	vit avec son fils

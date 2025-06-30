@@ -1,0 +1,6 @@
+T1	Tobacco 14 23	Tabagisme
+T2	StatusTime 32 41	non sevré
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 26 31	40 PA
+R2	Amount Arg1:T1 Arg2:T3	

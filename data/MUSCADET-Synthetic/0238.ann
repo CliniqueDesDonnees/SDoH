@@ -1,0 +1,19 @@
+T1	Employment_Working 14 20	Espion
+T2	Last_job 14 20	Espion
+T3	Tobacco 22 28	fumait
+T4	Type 32 41	cigarette
+T5	StatusTime 22 28	fumait
+A1	StatusTime T5 past
+R1	Status Arg1:T3 Arg2:T5	
+R2	Type Arg1:T3 Arg2:T4	
+T8	Alcohol 59 61	OH
+T9	Frequency 62 73	occasionnel
+T10	StatusTime 62 73	occasionnel
+A2	StatusTime T10 current
+R5	Frequency Arg1:T8 Arg2:T9	
+R6	Status Arg1:T8 Arg2:T10	
+T11	Descendants_No 75 87	pas d'enfant
+T12	MaritalStatus_Single 89 100	célibataire
+T13	Job 14 20	Espion
+T6	Amount 43 48	10 PA
+R3	Amount Arg1:T3 Arg2:T6	

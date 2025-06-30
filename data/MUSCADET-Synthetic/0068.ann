@@ -1,0 +1,17 @@
+T1	Employment_Working 16 42	Ouvrier dans la sidérurgie
+T2	Last_job 16 42	Ouvrier dans la sidérurgie
+T3	MaritalStatus_InRelationship 44 49	Marié
+T4	Housing_Yes 50 69	vit dans une maison
+T5	Tobacco 81 86	tabac
+T6	StatusTime 87 92	sevré
+A1	StatusTime T6 past
+R1	Status Arg1:T5 Arg2:T6	
+T9	Alcohol 100 106	Alcool
+T10	Frequency 107 118	occasionnel
+T11	StatusTime 107 118	occasionnel
+A2	StatusTime T11 current
+R4	Frequency Arg1:T9 Arg2:T10	
+R5	Status Arg1:T9 Arg2:T11	
+T12	Job 16 42	Ouvrier dans la sidérurgie
+T7	Amount 93 98	20 PA
+R2	Amount Arg1:T5 Arg2:T7	

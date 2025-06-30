@@ -1,0 +1,17 @@
+T1	MaritalStatus_InRelationship 14 19	marié
+T2	Employment_Unemployed 21 37	ne travaille pas
+T3	Last_job 46 84	représentant dans la sécurité incendie
+T4	Tobacco 92 97	tabac
+T5	Alcohol 98 104	alcool
+T6	StatusTime 85 91	pas de
+A1	StatusTime T6 none
+R1	Status Arg1:T4 Arg2:T6	
+T7	StatusTime 98 104	alcool
+A2	StatusTime T7 current
+T10	Frequency 121 129	par jour
+R2	Status Arg1:T5 Arg2:T7	
+R5	Frequency Arg1:T5 Arg2:T10	
+T11	Education 136 146	niveau DUT
+T12	Job 46 84	représentant dans la sécurité incendie
+T8	Amount 108 119	deux verres
+R3	Amount Arg1:T5 Arg2:T8	

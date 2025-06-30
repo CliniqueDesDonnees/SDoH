@@ -1,0 +1,19 @@
+T1	Alcohol 45 53	d'alcool
+T2	Drug 60 67	drogues
+T3	StatusTime 25 44	nie la consommation
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	Tobacco 69 73	Fume
+T5	StatusTime 69 73	Fume
+A2	StatusTime T5 current
+T6	Amount 74 83	2 paquets
+T7	Type 87 97	cigarettes
+T8	Frequency 98 106	par jour
+R3	Status Arg1:T4 Arg2:T5	
+R4	Amount Arg1:T4 Arg2:T6	
+R5	Type Arg1:T4 Arg2:T7	
+R6	Frequency Arg1:T4 Arg2:T8	
+T9	Employment_Working 108 117	Travaille
+T10	Job 130 138	banquier
+T11	Last_job 130 138	banquier

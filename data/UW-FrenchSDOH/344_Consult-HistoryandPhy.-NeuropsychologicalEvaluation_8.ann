@@ -1,0 +1,18 @@
+T1	Alcohol 53 61	l'alcool
+T2	Drug 78 85	drogues
+T3	StatusTime 34 49	a nié consommer
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	StatusTime 148 156	a arrêté
+A2	StatusTime T4 past
+T5	Tobacco 102 108	fumait
+T6	Amount 109 132	un paquet de cigarettes
+T7	Frequency 133 141	par jour
+T8	Type 122 132	cigarettes
+R3	Amount Arg1:T5 Arg2:T6	
+R4	Type Arg1:T5 Arg2:T8	
+R5	Frequency Arg1:T5 Arg2:T7	
+R6	Status Arg1:T5 Arg2:T4	
+T9	History 157 178	il y a cinq à six ans
+R7	History Arg1:T5 Arg2:T9	

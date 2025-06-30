@@ -1,0 +1,14 @@
+T1	Tobacco 47 52	tabac
+T2	Alcohol 54 62	d'alcool
+T3	Drug 69 76	drogues
+T4	StatusTime 26 43	nie l'utilisation
+A1	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T4	
+R3	Status Arg1:T3 Arg2:T4	
+T5	MaritalStatus_Divorced 100 125	séparée de son partenaire
+T6	Descendants_Yes 146 154	sa fille
+T7	Type 149 154	fille
+R4	Type Arg1:T6 Arg2:T7	
+T8	Living_WithOthers 172 205	vit actuellement avec ses parents
+T9	MaritalStatus_Divorced 253 270	son ex-partenaire

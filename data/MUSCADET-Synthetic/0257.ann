@@ -1,0 +1,13 @@
+T1	Ethnicity 65 73	Bordurie
+T2	Income 79 82	AME
+T3	Descendants_Yes 84 93	8 enfants
+T4	Descendants_Yes 95 112	23 petits enfants
+T5	Type 98 112	petits enfants
+T6	Type 86 93	enfants
+T7	Amount 95 97	23
+T8	Amount 84 85	8
+R1	Type Arg1:T3 Arg2:T6	
+R2	Amount Arg1:T3 Arg2:T8	
+R3	Amount Arg1:T4 Arg2:T7	
+R4	Type Arg1:T4 Arg2:T5	
+T9	Housing_No 14 49	Vit sur un terrain non conventionné

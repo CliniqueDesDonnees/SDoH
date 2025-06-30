@@ -1,0 +1,10 @@
+T1	Tobacco 14 18	Fume
+T2	StatusTime 14 18	Fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T4	Type 25 35	cigarettes
+T5	Frequency 36 54	tous les 3-4 jours
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T3	Amount 19 35	10-15 cigarettes
+R2	Amount Arg1:T1 Arg2:T3	

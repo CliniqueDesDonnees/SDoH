@@ -1,0 +1,20 @@
+T1	MaritalStatus_Single 30 41	célibataire
+T2	Employment_Unemployed 65 76	sans emploi
+T3	Tobacco 87 94	fumeuse
+T4	Duration 131 144	depuis 38 ans
+T5	Frequency 122 130	par jour
+T6	Amount 104 121	un paquet et demi
+T7	Type 107 113	paquet
+T8	StatusTime 83 94	est fumeuse
+A1	StatusTime T8 current
+R1	Status Arg1:T3 Arg2:T8	
+R2	Type Arg1:T3 Arg2:T7	
+R3	Amount Arg1:T3 Arg2:T6	
+R4	Frequency Arg1:T3 Arg2:T5	
+R5	Duration Arg1:T3 Arg2:T4	
+T9	Alcohol 174 182	d'alcool
+T10	StatusTime 149 173	signale une consommation
+A2	StatusTime T10 current
+T11	Frequency 183 187	rare
+R6	Status Arg1:T9 Arg2:T10	
+R7	Frequency Arg1:T9 Arg2:T11	

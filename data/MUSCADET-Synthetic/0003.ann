@@ -1,0 +1,21 @@
+T1	Employment_Working 52 60	Assureur
+T2	Last_job 52 60	Assureur
+T3	MaritalStatus_InRelationship 14 20	Mariée
+T4	Descendants_Yes 21 34	trois enfants
+T5	Tobacco 62 67	Tabac
+T6	Drug 81 87	drogue
+T7	Alcohol 73 75	OH
+T8	StatusTime 68 71	= 0
+A1	StatusTime T8 none
+T9	StatusTime 76 79	= 0
+A2	StatusTime T9 none
+T10	StatusTime 88 91	= 0
+A3	StatusTime T10 none
+R1	Status Arg1:T6 Arg2:T10	
+R2	Status Arg1:T7 Arg2:T9	
+R3	Status Arg1:T5 Arg2:T8	
+T11	Type 27 34	enfants
+T12	Amount 21 26	trois
+R4	Type Arg1:T4 Arg2:T11	
+R5	Amount Arg1:T4 Arg2:T12	
+T13	Job 52 60	Assureur

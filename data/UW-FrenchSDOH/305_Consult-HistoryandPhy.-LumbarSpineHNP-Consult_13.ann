@@ -1,0 +1,29 @@
+T1	Last_job 28 47	Chauffeur de camion
+T2	Job 28 47	Chauffeur de camion
+T3	Employment_Other 72 88	en arrêt maladie
+T4	MaritalStatus_InRelationship 107 112	marié
+T5	Amount 124 129	trois
+T6	Type 114 121	Enfants
+T7	Descendants_Yes 114 129	Enfants : trois
+R1	Amount Arg1:T7 Arg2:T5	
+R2	Type Arg1:T7 Arg2:T6	
+T8	Housing_Yes 142 156	vit à domicile
+T9	Living_WithOthers 142 172	vit à domicile avec sa famille
+T10	Tobacco 174 183	Tabagisme
+T11	StatusTime 186 190	fume
+A1	StatusTime T11 current
+R3	Status Arg1:T10 Arg2:T11	
+T12	Amount 191 217	deux paquets de cigarettes
+T13	Frequency 218 226	par jour
+T14	Type 196 217	paquets de cigarettes
+R4	Amount Arg1:T10 Arg2:T12	
+R5	Type Arg1:T10 Arg2:T14	
+R6	Frequency Arg1:T10 Arg2:T13	
+T15	Alcohol 262 282	boissons alcoolisées
+T16	StatusTime 239 258	nie la consommation
+A2	StatusTime T16 none
+R7	Status Arg1:T15 Arg2:T16	
+T17	Drug 339 346	drogues
+T18	StatusTime 295 335	nie toute utilisation actuelle ou passée
+A3	StatusTime T18 none
+R8	Status Arg1:T17 Arg2:T18	

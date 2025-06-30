@@ -1,0 +1,9 @@
+T1	Tobacco 14 19	Tabac
+T2	StatusTime 22 27	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 28 34	alcool
+T4	StatusTime 37 42	sevré
+A2	StatusTime T4 past
+R2	Status Arg1:T3 Arg2:T4	
+T5	Employment_Pensioner 44 52	retraité

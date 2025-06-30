@@ -1,0 +1,24 @@
+T1	Living_Alone 26 35	vit seule
+T2	Tobacco 107 112	fumer
+T3	History 113 136	il y a environ cinq ans
+T4	StatusTime 97 103	arrêté
+A1	StatusTime T4 past
+R1	Status Arg1:T2 Arg2:T4	
+R2	History Arg1:T2 Arg2:T3	
+T5	Frequency 152 169	occasionnellement
+T6	Alcohol 182 185	vin
+T7	Amount 170 178	un verre
+T8	Type 182 185	vin
+T9	StatusTime 143 151	consomme
+A2	StatusTime T9 current
+R3	Type Arg1:T6 Arg2:T8	
+R4	Amount Arg1:T6 Arg2:T7	
+R5	Frequency Arg1:T6 Arg2:T5	
+R6	Status Arg1:T6 Arg2:T9	
+T10	Drug 219 226	drogues
+T11	StatusTime 192 209	nie l'utilisation
+A3	StatusTime T11 none
+R7	Status Arg1:T10 Arg2:T11	
+T12	Employment_Pensioner 245 273	a récemment pris sa retraite
+T13	Last_job 335 353	aide psychiatrique
+T14	Job 335 353	aide psychiatrique

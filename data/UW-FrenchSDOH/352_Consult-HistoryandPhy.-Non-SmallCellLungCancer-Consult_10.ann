@@ -1,0 +1,22 @@
+T1	Tobacco 44 53	tabagisme
+T2	StatusTime 25 40	a un historique
+A1	StatusTime T2 past
+T3	Amount 64 74	30 paquets
+T4	Frequency 75 81	années
+R1	Status Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Frequency Arg1:T1 Arg2:T4	
+T5	Alcohol 100 108	l'alcool
+T6	StatusTime 86 96	consommait
+A2	StatusTime T6 past
+R4	Status Arg1:T5 Arg2:T6	
+T7	Employment_Working 302 311	travaille
+T8	Job 312 331	dans une imprimerie
+T9	Last_job 312 331	dans une imprimerie
+T10	MaritalStatus_InRelationship 340 345	marié
+T11	Descendants_Yes 351 363	deux enfants
+T12	Type 356 363	enfants
+T13	Amount 351 355	deux
+R5	Type Arg1:T11 Arg2:T12	
+R6	Amount Arg1:T11 Arg2:T13	
+T14	Housing_Yes 423 429	maison

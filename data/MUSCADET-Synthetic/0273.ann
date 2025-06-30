@@ -1,0 +1,13 @@
+T1	Living_WithOthers 14 31	Vit avec sa femme
+T2	MaritalStatus_InRelationship 18 31	avec sa femme
+T3	Housing_Yes 42 52	à domicile
+T4	Tobacco 57 61	fume
+T5	StatusTime 54 66	ne fume plus
+A1	StatusTime T5 past
+R1	Status Arg1:T4 Arg2:T5	
+T6	Alcohol 79 83	boit
+T7	StatusTime 76 88	ne boit plus
+A2	StatusTime T7 past
+R2	Status Arg1:T6 Arg2:T7	
+T8	Last_job 97 106	cameraman
+T9	Job 97 106	cameraman

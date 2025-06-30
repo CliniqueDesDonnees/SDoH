@@ -1,0 +1,5 @@
+T1	Living_WithOthers 55 75	habite avec sa fille
+T2	Descendants_Yes 67 75	sa fille
+T3	Type 70 75	fille
+R1	Type Arg1:T2 Arg2:T3	
+T4	Housing_Yes 76 91	dans une maison

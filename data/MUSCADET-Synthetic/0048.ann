@@ -1,0 +1,15 @@
+T1	Employment_Student 14 34	Etudiante en licence
+T2	Living_WithOthers 36 53	Vit chez son père
+T3	Housing_Yes 36 53	Vit chez son père
+T4	Descendants_No 55 67	pas d'enfant
+T5	Employment_Working 69 78	Travaille
+T6	Last_job 87 114	dans la restauration rapide
+T7	Tobacco 143 148	tabac
+T8	Alcohol 150 156	alcool
+T9	Drug 160 166	drogue
+T10	StatusTime 136 142	pas de
+A1	StatusTime T10 none
+R1	Status Arg1:T7 Arg2:T10	
+R2	Status Arg1:T8 Arg2:T10	
+R3	Status Arg1:T9 Arg2:T10	
+T11	Job 87 114	dans la restauration rapide

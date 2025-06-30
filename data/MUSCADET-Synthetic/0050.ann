@@ -1,0 +1,25 @@
+T1	Living_Alone 13 21	Vit seul
+T2	Housing_Yes 22 37	dans une maison
+T3	MaritalStatus_Widowed 53 58	veuve
+T4	Descendants_Yes 62 73	deux filles
+T5	Descendants_Yes 80 89	deux fils
+T6	Type 85 89	fils
+T7	Type 67 73	filles
+T8	Amount 80 84	deux
+T9	Amount 62 66	deux
+R1	Type Arg1:T4 Arg2:T7	
+R2	Amount Arg1:T4 Arg2:T9	
+R3	Type Arg1:T5 Arg2:T6	
+R4	Amount Arg1:T5 Arg2:T8	
+T11	Tobacco 91 97	A fumé
+T12	Duration 98 115	depuis ses 30 ans
+T14	Type 126 132	paquet
+R8	Type Arg1:T11 Arg2:T14	
+T15	History 142 154	depuis 2 ans
+T16	StatusTime 134 141	Sevrage
+A2	StatusTime T16 past
+R6	Duration Arg1:T11 Arg2:T12	
+R9	History Arg1:T11 Arg2:T15	
+R5	Status Arg1:T11 Arg2:T16	
+T10	Amount 124 132	1 paquet
+R7	Amount Arg1:T11 Arg2:T10	

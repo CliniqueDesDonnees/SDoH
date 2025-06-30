@@ -1,0 +1,5 @@
+T1	Alcohol 87 95	d'alcool
+T2	StatusTime 83 86	Pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Housing_Yes 14 24	vit en RPA

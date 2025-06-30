@@ -1,0 +1,29 @@
+T1	Ethnicity 14 23	Américain
+T2	Employment_Working 25 33	chimiste
+T3	Last_job 25 33	chimiste
+T4	Housing_Yes 35 52	vit dans un ranch
+T5	MaritalStatus_InRelationship 65 76	deux femmes
+T6	Descendants_Yes 80 89	une fille
+T7	Type 84 89	fille
+T8	Amount 80 83	une
+R1	Type Arg1:T6 Arg2:T7	
+R2	Amount Arg1:T6 Arg2:T8	
+T9	Tobacco 94 98	fume
+T11	Type 101 108	cigares
+T12	StatusTime 94 98	fume
+A1	StatusTime T12 current
+R3	Status Arg1:T9 Arg2:T12	
+R5	Type Arg1:T9 Arg2:T11	
+T13	Frequency 109 116	le soir
+R6	Frequency Arg1:T9 Arg2:T13	
+T14	Alcohol 120 128	consomme
+T15	Type 132 138	scotch
+T16	Frequency 139 161	le soir après le repas
+T17	StatusTime 120 128	consomme
+A2	StatusTime T17 current
+R7	Status Arg1:T14 Arg2:T17	
+R8	Type Arg1:T14 Arg2:T15	
+R9	Frequency Arg1:T14 Arg2:T16	
+T18	Job 25 33	chimiste
+T10	Amount 99 108	2 cigares
+R4	Amount Arg1:T9 Arg2:T10	

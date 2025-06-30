@@ -1,0 +1,6 @@
+T1	Living_WithOthers 39 48	vit seule
+T2	Descendants_Yes 91 100	3 enfants
+T3	Type 93 100	enfants
+T4	Amount 91 92	3
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	

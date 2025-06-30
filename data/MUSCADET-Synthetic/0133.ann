@@ -1,0 +1,9 @@
+T1	MaritalStatus_InRelationship 14 23	en couple
+T2	Descendants_No 24 36	pas d'enfant
+T3	Last_job 37 48	enseignante
+T4	Drug 68 74	drogue
+T5	StatusTime 49 67	ne consomme pas de
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	PhysicalActivity_Yes 86 96	triathlète
+T7	Job 37 48	enseignante

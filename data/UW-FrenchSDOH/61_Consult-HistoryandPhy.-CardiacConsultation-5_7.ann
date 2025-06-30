@@ -1,0 +1,23 @@
+T1	MaritalStatus_Widowed 30 35	veuve
+T2	Living_Alone 42 51	vit seule
+T3	Descendants_Yes 60 72	trois filles
+T4	Type 66 72	filles
+T5	Amount 60 65	trois
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Tobacco 130 134	fumé
+T7	StatusTime 128 134	a fumé
+A1	StatusTime T7 past
+R3	Status Arg1:T6 Arg2:T7	
+T8	Amount 162 180	un et demi paquets
+T9	Type 184 194	cigarettes
+T10	Frequency 195 203	par jour
+T11	Duration 204 226	pendant environ 10 ans
+R4	Amount Arg1:T6 Arg2:T8	
+R5	Type Arg1:T6 Arg2:T9	
+R6	Frequency Arg1:T6 Arg2:T10	
+R7	Duration Arg1:T6 Arg2:T11	
+T12	Alcohol 290 298	d'alcool
+T13	StatusTime 270 289	n'a jamais consommé
+A2	StatusTime T13 none
+R8	Status Arg1:T12 Arg2:T13	

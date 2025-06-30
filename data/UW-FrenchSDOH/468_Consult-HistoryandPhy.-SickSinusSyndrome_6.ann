@@ -1,0 +1,9 @@
+T1	Housing_Yes 25 84	réside à plein temps dans l'établissement de vie supervisée
+T2	Tobacco 96 100	fume
+T3	StatusTime 93 104	ne fume pas
+A1	StatusTime T3 none
+T4	Alcohol 124 132	d'alcool
+R1	Status Arg1:T2 Arg2:T3	
+T5	StatusTime 108 123	ne consomme pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	

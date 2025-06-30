@@ -1,0 +1,18 @@
+T1	StatusTime 26 32	a fumé
+A1	StatusTime T1 past
+T2	Duration 48 70	pendant environ 20 ans
+T3	Tobacco 37 47	cigarettes
+T4	Type 37 47	cigarettes
+R1	Status Arg1:T3 Arg2:T1	
+R2	Type Arg1:T3 Arg2:T4	
+R3	Duration Arg1:T3 Arg2:T2	
+T5	Amount 83 97	un demi-paquet
+T6	Frequency 98 106	par jour
+R4	Amount Arg1:T3 Arg2:T5	
+R5	Frequency Arg1:T3 Arg2:T6	
+T7	Alcohol 201 221	boissons alcoolisées
+T8	StatusTime 179 187	consomme
+A2	StatusTime T8 current
+T9	Frequency 188 196	rarement
+R6	Frequency Arg1:T7 Arg2:T9	
+R7	Status Arg1:T7 Arg2:T8	

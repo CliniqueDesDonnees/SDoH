@@ -1,0 +1,21 @@
+T1	Housing_Yes 27 40	vit à l'EHPAD
+T2	Descendants_Yes 42 48	2 fils
+T3	Type 44 48	fils
+T4	Amount 42 43	2
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Employment_Pensioner 27 40	vit à l'EHPAD
+T6	Last_job 153 174	monitrice d'autoécole
+T7	Tobacco 67 71	fume
+T8	StatusTime 64 75	ne fume pas
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Drug 119 125	drogue
+T10	Alcohol 131 139	d'alcool
+T11	StatusTime 127 130	pas
+A2	StatusTime T11 none
+T12	StatusTime 112 118	pas de
+A3	StatusTime T12 none
+R4	Status Arg1:T9 Arg2:T12	
+R5	Status Arg1:T10 Arg2:T11	
+T13	Job 153 174	monitrice d'autoécole

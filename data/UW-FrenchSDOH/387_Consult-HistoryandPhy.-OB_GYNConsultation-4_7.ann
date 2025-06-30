@@ -1,0 +1,19 @@
+T1	Tobacco 16 25	Tabagisme
+T2	StatusTime 28 32	Fume
+A1	StatusTime T2 current
+T3	Amount 33 41	1 paquet
+T4	Type 45 55	cigarettes
+T5	Frequency 56 64	par jour
+R1	Status Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	MaritalStatus_InRelationship 209 214	Marié
+T7	Drug 162 179	drogues illégales
+T8	StatusTime 115 158	Négation de consommation passée ou actuelle
+A2	StatusTime T8 none
+R5	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 105 113	d'alcool
+T10	StatusTime 66 88	Négation d'antécédents
+A3	StatusTime T10 none
+R6	Status Arg1:T9 Arg2:T10	

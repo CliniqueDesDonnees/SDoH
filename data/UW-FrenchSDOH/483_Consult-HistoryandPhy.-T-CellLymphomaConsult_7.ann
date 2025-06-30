@@ -1,0 +1,23 @@
+T1	MaritalStatus_Single 29 40	célibataire
+T2	Living_WithOthers 45 74	vit actuellement avec sa mère
+T3	Housing_Yes 75 90	dans une maison
+T4	Employment_Working 216 252	actuellement travailleur indépendant
+T5	Last_job 229 252	travailleur indépendant
+T6	Job 229 252	travailleur indépendant
+T7	Job 314 327	aide-soignant
+T8	Tobacco 507 513	fumeur
+T10	Duration 527 545	treize ans et demi
+T9	StatusTime 560 579	fumant actuellement
+A1	StatusTime T9 current
+T11	Amount 588 606	un quart de paquet
+T12	Frequency 607 615	par jour
+R1	Duration Arg1:T8 Arg2:T10	
+R2	Status Arg1:T8 Arg2:T9	
+R3	Amount Arg1:T8 Arg2:T11	
+R4	Frequency Arg1:T8 Arg2:T12	
+T13	Alcohol 636 644	d'alcool
+T14	Drug 651 668	drogues illicites
+T15	StatusTime 620 635	ne consomme pas
+A2	StatusTime T15 none
+R5	Status Arg1:T13 Arg2:T15	
+R6	Status Arg1:T14 Arg2:T15	

@@ -1,0 +1,6 @@
+T1	Alcohol 14 24	Alcoolique
+T2	StatusTime 14 24	Alcoolique
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Employment_Working 26 43	ne travaille plus
+T4	Housing_Yes 45 64	vit dans une maison

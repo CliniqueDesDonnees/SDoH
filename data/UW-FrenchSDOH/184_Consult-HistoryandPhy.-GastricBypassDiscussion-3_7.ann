@@ -1,0 +1,21 @@
+T1	StatusTime 26 41	n'a jamais fumé
+A1	StatusTime T1 none
+T2	Tobacco 37 41	fumé
+R1	Status Arg1:T2 Arg2:T1	
+T3	Alcohol 70 78	l'alcool
+T4	StatusTime 58 66	consomme
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	
+T5	Frequency 138 146	par mois
+R3	Frequency Arg1:T3 Arg2:T5	
+T6	Amount 121 137	un à deux verres
+R4	Amount Arg1:T3 Arg2:T6	
+T7	Employment_Working 153 165	est employée
+T8	Last_job 178 221	gestionnaire au département de la fiscalité
+T9	Job 178 221	gestionnaire au département de la fiscalité
+T10	MaritalStatus_InRelationship 244 250	mariée
+T11	Descendants_Yes 256 270	quatre enfants
+T12	Type 263 270	enfants
+T13	Amount 256 262	quatre
+R5	Type Arg1:T11 Arg2:T12	
+R6	Amount Arg1:T11 Arg2:T13	

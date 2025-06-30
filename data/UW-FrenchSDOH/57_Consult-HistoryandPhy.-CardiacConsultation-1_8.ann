@@ -1,0 +1,14 @@
+T1	Tobacco 25 29	fume
+T2	StatusTime 25 29	fume
+A1	StatusTime T2 current
+T3	Amount 30 39	un paquet
+T4	Type 43 53	cigarettes
+T5	Frequency 54 62	par jour
+R1	Status Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	Alcohol 79 99	boissons alcoolisées
+T7	StatusTime 66 74	consomme
+A2	StatusTime T7 current
+R5	Status Arg1:T6 Arg2:T7	

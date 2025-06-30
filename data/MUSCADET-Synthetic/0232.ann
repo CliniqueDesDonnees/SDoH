@@ -1,0 +1,10 @@
+T1	Tobacco 14 23	tabagique
+T4	StatusTime 14 23	tabagique
+A1	StatusTime T4 current
+R1	Status Arg1:T1 Arg2:T4	
+T5	Alcohol 37 45	d'alcool
+T6	StatusTime 33 36	Pas
+A2	StatusTime T6 none
+R4	Status Arg1:T5 Arg2:T6	
+T2	Amount 26 31	10 PA
+R2	Amount Arg1:T1 Arg2:T2	

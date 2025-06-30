@@ -1,0 +1,12 @@
+T1	Living_Alone 16 25	Vit seule
+T2	Housing_Yes 16 36	Vit seule à domicile
+T3	Alcohol 50 54	boit
+T4	StatusTime 47 58	Ne boit pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	Tobacco 63 67	fume
+T6	StatusTime 60 71	ne fume pas
+A2	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	
+T7	Last_job 82 89	actrice
+T8	Job 82 89	actrice

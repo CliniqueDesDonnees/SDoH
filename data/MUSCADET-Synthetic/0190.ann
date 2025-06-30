@@ -1,0 +1,17 @@
+T1	Last_job 21 31	radiologue
+T2	Employment_Pensioner 32 45	à la retraite
+T3	Alcohol 47 51	boit
+T6	Frequency 79 87	par jour
+T7	MaritalStatus_Widowed 98 112	décès de femme
+R3	Frequency Arg1:T3 Arg2:T6	
+T8	StatusTime 47 51	boit
+A1	StatusTime T8 current
+R4	Status Arg1:T3 Arg2:T8	
+T9	Descendants_Yes 140 148	sa fille
+T10	Type 143 148	fille
+R5	Type Arg1:T9 Arg2:T10	
+T11	Job 21 31	radiologue
+T4	Type 69 78	vin rouge
+T5	Amount 52 65	une bouteille
+R1	Amount Arg1:T3 Arg2:T5	
+R2	Type Arg1:T3 Arg2:T4	

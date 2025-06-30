@@ -1,0 +1,13 @@
+T1	Employment_Pensioner 30 39	retraitée
+T2	Tobacco 109 113	fume
+T3	Alcohol 135 143	d'alcool
+T4	Drug 164 170	drogue
+T5	StatusTime 106 117	ne fume pas
+A1	StatusTime T5 none
+R1	Status Arg1:T2 Arg2:T5	
+T6	StatusTime 119 134	ne consomme pas
+A2	StatusTime T6 none
+R2	Status Arg1:T3 Arg2:T6	
+T7	StatusTime 147 163	n'utilise aucune
+A3	StatusTime T7 none
+R3	Status Arg1:T4 Arg2:T7	

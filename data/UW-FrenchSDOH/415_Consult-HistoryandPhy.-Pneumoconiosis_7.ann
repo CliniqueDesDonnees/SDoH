@@ -1,0 +1,4 @@
+T1	Tobacco 42 48	fumeur
+T2	StatusTime 25 41	était auparavant
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	

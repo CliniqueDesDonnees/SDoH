@@ -1,0 +1,31 @@
+T1	Living_Alone 14 22	Vit seul
+T2	MaritalStatus_Divorced 23 30	divorcé
+T3	Descendants_Yes 31 40	4 enfants
+T4	Descendants_Yes 41 57	3 petits enfants
+T5	Type 33 40	enfants
+T6	Type 43 57	petits enfants
+T7	Amount 31 32	4
+T8	Amount 41 42	3
+R1	Type Arg1:T3 Arg2:T5	
+R2	Amount Arg1:T3 Arg2:T7	
+R3	Amount Arg1:T4 Arg2:T8	
+R4	Type Arg1:T4 Arg2:T6	
+T9	Employment_Pensioner 59 67	Retraité
+T10	Last_job 71 74	VRP
+T11	Tobacco 76 80	fume
+T12	StatusTime 76 80	fume
+A1	StatusTime T12 current
+R5	Status Arg1:T11 Arg2:T12	
+T13	Amount 81 90	2 paquets
+T14	Frequency 91 99	par jour
+R6	Amount Arg1:T11 Arg2:T13	
+R7	Frequency Arg1:T11 Arg2:T14	
+T15	Alcohol 101 103	OH
+T16	StatusTime 104 115	occasionnel
+A2	StatusTime T16 current
+R8	Status Arg1:T15 Arg2:T16	
+T17	Frequency 104 115	occasionnel
+R9	Frequency Arg1:T15 Arg2:T17	
+T18	Job 71 74	VRP
+T19	Type 83 90	paquets
+R10	Type Arg1:T11 Arg2:T19	

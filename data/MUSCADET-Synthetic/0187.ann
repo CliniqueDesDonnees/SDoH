@@ -1,0 +1,6 @@
+T1	Tobacco 23 32	tabagisme
+T2	StatusTime 23 32	tabagisme
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 35 40	53 PA
+R2	Amount Arg1:T1 Arg2:T3	

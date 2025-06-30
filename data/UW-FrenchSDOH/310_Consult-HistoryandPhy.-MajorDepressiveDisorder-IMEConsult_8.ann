@@ -1,0 +1,11 @@
+T1	Alcohol 47 55	l'alcool
+T2	MaritalStatus_Divorced 68 75	divorce
+T3	History 76 83	en 1993
+R1	History Arg1:T2 Arg2:T3	
+T4	StatusTime 19 43	a indiqué avoir consommé
+A1	StatusTime T4 past
+R2	Status Arg1:T1 Arg2:T4	
+T5	Drug 166 176	substances
+T6	StatusTime 146 162	Aucun autre abus
+A2	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	

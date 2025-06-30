@@ -1,0 +1,10 @@
+T1	MaritalStatus_Widowed 29 33	veuf
+T2	Last_job 37 46	ingénieur
+T3	Job 37 46	ingénieur
+T4	Employment_Pensioner 47 60	à la retraite
+T5	Tobacco 69 74	fumer
+T6	Alcohol 106 114	l'alcool
+T7	StatusTime 65 68	nie
+A1	StatusTime T7 none
+R1	Status Arg1:T5 Arg2:T7	
+R2	Status Arg1:T6 Arg2:T7	

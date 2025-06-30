@@ -1,0 +1,11 @@
+T1	Alcohol 14 23	ethylisme
+T2	StatusTime 24 29	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Last_job 38 64	ambulancier au CH de Paris
+T4	Tobacco 69 73	fume
+T5	StatusTime 66 77	ne fume pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	
+T6	Living_WithOthers 79 96	vit en colocation
+T7	Job 38 64	ambulancier au CH de Paris

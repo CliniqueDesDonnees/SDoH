@@ -1,0 +1,22 @@
+T1	Ethnicity 15 38	Originaire de Polynésie
+T2	Employment_Unemployed 40 51	Sans emploi
+T3	Job 70 81	électricien
+T4	Last_job 87 96	carreleur
+T5	MaritalStatus_InRelationship 98 104	Mariée
+T6	Descendants_Yes 105 114	3 enfants
+T7	Type 107 114	enfants
+T8	Amount 105 106	3
+R1	Type Arg1:T6 Arg2:T7	
+R2	Amount Arg1:T6 Arg2:T8	
+T9	Living_WithOthers 116 133	Vit avec sa fille
+T10	Alcohol 155 162	alcoolo
+T11	Tobacco 163 172	tabagique
+T12	StatusTime 136 154	Pas d'intoxication
+A1	StatusTime T12 none
+R3	Status Arg1:T10 Arg2:T12	
+R4	Status Arg1:T11 Arg2:T12	
+T13	Drug 197 203	drogue
+T14	StatusTime 174 196	Pas de consommation de
+A2	StatusTime T14 none
+R5	Status Arg1:T13 Arg2:T14	
+T15	Job 87 96	carreleur

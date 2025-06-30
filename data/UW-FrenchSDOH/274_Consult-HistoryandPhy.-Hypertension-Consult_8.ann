@@ -1,0 +1,18 @@
+T1	Tobacco 22 26	fume
+T2	StatusTime 19 30	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 62 70	d'alcool
+T4	StatusTime 46 61	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Drug 110 116	drogue
+T6	StatusTime 93 109	n'utilise aucune
+A3	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	
+T7	Employment_Pensioner 136 145	retraitée
+T8	MaritalStatus_Widowed 205 210	veuve
+T9	Living_Alone 217 226	vit seule
+T10	Last_job 170 194	distribution de journaux
+T11	Job 170 194	distribution de journaux
+T12	Job 146 160	de Morse Chain

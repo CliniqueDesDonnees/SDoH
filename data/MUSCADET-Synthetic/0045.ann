@@ -1,0 +1,16 @@
+T1	Living_WithOthers 34 51	vit avec son mari
+T2	MaritalStatus_InRelationship 38 51	avec son mari
+T3	Housing_Yes 52 67	dans une maison
+T4	Descendants_No 80 92	Pas d'enfant
+T5	Tobacco 97 101	fume
+T6	StatusTime 94 96	ne
+A1	StatusTime T6 none
+R1	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 106 110	bois
+T8	StatusTime 103 114	ne bois pas
+A2	StatusTime T8 none
+R2	Status Arg1:T7 Arg2:T8	
+T9	Employment_Pensioner 131 140	retraitée
+T10	Last_job 120 130	secretaire
+T11	PhysicalActivity_No 142 154	pas de sprot
+T12	Job 120 130	secretaire

@@ -1,0 +1,23 @@
+T1	Last_job 14 24	Infirmière
+T2	Employment_Working 14 24	Infirmière
+T3	MaritalStatus_InRelationship 25 31	mariée
+T4	Descendants_Yes 32 41	2 enfants
+T5	Type 34 41	enfants
+T6	Amount 32 33	2
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Tobacco 50 55	tabac
+T8	StatusTime 43 49	pas de
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 78 86	d'alcool
+T11	Frequency 96 101	/mois
+R5	Frequency Arg1:T9 Arg2:T11	
+T13	Job 14 24	Infirmière
+T10	Amount 89 96	1 verre
+R4	Amount Arg1:T9 Arg2:T10	
+T12	Type 105 111	pastis
+R6	Type Arg1:T9 Arg2:T12
+T13	StatusTime 78 86	d'alcool	
+A2	StatusTime T13 current
+R7	Status Arg1:T9 Arg2:T13

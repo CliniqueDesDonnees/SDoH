@@ -1,0 +1,16 @@
+T1	Employment_Pensioner 14 23	Retraitée
+T2	Last_job 34 45	commerçante
+T3	Living_WithOthers 47 65	Vit en concubinage
+T4	MaritalStatus_InRelationship 47 65	Vit en concubinage
+T5	Descendants_Yes 67 76	2 enfants
+T6	Descendants_Yes 78 94	10 petit-enfants
+T7	Type 81 94	petit-enfants
+T8	Type 69 76	enfants
+T9	Amount 67 68	2
+T10	Amount 78 80	10
+R1	Type Arg1:T6 Arg2:T7	
+R2	Amount Arg1:T6 Arg2:T10	
+R3	Type Arg1:T5 Arg2:T8	
+R4	Amount Arg1:T5 Arg2:T9	
+T11	Housing_Yes 96 125	Vit dans une résidence sénior
+T12	Job 34 45	commerçante

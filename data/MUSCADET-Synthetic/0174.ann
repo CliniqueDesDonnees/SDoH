@@ -1,0 +1,14 @@
+T1	Housing_Yes 14 37	Vit en résidence sénior
+T2	Living_WithOthers 14 51	Vit en résidence sénior avec sa femme
+T3	MaritalStatus_InRelationship 38 51	avec sa femme
+T4	PhysicalActivity_Yes 108 123	marche beaucoup
+T5	Tobacco 125 130	Tabac
+T6	StatusTime 137 142	sevré
+A1	StatusTime T6 past
+R1	Status Arg1:T5 Arg2:T6	
+T9	Alcohol 144 147	Ohc
+T10	StatusTime 148 153	= non
+A2	StatusTime T10 none
+R4	Status Arg1:T9 Arg2:T10	
+T7	Amount 131 136	15 PA
+R2	Amount Arg1:T5 Arg2:T7	

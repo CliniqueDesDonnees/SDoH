@@ -1,0 +1,10 @@
+T1	MaritalStatus_InRelationship 23 29	mariée
+T2	StatusTime 36 47	nie l'usage
+A1	StatusTime T2 none
+T3	Tobacco 51 56	tabac
+T4	Alcohol 58 66	d'alcool
+T5	Drug 73 80	drogues
+R1	Status Arg1:T3 Arg2:T2	
+R2	Status Arg1:T4 Arg2:T2	
+R3	Status Arg1:T5 Arg2:T2	
+T6	Employment_Other 87 105	n'est pas employée

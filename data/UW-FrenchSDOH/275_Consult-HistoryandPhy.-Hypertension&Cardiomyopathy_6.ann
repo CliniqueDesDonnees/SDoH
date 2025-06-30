@@ -1,0 +1,10 @@
+T1	Tobacco 37 42	fumer
+T2	StatusTime 25 33	a arrêté
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	StatusTime 71 84	testé positif
+A2	StatusTime T3 current
+T4	Drug 90 97	cocaïne
+T5	Type 90 97	cocaïne
+R2	Type Arg1:T4 Arg2:T5	
+R3	Status Arg1:T4 Arg2:T3	

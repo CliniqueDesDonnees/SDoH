@@ -1,0 +1,9 @@
+T1	Descendants_Yes 95 104	2 enfants
+T2	Type 97 104	enfants
+T3	Amount 95 96	2
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Last_job 251 265	femme au foyer
+T5	Employment_Other 251 265	femme au foyer
+T6	Job 251 265	femme au foyer
+T7	Job 316 344	travaux de ménage domestique

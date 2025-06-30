@@ -1,0 +1,9 @@
+T1	Housing_Yes 25 55	réside dans un foyer d'accueil
+T2	Tobacco 80 85	tabac
+T3	Alcohol 87 95	d'alcool
+T4	Drug 102 124	drogues intraveineuses
+T5	StatusTime 57 76	Pas de consommation
+A1	StatusTime T5 none
+R1	Status Arg1:T2 Arg2:T5	
+R2	Status Arg1:T3 Arg2:T5	
+R3	Status Arg1:T4 Arg2:T5	

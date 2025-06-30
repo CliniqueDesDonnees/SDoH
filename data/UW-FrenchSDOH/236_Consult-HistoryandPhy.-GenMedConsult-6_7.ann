@@ -1,0 +1,16 @@
+T1	Tobacco 22 26	fume
+T2	StatusTime 19 30	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 50 58	d'alcool
+T4	StatusTime 34 49	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	MaritalStatus_Widowed 69 74	veuve
+T6	History 75 88	depuis 18 ans
+R3	History Arg1:T5 Arg2:T6	
+T7	Living_Alone 95 104	vit seule
+T8	Housing_Yes 95 119	vit seule à son domicile
+T9	Employment_Pensioner 130 139	retraitée
+T10	Last_job 152 172	dirigé un restaurant
+T11	Job 152 172	dirigé un restaurant

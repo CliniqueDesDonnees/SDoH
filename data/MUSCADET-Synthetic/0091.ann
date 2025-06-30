@@ -1,0 +1,10 @@
+T1	Living_Alone 19 28	vit seule
+T2	Housing_Yes 29 44	dans une maison
+T3	Descendants_Yes 116 129	Trois enfants
+T4	Type 122 129	enfants
+T5	Amount 116 121	Trois
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Last_job 142 149	à l'ASE
+T7	Employment_Other 130 141	A travaillé
+T8	Job 142 149	à l'ASE

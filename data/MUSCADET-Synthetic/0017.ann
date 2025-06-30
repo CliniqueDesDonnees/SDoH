@@ -1,0 +1,11 @@
+T1	Employment_Working 14 25	Agriculteur
+T2	Last_job 14 25	Agriculteur
+T3	MaritalStatus_InRelationship 26 39	avec sa femme
+T4	Descendants_Yes 52 61	3 enfants
+T5	Type 54 61	enfants
+T6	Amount 52 53	3
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Housing_Yes 86 97	au domicile
+T8	Living_WithOthers 62 97	dont 1 de 15 ans encore au domicile
+T9	Job 14 25	Agriculteur

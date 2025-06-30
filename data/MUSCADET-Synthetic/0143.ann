@@ -1,0 +1,11 @@
+T1	Employment_Student 14 42	Etudiant en license de droit
+T2	Living_WithOthers 44 62	vit en concubinage
+T3	MaritalStatus_InRelationship 63 82	avec sa petite amie
+T4	StatusTime 124 137	a déjà essayé
+A1	StatusTime T4 past
+T5	Drug 115 122	toxique
+T6	Type 141 149	cannabis
+T7	Type 153 162	l'ecstasy
+R1	Status Arg1:T5 Arg2:T4	
+R2	Type Arg1:T5 Arg2:T6	
+R3	Type Arg1:T5 Arg2:T7	

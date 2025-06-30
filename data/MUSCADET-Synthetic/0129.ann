@@ -1,0 +1,11 @@
+T1	Employment_Student 16 47	2 eme année d'école d"ingénieur
+T2	Living_Alone 103 112	vit seule
+T3	MaritalStatus_Single 114 125	célibataire
+T4	Descendants_No 126 137	sans enfant
+T5	Alcohol 158 164	ethylo
+T6	Tobacco 164 173	tabagique
+T7	StatusTime 139 157	pas d'intoxication
+A1	StatusTime T7 none
+R1	Status Arg1:T5 Arg2:T7	
+R2	Status Arg1:T6 Arg2:T7	
+T8	PhysicalActivity_Yes 187 207	natation synchronisé

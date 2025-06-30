@@ -1,0 +1,18 @@
+T1	Tobacco 20 24	fume
+T2	StatusTime 17 28	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 64 69	bière
+T4	StatusTime 33 41	consomme
+A2	StatusTime T4 current
+T5	Frequency 42 59	occasionnellement
+T6	Amount 60 69	une bière
+R2	Status Arg1:T3 Arg2:T4	
+R3	Amount Arg1:T3 Arg2:T6	
+T7	Type 64 69	bière
+R4	Type Arg1:T3 Arg2:T7	
+R5	Frequency Arg1:T3 Arg2:T5	
+T8	MaritalStatus_InRelationship 78 83	marié
+T9	Employment_Working 88 97	travaille
+T10	Job 104 138	installateur de revêtements de sol
+T11	Last_job 104 138	installateur de revêtements de sol

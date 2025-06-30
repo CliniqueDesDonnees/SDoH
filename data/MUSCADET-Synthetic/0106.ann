@@ -1,0 +1,34 @@
+T1	Housing_Yes 14 40	Habite dans un appartement
+T2	MaritalStatus_InRelationship 54 63	en couple
+T3	Descendants_Yes 87 96	3 enfants
+T4	Descendants_Yes 97 113	5 petits enfants
+T5	Type 99 113	petits enfants
+T6	Type 89 96	enfants
+T7	Amount 87 88	3
+T8	Amount 97 98	5
+R1	Type Arg1:T3 Arg2:T6	
+R2	Amount Arg1:T3 Arg2:T7	
+R3	Type Arg1:T4 Arg2:T5	
+R4	Amount Arg1:T4 Arg2:T8	
+T9	Alcohol 115 124	Ethylisme
+T12	StatusTime 125 134	chronique
+A1	StatusTime T12 current
+R7	Status Arg1:T9 Arg2:T12	
+T13	Tobacco 163 171	Tabgisme
+T14	StatusTime 172 177	sevré
+A2	StatusTime T14 past
+R8	Status Arg1:T13 Arg2:T14	
+T15	History 178 190	depuis 3 ans
+R9	History Arg1:T13 Arg2:T15	
+T17	Type 207 214	paquets
+T18	Frequency 215 223	par jour
+R11	Type Arg1:T13 Arg2:T17	
+R12	Frequency Arg1:T13 Arg2:T18	
+T10	Amount 149 161	4 à 5 verres
+T11	Type 136 141	vodka
+T19	Type 145 148	kir
+R5	Type Arg1:T9 Arg2:T11	
+R6	Type Arg1:T9 Arg2:T19	
+R13	Amount Arg1:T9 Arg2:T10	
+T16	Amount 205 214	2 paquets
+R10	Amount Arg1:T13 Arg2:T16	

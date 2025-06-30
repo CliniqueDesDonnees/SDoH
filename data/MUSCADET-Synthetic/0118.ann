@@ -1,0 +1,26 @@
+T1	Living_WithOthers 14 27	Vit en couple
+T2	MaritalStatus_InRelationship 18 27	en couple
+T3	Descendants_Yes 28 34	1 fils
+T4	Type 30 34	fils
+T5	Amount 28 29	1
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Employment_Unemployed 36 50	Ne travail pas
+T7	Education 70 73	BAC
+T8	Last_job 85 96	dans les RH
+T9	PhysicalActivity_No 99 120	Ne fait plus de sport
+T10	Tobacco 150 159	Tabagisme
+T11	StatusTime 160 165	sevré
+A1	StatusTime T11 past
+R3	Status Arg1:T10 Arg2:T11	
+T12	History 166 178	depuis 5 ans
+R4	History Arg1:T10 Arg2:T12	
+T13	Alcohol 180 186	Alcool
+T14	StatusTime 189 192	non
+A2	StatusTime T14 none
+R5	Status Arg1:T13 Arg2:T14	
+T15	Drug 201 207	drogue
+T16	StatusTime 194 200	Pas de
+A3	StatusTime T16 none
+R6	Status Arg1:T15 Arg2:T16	
+T17	Job 85 96	dans les RH

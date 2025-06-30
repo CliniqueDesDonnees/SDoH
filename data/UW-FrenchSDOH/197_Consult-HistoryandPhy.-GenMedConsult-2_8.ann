@@ -1,0 +1,22 @@
+T1	Tobacco 25 29	fume
+T2	StatusTime 25 29	fume
+A1	StatusTime T2 current
+T3	Amount 30 53	un paquet de cigarettes
+T4	Type 33 53	paquet de cigarettes
+T5	Frequency 54 62	par jour
+R1	Status Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	Alcohol 79 87	l'alcool
+T7	StatusTime 67 75	consomme
+A2	StatusTime T7 current
+R5	Status Arg1:T6 Arg2:T7	
+T8	Frequency 99 112	occasionnelle
+R6	Frequency Arg1:T6 Arg2:T8	
+T9	Descendants_Yes 141 153	deux enfants
+T10	Type 146 153	enfants
+T11	Amount 141 145	deux
+R7	Type Arg1:T9 Arg2:T10	
+R8	Amount Arg1:T9 Arg2:T11	
+T12	MaritalStatus_Single 117 132	n'est pas marié

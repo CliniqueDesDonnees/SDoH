@@ -1,0 +1,17 @@
+T1	Housing_Yes 16 30	Vit à domicile
+T2	Living_WithOthers 16 52	Vit à domicile avec un de ses 4 fils
+T3	Housing_Yes 54 68	en appartement
+T4	Last_job 79 91	cultivatrice
+T5	Alcohol 133 137	Boit
+T6	StatusTime 133 137	Boit
+A1	StatusTime T6 current
+R1	Status Arg1:T5 Arg2:T6	
+T7	Type 141 151	l'absinthe
+T8	Frequency 152 166	tous les jours
+R2	Type Arg1:T5 Arg2:T7	
+R3	Frequency Arg1:T5 Arg2:T8	
+T9	Tobacco 175 180	tabac
+T10	StatusTime 168 174	Pas de
+A2	StatusTime T10 none
+R4	Status Arg1:T9 Arg2:T10	
+T11	Job 79 91	cultivatrice

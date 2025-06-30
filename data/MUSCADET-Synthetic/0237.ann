@@ -1,0 +1,15 @@
+T1	Last_job 14 22	Policier
+T2	Employment_Working 14 22	Policier
+T3	Ethnicity 38 43	Chine
+T4	PhysicalActivity_Yes 57 64	Kung Fu
+T5	MaritalStatus_Single 66 77	célibataire
+T6	Descendants_No 78 89	sans enfant
+T7	Tobacco 94 99	tabac
+T8	Alcohol 103 109	alcool
+T9	StatusTime 91 93	ni
+A1	StatusTime T9 none
+T10	StatusTime 100 102	ni
+A2	StatusTime T10 none
+R1	Status Arg1:T8 Arg2:T10	
+R2	Status Arg1:T7 Arg2:T9	
+T11	Job 14 22	Policier

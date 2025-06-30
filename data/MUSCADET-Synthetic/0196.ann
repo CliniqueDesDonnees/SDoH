@@ -1,0 +1,4 @@
+T1	Income 23 26	APA
+T2	Descendants_Yes 111 119	Sa fille
+T3	Type 114 119	fille
+R1	Type Arg1:T2 Arg2:T3	

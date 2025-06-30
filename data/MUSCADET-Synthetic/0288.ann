@@ -1,0 +1,13 @@
+T1	Employment_Working 14 22	Pompiste
+T2	Last_job 14 22	Pompiste
+T3	Tobacco 37 41	fume
+T4	StatusTime 34 45	ne fume pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	StatusTime 47 55	Consomme
+A2	StatusTime T5 current
+T6	Alcohol 59 67	l'alcool
+T7	Frequency 68 82	tous les jours
+R2	Status Arg1:T6 Arg2:T5	
+R3	Frequency Arg1:T6 Arg2:T7	
+T8	Job 14 22	Pompiste

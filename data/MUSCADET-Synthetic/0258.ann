@@ -1,0 +1,12 @@
+T1	Descendants_Yes 16 25	3 garçons
+T2	Descendants_Yes 29 36	1 fille
+T3	Type 18 25	garçons
+T4	Type 31 36	fille
+T5	Amount 16 17	3
+T6	Amount 29 30	1
+R1	Type Arg1:T1 Arg2:T3	
+R2	Amount Arg1:T1 Arg2:T5	
+R3	Type Arg1:T2 Arg2:T4	
+R4	Amount Arg1:T2 Arg2:T6	
+T7	MaritalStatus_InRelationship 39 43	Mari
+T8	Housing_No 75 125	vit en caravane sur un terrain de manière illégale

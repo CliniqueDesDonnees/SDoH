@@ -1,0 +1,11 @@
+T1	Tobacco 35 44	tabagisme
+T2	StatusTime 14 34	Pas d'antécédents de
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 46 58	d'alcoolisme
+T4	Drug 72 79	drogues
+R2	Status Arg1:T3 Arg2:T2	
+R3	Status Arg1:T4 Arg2:T2	
+T5	Job 96 105	infirmier
+T6	Last_job 96 105	infirmier
+T7	Employment_Working 96 105	infirmier

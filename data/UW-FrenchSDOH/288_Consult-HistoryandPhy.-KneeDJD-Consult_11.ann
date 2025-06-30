@@ -1,0 +1,13 @@
+T1	MaritalStatus_InRelationship 35 40	Marié
+T2	Employment_Pensioner 49 57	retraité
+T3	Job 69 94	chauffeur pour Pepsi-Cola
+T4	Last_job 69 94	chauffeur pour Pepsi-Cola
+T5	Tobacco 168 173	tabac
+T6	Alcohol 177 183	alcool
+T7	StatusTime 153 164	Ne consomme
+A1	StatusTime T7 none
+R1	Status Arg1:T5 Arg2:T7	
+R2	Status Arg1:T6 Arg2:T7	
+T8	PhysicalActivity_Yes 240 244	golf
+T9	PhysicalActivity_Yes 249 258	jardinage
+T10	PhysicalActivity_Yes 262 280	le travail du bois

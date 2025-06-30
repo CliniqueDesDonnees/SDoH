@@ -1,0 +1,13 @@
+T1	Tobacco 38 42	fume
+T2	Type 55 59	pipe
+T3	StatusTime 38 51	fume toujours
+A1	StatusTime T3 current
+R1	Status Arg1:T1 Arg2:T3	
+R2	Type Arg1:T1 Arg2:T2	
+T4	Employment_Pensioner 61 69	Retraité
+T5	MaritalStatus_Divorced 71 78	divorcé
+T6	Descendants_Yes 147 155	3 filles
+T7	Type 149 155	filles
+T8	Amount 147 148	3
+R3	Type Arg1:T6 Arg2:T7	
+R4	Amount Arg1:T6 Arg2:T8	

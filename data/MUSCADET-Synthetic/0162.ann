@@ -1,0 +1,18 @@
+T1	Tobacco 16 22	Fumeur
+T2	StatusTime 30 35	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T5	Alcohol 50 56	whisky
+T8	Frequency 57 65	par jour
+T9	StatusTime 38 65	3 werres de whisky par jour
+A2	StatusTime T9 current
+R4	Status Arg1:T5 Arg2:T9	
+R5	Frequency Arg1:T5 Arg2:T8	
+T10	Last_job 98 112	manutentionner
+T11	Job 98 112	manutentionner
+T6	Type 50 56	whisky
+R6	Type Arg1:T5 Arg2:T6	
+T7	Amount 38 46	3 werres
+R7	Amount Arg1:T5 Arg2:T7	
+T3	Amount 23 29	3/4 PA
+R2	Amount Arg1:T1 Arg2:T3	

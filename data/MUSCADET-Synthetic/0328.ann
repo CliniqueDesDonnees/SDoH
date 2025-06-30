@@ -1,0 +1,6 @@
+T1	Descendants_Yes 38 47	3 enfants
+T2	Type 40 47	enfants
+T3	Amount 38 39	3
+T4	MaritalStatus_Divorced 14 36	En cours de séparation
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	

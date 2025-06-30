@@ -1,0 +1,13 @@
+T1	MaritalStatus_Single 30 41	célibataire
+T2	Employment_Student 52 61	étudiante
+T3	Tobacco 112 117	tabac
+T4	Alcohol 122 128	alcool
+T5	Drug 133 140	drogues
+T6	StatusTime 97 108	ne consomme
+A1	StatusTime T6 none
+R1	Status Arg1:T3 Arg2:T6	
+R2	Status Arg1:T4 Arg2:T6	
+R3	Status Arg1:T5 Arg2:T6	
+T7	PhysicalActivity_Yes 157 200	pratique une activité physique hebdomadaire
+T8	PhysicalActivity_Yes 220 226	tennis
+T9	PhysicalActivity_Yes 233 241	natation

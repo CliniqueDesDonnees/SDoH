@@ -1,0 +1,14 @@
+T1	StatusTime 98 105	a cessé
+A1	StatusTime T1 past
+T2	History 106 129	il y a plusieurs années
+T3	Alcohol 49 57	l'alcool
+R1	Status Arg1:T3 Arg2:T1	
+R2	History Arg1:T3 Arg2:T2	
+T4	Tobacco 158 164	fumeur
+T5	StatusTime 151 157	ancien
+A2	StatusTime T5 past
+R3	Status Arg1:T4 Arg2:T5	
+T6	Type 168 178	cigarettes
+R4	Type Arg1:T4 Arg2:T6	
+T7	History 193 216	il y a plusieurs années
+R5	History Arg1:T4 Arg2:T7	

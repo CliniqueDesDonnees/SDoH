@@ -1,0 +1,20 @@
+T1	Tobacco 39 45	fumeur
+T2	StatusTime 32 38	ancien
+A1	StatusTime T2 past
+T3	History 80 87	en 2007
+R1	Status Arg1:T1 Arg2:T2	
+R2	History Arg1:T1 Arg2:T3	
+T4	Drug 109 116	cocaïne
+T5	Type 109 116	cocaïne
+T6	StatusTime 92 102	a consommé
+A2	StatusTime T6 past
+R3	Type Arg1:T4 Arg2:T5	
+R4	Status Arg1:T4 Arg2:T6	
+T7	History 150 157	en 2005
+R5	History Arg1:T4 Arg2:T7	
+T8	Alcohol 195 203	d'alcool
+T9	StatusTime 177 194	antécédent d'abus
+A3	StatusTime T9 past
+R6	Status Arg1:T8 Arg2:T9	
+T10	History 223 244	il y a plus de 10 ans
+R7	History Arg1:T8 Arg2:T10	

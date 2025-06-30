@@ -1,0 +1,14 @@
+T1	MaritalStatus_Single 29 40	célibataire
+T2	Employment_Student 49 57	étudiant
+T3	Tobacco 65 69	fume
+T4	StatusTime 62 73	ne fume pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	Alcohol 91 99	d'alcool
+T6	StatusTime 75 90	ne consomme pas
+A2	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	
+T7	Drug 119 126	drogues
+T8	StatusTime 103 115	ne prend pas
+A3	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	

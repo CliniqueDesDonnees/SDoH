@@ -1,0 +1,8 @@
+T1	Housing_Yes 26 43	réside localement
+T2	Employment_Working 134 143	travaille
+T3	Alcohol 95 103	d'alcool
+T4	Drug 110 117	drogues
+T5	StatusTime 50 94	ne signale pas de consommation significative
+A1	StatusTime T5 none
+R1	Status Arg1:T3 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	

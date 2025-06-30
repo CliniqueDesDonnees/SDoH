@@ -1,0 +1,17 @@
+T1	Living_WithOthers 14 31	Vit avec sa femme
+T2	MaritalStatus_InRelationship 18 31	avec sa femme
+T3	Last_job 40 49	animateur
+T4	Education 99 117	Niveau BTS d'étude
+T5	Drug 126 132	drogue
+T6	Tobacco 141 146	tabac
+T7	Alcohol 152 160	d'alcool
+T8	StatusTime 148 151	pas
+A1	StatusTime T8 none
+R1	Status Arg1:T7 Arg2:T8	
+T9	StatusTime 134 140	pas de
+A2	StatusTime T9 none
+T10	StatusTime 119 125	pas de
+A3	StatusTime T10 none
+R2	Status Arg1:T5 Arg2:T10	
+R3	Status Arg1:T6 Arg2:T9	
+T11	Job 40 49	animateur

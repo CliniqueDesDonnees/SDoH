@@ -1,0 +1,19 @@
+T1	Employment_Pensioner 14 23	Retraitée
+T2	Last_job 30 46	femme de chambre
+T3	Living_WithOthers 48 66	Vit avec son époux
+T4	Housing_Yes 48 77	Vit avec son époux à domicile
+T5	MaritalStatus_InRelationship 57 66	son époux
+T6	Tobacco 123 132	tabagisme
+T7	StatusTime 116 122	Pas de
+A1	StatusTime T7 none
+T8	StatusTime 150 169	pas de consommation
+A2	StatusTime T8 none
+T9	Drug 173 179	drogue
+R1	Status Arg1:T9 Arg2:T8	
+T10	Descendants_Yes 181 190	3 enfants
+T11	Type 183 190	enfants
+T12	Amount 181 182	3
+R2	Type Arg1:T10 Arg2:T11	
+R3	Amount Arg1:T10 Arg2:T12	
+T13	Job 30 46	femme de chambre
+R4	Status Arg1:T6 Arg2:T7	

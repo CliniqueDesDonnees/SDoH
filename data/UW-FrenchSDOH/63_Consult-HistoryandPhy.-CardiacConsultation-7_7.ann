@@ -1,0 +1,14 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	Living_WithOthers 39 56	vit avec sa femme
+T3	MaritalStatus_InRelationship 48 56	sa femme
+T4	Employment_Working 61 72	est employé
+T5	Job 85 92	barbier
+T6	Last_job 85 92	barbier
+T7	Alcohol 113 121	d'alcool
+T8	StatusTime 97 112	ne consomme pas
+A1	StatusTime T8 none
+R1	Status Arg1:T7 Arg2:T8	
+T9	Tobacco 126 131	tabac
+T10	Drug 139 156	drogues illicites
+R2	Status Arg1:T9 Arg2:T8	
+R3	Status Arg1:T10 Arg2:T8	

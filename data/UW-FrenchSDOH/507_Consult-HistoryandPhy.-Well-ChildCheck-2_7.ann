@@ -1,0 +1,5 @@
+T1	Living_WithOthers 14 34	Vit avec ses parents
+T2	Tobacco 52 61	tabagisme
+T3	StatusTime 45 51	pas de
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	

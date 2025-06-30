@@ -1,0 +1,32 @@
+T1	Alcohol 154 162	d'alcool
+T2	StatusTime 126 153	Antécédents de consommation
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 100 103	vin
+T4	StatusTime 72 82	consommait
+A2	StatusTime T4 past
+T5	Amount 83 96	une bouteille
+T6	Frequency 104 112	par jour
+R2	Amount Arg1:T3 Arg2:T5	
+R3	Frequency Arg1:T3 Arg2:T6	
+R4	Status Arg1:T3 Arg2:T4	
+T7	Duration 163 185	pendant environ 25 ans
+R5	Duration Arg1:T1 Arg2:T7	
+T8	StatusTime 245 258	a expérimenté
+A3	StatusTime T8 past
+T10	Type 263 275	amphétamines
+T11	Type 280 287	cocaïne
+T12	Type 294 302	cannabis
+T13	History 303 324	il y a environ 16 ans
+T9	Drug 280 287	cocaïne
+T14	Drug 294 302	cannabis
+T15	Drug 263 275	amphétamines
+R6	Type Arg1:T15 Arg2:T10	
+R7	Status Arg1:T15 Arg2:T8	
+R8	Type Arg1:T9 Arg2:T11	
+R9	Status Arg1:T9 Arg2:T8	
+R10	Type Arg1:T14 Arg2:T12	
+R11	Status Arg1:T14 Arg2:T8	
+R12	History Arg1:T14 Arg2:T13	
+R13	History Arg1:T9 Arg2:T13	
+R14	History Arg1:T15 Arg2:T13	

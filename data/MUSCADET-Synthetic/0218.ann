@@ -1,0 +1,17 @@
+T1	Drug 30 47	protoxyde d'azote
+T2	StatusTime 14 26	Consommation
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Type 30 47	protoxyde d'azote
+T4	Amount 49 60	5 bonbonnes
+T5	Frequency 61 72	par semaine
+R2	Amount Arg1:T1 Arg2:T4	
+R3	Frequency Arg1:T1 Arg2:T5	
+R4	Type Arg1:T1 Arg2:T3	
+T6	Tobacco 80 95	autres toxiques
+T7	Alcohol 80 95	autres toxiques
+T8	StatusTime 74 80	Pas d'
+A2	StatusTime T8 none
+R5	Status Arg1:T7 Arg2:T8	
+R6	Status Arg1:T6 Arg2:T8	
+T9	Living_WithOthers 97 117	Vit chez ses parents

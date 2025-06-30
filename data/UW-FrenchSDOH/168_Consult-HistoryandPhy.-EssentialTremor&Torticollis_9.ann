@@ -1,0 +1,17 @@
+T1	Tobacco 48 53	tabac
+T2	Alcohol 57 65	d'alcool
+T3	StatusTime 14 44	Négation de toute consommation
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	MaritalStatus_InRelationship 67 73	Mariée
+T5	Duration 74 87	depuis 44 ans
+R3	Duration Arg1:T4 Arg2:T5	
+T6	Descendants_Yes 96 105	3 enfants
+T7	Type 98 105	enfants
+T8	Amount 96 97	3
+R4	Type Arg1:T6 Arg2:T7	
+R5	Amount Arg1:T6 Arg2:T8	
+T9	Employment_Pensioner 219 227	retraite
+T10	Last_job 130 155	infirmière en obstétrique
+T11	Job 130 155	infirmière en obstétrique

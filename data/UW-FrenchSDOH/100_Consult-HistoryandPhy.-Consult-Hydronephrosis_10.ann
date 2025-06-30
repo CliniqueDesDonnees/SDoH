@@ -1,0 +1,9 @@
+T1	Employment_Pensioner 23 32	retraitée
+T2	Tobacco 37 41	fume
+T3	Alcohol 67 73	alcool
+T4	StatusTime 49 64	ne consomme pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	StatusTime 34 45	Ne fume pas
+A2	StatusTime T5 none
+R2	Status Arg1:T2 Arg2:T5	

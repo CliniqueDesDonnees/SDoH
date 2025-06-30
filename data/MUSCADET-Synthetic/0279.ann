@@ -1,0 +1,7 @@
+T1	Last_job 14 16	DJ
+T2	Employment_Working 14 16	DJ
+T3	Tobacco 18 27	Tabagisme
+T4	StatusTime 32 37	actif
+A1	StatusTime T4 current
+R1	Status Arg1:T3 Arg2:T4	
+T5	Job 14 16	DJ

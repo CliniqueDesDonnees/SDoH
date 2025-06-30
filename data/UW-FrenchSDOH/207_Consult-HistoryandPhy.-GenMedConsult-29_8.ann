@@ -1,0 +1,29 @@
+T1	MaritalStatus_Single 29 40	célibataire
+T2	Descendants_Yes 46 58	deux enfants
+T3	Type 51 58	enfants
+T4	Amount 46 50	deux
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Alcohol 63 71	consomme
+T6	StatusTime 63 71	consomme
+A1	StatusTime T6 current
+T7	Amount 72 91	entre 4 et 8 bières
+T8	Frequency 92 100	par soir
+R3	Status Arg1:T5 Arg2:T6	
+R4	Amount Arg1:T5 Arg2:T7	
+R5	Frequency Arg1:T5 Arg2:T8	
+T9	Tobacco 104 108	fume
+T10	StatusTime 104 108	fume
+A2	StatusTime T10 current
+R6	Status Arg1:T9 Arg2:T10	
+T11	Amount 109 137	un demi-paquet de cigarettes
+T12	Frequency 138 146	par jour
+T13	Duration 147 160	depuis 30 ans
+R8	Frequency Arg1:T9 Arg2:T12	
+R9	Duration Arg1:T9 Arg2:T13	
+T14	Type 112 137	demi-paquet de cigarettes
+R7	Amount Arg1:T9 Arg2:T11	
+R10	Type Arg1:T9 Arg2:T14	
+T15	Employment_Working 193 202	travaille
+T16	Job 203 252	dans l'assemblage électronique pour Harmony Music
+T17	Last_job 203 252	dans l'assemblage électronique pour Harmony Music

@@ -1,0 +1,12 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Living_WithOthers 40 57	vit avec son mari
+T3	MaritalStatus_InRelationship 49 57	son mari
+T4	Tobacco 75 79	fumé
+T5	StatusTime 64 74	n'a jamais
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	Alcohol 99 107	d'alcool
+T7	StatusTime 83 98	ne consomme pas
+A2	StatusTime T7 none
+R2	Status Arg1:T6 Arg2:T7	
+T8	PhysicalActivity_No 114 158	ne pratique pas d'exercice physique régulier

@@ -1,0 +1,15 @@
+T1	Tobacco 14 20	Fumeur
+T2	StatusTime 14 20	Fumeur
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Living_Alone 36 44	vit seul
+T4	Descendants_Yes 102 111	3 enfants
+T5	Type 104 111	enfants
+T6	Amount 102 103	3
+R2	Type Arg1:T4 Arg2:T5	
+R3	Amount Arg1:T4 Arg2:T6	
+T7	Housing_No 134 187	vit dans une caravane le temps de trouver un domicile
+T8	Alcohol 22 34	OHC avec CDA
+T9	StatusTime 22 34	OHC avec CDA
+A2	StatusTime T9 current
+R4	Status Arg1:T8 Arg2:T9	

@@ -1,0 +1,8 @@
+T1	Tobacco 37 42	tabac
+T2	Alcohol 44 52	d'alcool
+T3	Drug 59 81	drogues intraveineuses
+T4	StatusTime 14 33	Pas de consommation
+A1	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T4	
+R3	Status Arg1:T3 Arg2:T4	

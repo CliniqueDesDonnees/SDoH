@@ -1,0 +1,25 @@
+T1	Tobacco 25 29	fume
+T2	StatusTime 25 29	fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 38 47	2 paquets
+T4	Frequency 48 56	par jour
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Frequency Arg1:T1 Arg2:T4	
+T5	Duration 57 78	depuis plus de 40 ans
+R4	Duration Arg1:T1 Arg2:T5	
+T6	Alcohol 95 103	l'alcool
+T7	StatusTime 83 91	consomme
+A2	StatusTime T7 current
+R5	Status Arg1:T6 Arg2:T7	
+T9	Amount 138 164	5 à 6 boissons alcoolisées
+T10	Frequency 165 173	par mois
+R7	Amount Arg1:T6 Arg2:T9	
+R8	Frequency Arg1:T6 Arg2:T10	
+T8	Drug 204 211	drogues
+T11	StatusTime 178 200	nie toute consommation
+A3	StatusTime T11 none
+R6	Status Arg1:T8 Arg2:T11	
+T12	Employment_Pensioner 268 281	à la retraite
+T13	Last_job 230 267	propriétaire de magasin de spiritueux
+T14	Job 230 267	propriétaire de magasin de spiritueux

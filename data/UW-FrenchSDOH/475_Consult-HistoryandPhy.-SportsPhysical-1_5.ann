@@ -1,0 +1,10 @@
+T1	Drug 647 654	drogues
+T2	Alcohol 656 664	d'alcool
+T3	Tobacco 669 673	fume
+T4	StatusTime 666 677	ne fume pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	StatusTime 628 643	ne consomme pas
+A2	StatusTime T5 none
+R2	Status Arg1:T1 Arg2:T5	
+R3	Status Arg1:T2 Arg2:T5	

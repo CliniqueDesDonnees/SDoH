@@ -1,0 +1,12 @@
+T1	Last_job 14 24	Poissonier
+T2	Employment_Working 14 24	Poissonier
+T3	Employment_Working 26 35	travaille
+T4	Tobacco 52 58	fumait
+T5	StatusTime 65 71	arreté
+A1	StatusTime T5 past
+R3	Status Arg1:T4 Arg2:T5	
+T8	History 72 84	il y a 5 ans
+R4	History Arg1:T4 Arg2:T8	
+T9	Job 14 24	Poissonier
+T6	Amount 59 64	10 PA
+R1	Amount Arg1:T4 Arg2:T6	

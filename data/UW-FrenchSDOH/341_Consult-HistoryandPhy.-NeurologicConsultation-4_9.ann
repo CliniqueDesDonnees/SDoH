@@ -1,0 +1,8 @@
+T1	Tobacco 77 81	fume
+T2	StatusTime 74 85	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Housing_Yes 90 134	réside dans un immeuble pour personnes âgées
+T4	Employment_Other 240 253	en invalidité
+T5	Last_job 199 216	agent de sécurité
+T6	Job 199 216	agent de sécurité

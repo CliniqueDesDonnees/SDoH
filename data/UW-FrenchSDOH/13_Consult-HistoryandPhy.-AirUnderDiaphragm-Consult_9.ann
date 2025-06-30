@@ -1,0 +1,4 @@
+T1	Alcohol 47 55	d'alcool
+T2	StatusTime 14 39	Antécédents significatifs
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	

@@ -1,0 +1,18 @@
+T1	Descendants_Yes 13 22	3 Enfants
+T2	Type 15 22	Enfants
+T3	Amount 13 14	3
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Living_WithOthers 25 42	Vit avec son mari
+T5	MaritalStatus_InRelationship 29 42	avec son mari
+T6	Last_job 55 65	dramaturge
+T7	Alcohol 71 79	d'alcool
+T8	StatusTime 67 70	pas
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Tobacco 88 93	tabac
+T10	StatusTime 81 87	pas de
+A2	StatusTime T10 none
+R4	Status Arg1:T9 Arg2:T10	
+T11	Housing_Yes 94 116	vit dans un mobil home
+T12	Job 55 65	dramaturge

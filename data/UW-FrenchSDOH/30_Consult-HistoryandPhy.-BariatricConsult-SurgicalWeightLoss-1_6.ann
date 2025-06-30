@@ -1,0 +1,13 @@
+T1	MaritalStatus_Single 23 34	célibataire
+T2	Alcohol 53 61	l'alcool
+T3	StatusTime 41 49	consomme
+A1	StatusTime T3 current
+T4	Tobacco 92 96	fume
+T5	StatusTime 89 100	ne fume pas
+A2	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+R2	Status Arg1:T2 Arg2:T3	
+T6	Amount 62 70	une fois
+T7	Frequency 71 82	par semaine
+R3	Amount Arg1:T2 Arg2:T6	
+R4	Frequency Arg1:T2 Arg2:T7	

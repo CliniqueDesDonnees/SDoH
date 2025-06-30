@@ -1,0 +1,10 @@
+T1	Tobacco 33 37	fume
+T2	StatusTime 30 41	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 75 83	d'alcool
+T4	StatusTime 59 74	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Housing_Yes 90 124	réside dans une maison de retraite
+T6	Employment_Pensioner 113 124	de retraite

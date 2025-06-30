@@ -1,0 +1,8 @@
+T1	Tobacco 37 44	toxique
+T2	Alcohol 37 44	toxique
+T3	Drug 37 44	toxique
+T4	StatusTime 14 36	Pas de consommation de
+A1	StatusTime T4 none
+R1	Status Arg1:T2 Arg2:T4	
+R2	Status Arg1:T3 Arg2:T4	
+R3	Status Arg1:T1 Arg2:T4	

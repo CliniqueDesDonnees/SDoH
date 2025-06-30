@@ -1,0 +1,25 @@
+T1	MaritalStatus_InRelationship 18 31	avec sa femme
+T2	Living_WithOthers 14 31	vit avec sa femme
+T3	Housing_Yes 41 66	à domicile dans une villa
+T4	Descendants_Yes 79 87	2 filles
+T5	Type 81 87	filles
+T6	Type 106 110	fils
+T7	Amount 103 105	un
+T8	Amount 79 80	2
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T8	
+T9	Descendants_Yes 103 110	un fils
+R3	Type Arg1:T9 Arg2:T6	
+R4	Amount Arg1:T9 Arg2:T7	
+T10	Alcohol 136 142	Alcool
+T11	StatusTime 145 156	occasionnel
+A1	StatusTime T11 current
+R5	Status Arg1:T10 Arg2:T11	
+T12	Frequency 145 156	occasionnel
+R6	Frequency Arg1:T10 Arg2:T12	
+T13	Drug 223 229	drogue
+T14	StatusTime 200 219	pas de consommation
+A2	StatusTime T14 none
+R7	Status Arg1:T13 Arg2:T14	
+T15	Last_job 126 134	chimiste
+T16	Job 126 134	chimiste

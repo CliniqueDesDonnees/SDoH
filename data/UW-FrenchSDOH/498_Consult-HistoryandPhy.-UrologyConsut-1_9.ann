@@ -1,0 +1,15 @@
+T1	MaritalStatus_Divorced 14 21	Divorcé
+T2	Tobacco 45 49	Fume
+T3	StatusTime 45 49	Fume
+A1	StatusTime T3 current
+T4	Amount 50 63	1 à 2 paquets
+T5	Type 67 77	cigarettes
+T6	Frequency 78 86	par jour
+T7	Alcohol 102 110	l'alcool
+T8	StatusTime 90 98	consomme
+A2	StatusTime T8 current
+R1	Status Arg1:T7 Arg2:T8	
+R2	Status Arg1:T2 Arg2:T3	
+R3	Amount Arg1:T2 Arg2:T4	
+R4	Type Arg1:T2 Arg2:T5	
+R5	Frequency Arg1:T2 Arg2:T6	

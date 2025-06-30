@@ -1,0 +1,14 @@
+T1	Alcohol 14 17	CDA
+T4	Frequency 23 31	par jour
+T5	StatusTime 14 17	CDA
+A1	StatusTime T5 current
+R1	Status Arg1:T1 Arg2:T5	
+R4	Frequency Arg1:T1 Arg2:T4	
+T6	Drug 39 59	autres intoxications
+T7	StatusTime 33 39	pas d'
+A2	StatusTime T7 none
+R5	Status Arg1:T6 Arg2:T7	
+T8	Living_Alone 61 69	vit seul
+T9	Housing_No 79 82	SDF
+T2	Amount 18 22	10 g
+R2	Amount Arg1:T1 Arg2:T2	

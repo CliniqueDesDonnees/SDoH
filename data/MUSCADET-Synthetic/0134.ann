@@ -1,0 +1,20 @@
+T1	Living_Alone 25 33	vit seul
+T2	MaritalStatus_Widowed 34 38	veuf
+T3	History 39 55	depuis mars 2019
+R1	History Arg1:T2 Arg2:T3	
+T4	Last_job 64 71	routier
+T5	Tobacco 95 100	tabac
+T6	StatusTime 88 94	pas de
+A1	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 104 112	d'alcool
+R3	Status Arg1:T7 Arg2:T6	
+T8	Tobacco 114 123	tabagisme
+T9	StatusTime 124 129	sevré
+A2	StatusTime T9 past
+R4	Status Arg1:T8 Arg2:T9	
+T10	History 130 143	depuis 15 ans
+R5	History Arg1:T8 Arg2:T10	
+T13	Job 64 71	routier
+T11	Amount 153 158	40 PA
+R6	Amount Arg1:T8 Arg2:T11	

@@ -1,0 +1,21 @@
+T1	StatusTime 14 22	Consomme
+T2	Tobacco 25 35	cigarillos
+A1	StatusTime T1 current
+R1	Status Arg1:T2 Arg2:T1	
+T4	Type 25 35	cigarillos
+R2	Type Arg1:T2 Arg2:T4	
+T5	Frequency 36 44	par jour
+R4	Frequency Arg1:T2 Arg2:T5	
+T6	History 45 62	depuis ses 18 ans
+R5	History Arg1:T2 Arg2:T6	
+T7	Alcohol 75 83	l'alcool
+T8	StatusTime 64 74	n'aime pas
+A2	StatusTime T8 none
+R6	Status Arg1:T7 Arg2:T8	
+T9	Descendants_Yes 85 98	un petit fils
+T10	Type 88 98	petit fils
+T11	Amount 85 87	un
+R7	Type Arg1:T9 Arg2:T10	
+R8	Amount Arg1:T9 Arg2:T11	
+T3	Amount 23 35	4 cigarillos
+R3	Amount Arg1:T2 Arg2:T3	

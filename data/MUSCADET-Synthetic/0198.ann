@@ -1,0 +1,12 @@
+T1	Tobacco 19 23	fume
+T2	StatusTime 19 23	fume
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	History 24 41	depuis ses 20 ans
+T5	Type 45 63	cigarettes blondes
+T6	Frequency 64 72	par jour
+R2	History Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T5	
+R5	Frequency Arg1:T1 Arg2:T6	
+T4	Amount 42 63	17 cigarettes blondes
+R4	Amount Arg1:T1 Arg2:T4	

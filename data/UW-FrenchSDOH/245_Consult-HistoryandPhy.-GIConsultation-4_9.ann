@@ -1,0 +1,21 @@
+T1	MaritalStatus_InRelationship 33 38	marié
+T2	Tobacco 77 86	tabagisme
+T3	StatusTime 51 73	rapporte un antécédent
+A1	StatusTime T3 past
+R1	Status Arg1:T2 Arg2:T3	
+T4	Amount 98 107	un paquet
+T5	Frequency 108 116	par jour
+T6	Type 101 107	paquet
+R2	Type Arg1:T2 Arg2:T6	
+R3	Amount Arg1:T2 Arg2:T4	
+R4	Frequency Arg1:T2 Arg2:T5	
+T7	History 146 158	il y a un an
+R5	History Arg1:T2 Arg2:T7	
+T8	Alcohol 191 199	d'alcool
+T9	StatusTime 171 190	aucune consommation
+A2	StatusTime T9 none
+R6	Status Arg1:T8 Arg2:T9	
+T10	Drug 231 238	drogues
+T11	StatusTime 204 230	déclare ne pas utiliser de
+A3	StatusTime T11 none
+R7	Status Arg1:T10 Arg2:T11	

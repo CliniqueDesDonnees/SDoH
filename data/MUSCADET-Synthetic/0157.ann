@@ -1,0 +1,34 @@
+T1	Employment_Student 14 20	En BTS
+T2	StatusTime 53 61	consomme
+A1	StatusTime T2 current
+T3	Drug 69 76	cocaine
+T4	Type 69 76	cocaine
+T5	Amount 62 65	1 g
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+R3	Status Arg1:T3 Arg2:T2	
+T6	Frequency 77 82	le WE
+R4	Frequency Arg1:T3 Arg2:T6	
+T7	Type 101 118	protoxyde d'azote
+T8	Amount 86 97	2 bonbonnes
+T9	Drug 101 118	protoxyde d'azote
+R5	Status Arg1:T9 Arg2:T2	
+R6	Type Arg1:T9 Arg2:T7	
+R7	Amount Arg1:T9 Arg2:T8	
+T10	Frequency 119 124	le WE
+R8	Frequency Arg1:T9 Arg2:T10	
+T11	Tobacco 126 135	1 paquets
+T12	Frequency 136 144	par jour
+T14	Type 128 135	paquets
+T15	StatusTime 126 144	1 paquets par jour
+A2	StatusTime T15 current
+R9	Status Arg1:T11 Arg2:T15	
+R10	Type Arg1:T11 Arg2:T14	
+R12	Frequency Arg1:T11 Arg2:T12	
+T16	Alcohol 150 158	d'alcool
+T17	StatusTime 146 149	pas
+A3	StatusTime T17 none
+R13	Status Arg1:T16 Arg2:T17	
+T18	PhysicalActivity_Yes 169 189	pratique le football
+T13	Amount 126 135	1 paquets
+R11	Amount Arg1:T11 Arg2:T13	

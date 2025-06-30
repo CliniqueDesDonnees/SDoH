@@ -1,0 +1,12 @@
+T1	Drug 14 25	Toxicomanie
+T2	StatusTime 29 34	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Drug 49 57	cannabis
+T4	StatusTime 36 48	poursuite du
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	
+T5	Type 49 57	cannabis
+R3	Type Arg1:T3 Arg2:T5	
+T6	Housing_Yes 59 69	vit en HLM
+T7	Income 81 84	RSA

@@ -1,0 +1,9 @@
+T1	StatusTime 17 30	nie consommer
+A1	StatusTime T1 none
+T2	Tobacco 34 39	tabac
+T3	Alcohol 46 54	l'alcool
+R1	Status Arg1:T2 Arg2:T1	
+R2	Status Arg1:T3 Arg2:T1	
+T4	Job 75 117	emploi de saisie de données sur ordinateur
+T5	Last_job 75 117	emploi de saisie de données sur ordinateur
+T6	Employment_Working 59 81	semble avoir un emploi

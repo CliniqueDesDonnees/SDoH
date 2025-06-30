@@ -1,0 +1,6 @@
+T1	Alcohol 31 39	l'alcool
+T2	Frequency 43 64	manière occasionnelle
+T3	StatusTime 19 27	consomme
+A1	StatusTime T3 current
+R1	Status Arg1:T1 Arg2:T3	
+R2	Frequency Arg1:T1 Arg2:T2	

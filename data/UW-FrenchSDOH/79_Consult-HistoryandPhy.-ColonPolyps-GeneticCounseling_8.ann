@@ -1,0 +1,14 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Job 190 206	comptable agréée
+T3	Last_job 190 206	comptable agréée
+T4	Employment_Working 186 206	est comptable agréée
+T5	Tobacco 216 220	fume
+T6	StatusTime 213 224	ne fume pas
+A1	StatusTime T6 none
+R1	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 243 251	l'alcool
+T8	Frequency 263 276	occasionnelle
+T9	StatusTime 231 239	consomme
+A2	StatusTime T9 current
+R2	Status Arg1:T7 Arg2:T9	
+R3	Frequency Arg1:T7 Arg2:T8	

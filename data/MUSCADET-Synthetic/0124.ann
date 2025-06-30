@@ -1,0 +1,11 @@
+T1	Descendants_Yes 14 23	3 enfants
+T2	Type 16 23	enfants
+T3	Amount 14 15	3
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Living_WithOthers 26 43	Vit avec sa femme
+T5	MaritalStatus_InRelationship 30 43	avec sa femme
+T6	Housing_Yes 26 59	Vit avec sa femme dans une maison
+T7	Last_job 82 91	garagiste
+T8	PhysicalActivity_Yes 93 105	fait du vélo
+T9	Job 82 91	garagiste

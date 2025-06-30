@@ -1,0 +1,14 @@
+T1	Last_job 14 34	surveillant scolaire
+T2	StatusTime 42 50	consomme
+A1	StatusTime T2 current
+T3	Drug 57 63	drogue
+R1	Status Arg1:T3 Arg2:T2	
+T4	Employment_Working 14 34	surveillant scolaire
+T5	Tobacco 64 73	tabagisme
+T6	StatusTime 74 79	actif
+A2	StatusTime T6 current
+R2	Status Arg1:T5 Arg2:T6	
+T7	Education 89 105	Niveau de master
+T10	Job 14 34	surveillant scolaire
+T8	Amount 82 87	37 PA
+R3	Amount Arg1:T5 Arg2:T8	

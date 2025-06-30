@@ -1,0 +1,11 @@
+T1	Descendants_Yes 14 23	2 enfants
+T2	Type 16 23	enfants
+T3	Amount 14 15	2
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Descendants_Yes 25 41	6 petits enfants
+T5	Type 27 41	petits enfants
+T6	Amount 25 26	6
+R3	Type Arg1:T4 Arg2:T5	
+R4	Amount Arg1:T4 Arg2:T6	
+T7	PhysicalActivity_No 63 84	Ne fait plus de sport

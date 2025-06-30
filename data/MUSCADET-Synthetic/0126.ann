@@ -1,0 +1,8 @@
+T1	Alcohol 14 20	Alcool
+T2	StatusTime 23 35	Risque élevé
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Tobacco 41 46	Tabac
+T4	StatusTime 49 61	Risque élevé
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	

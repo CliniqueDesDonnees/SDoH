@@ -1,0 +1,10 @@
+T1	Tobacco 49 54	fumer
+T2	StatusTime 25 45	indique avoir arrêté
+A1	StatusTime T2 past
+T3	History 55 68	il y a 20 ans
+R1	Status Arg1:T1 Arg2:T2	
+R2	History Arg1:T1 Arg2:T3	
+T4	Alcohol 88 96	d'alcool
+T5	StatusTime 72 87	ne consomme pas
+A2	StatusTime T5 none
+R3	Status Arg1:T4 Arg2:T5	

@@ -1,0 +1,21 @@
+T1	MaritalStatus_InRelationship 29 34	Marié
+T2	Tobacco 38 47	Tabagisme
+T3	StatusTime 50 56	A fumé
+A1	StatusTime T3 past
+R1	Status Arg1:T2 Arg2:T3	
+T4	Amount 57 65	1 paquet
+T5	Frequency 66 74	par jour
+T6	Duration 115 129	pendant 30 ans
+T7	History 84 97	il y a 12 ans
+R2	Amount Arg1:T2 Arg2:T4	
+R3	Frequency Arg1:T2 Arg2:T5	
+R4	History Arg1:T2 Arg2:T7	
+R5	Duration Arg1:T2 Arg2:T6	
+T8	Alcohol 169 177	l'alcool
+T9	StatusTime 157 165	Consomme
+A2	StatusTime T9 current
+R6	Status Arg1:T8 Arg2:T9	
+T10	Drug 248 255	drogues
+T11	StatusTime 219 244	Nie toute histoire d'abus
+A3	StatusTime T11 none
+R7	Status Arg1:T10 Arg2:T11	

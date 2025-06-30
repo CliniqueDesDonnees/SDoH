@@ -1,0 +1,13 @@
+T1	Drug 35 43	cannabis
+T2	StatusTime 14 31	Gros consommateur
+A1	StatusTime T2 current
+T3	Type 35 43	cannabis
+R1	Type Arg1:T1 Arg2:T3	
+R2	Status Arg1:T1 Arg2:T2	
+T4	StatusTime 72 78	pas de
+A2	StatusTime T4 none
+T5	Tobacco 79 84	tabac
+T6	Alcohol 88 96	d'alcool
+R3	Status Arg1:T5 Arg2:T4	
+R4	Status Arg1:T6 Arg2:T4	
+T7	Employment_Student 98 106	Etudiant

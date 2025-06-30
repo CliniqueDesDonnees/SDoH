@@ -1,0 +1,6 @@
+T1	Alcohol 66 74	l'alcool
+T2	Tobacco 103 108	tabac
+T3	StatusTime 25 38	nie consommer
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	

@@ -1,0 +1,36 @@
+T1	Living_WithOthers 23 53	Vit avec une famille d'accueil
+T2	Education 14 21	Bac pro
+T3	Alcohol 55 76	Consommation d'alcool
+T4	Amount 99 106	3 litre
+T5	Type 110 115	bière
+T6	Frequency 116 127	par semaine
+T7	StatusTime 55 76	Consommation d'alcool
+A1	StatusTime T7 current
+R1	Status Arg1:T3 Arg2:T7	
+R2	Amount Arg1:T3 Arg2:T4	
+R3	Type Arg1:T3 Arg2:T5	
+R4	Frequency Arg1:T3 Arg2:T6	
+T8	Tobacco 129 138	Tabagisme
+T9	StatusTime 139 144	actif
+A2	StatusTime T9 current
+R5	Status Arg1:T8 Arg2:T9	
+T10	Drug 231 240	d'héroine
+T11	StatusTime 218 230	consommation
+A3	StatusTime T11 current
+R6	Status Arg1:T10 Arg2:T11	
+T12	Type 150 160	cigarettes
+T13	Frequency 161 169	par jour
+R8	Type Arg1:T8 Arg2:T12	
+R9	Frequency Arg1:T8 Arg2:T13	
+T15	Type 176 182	joints
+T17	Frequency 182 190	/semaine
+T18	Drug 173 182	10 joints
+T19	StatusTime 173 190	10 joints/semaine
+R10	Status Arg1:T18 Arg2:T19
+A3	StatusTime T19 current	
+R11	Type Arg1:T18 Arg2:T15	
+R13	Frequency Arg1:T18 Arg2:T17	
+T16	Amount 173 182	10 joints
+R12	Amount Arg1:T18 Arg2:T16	
+T14	Amount 147 160	10 cigarettes
+R7	Amount Arg1:T8 Arg2:T14	

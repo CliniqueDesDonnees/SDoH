@@ -1,0 +1,15 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	Tobacco 39 43	fume
+T3	Amount 109 118	un paquet
+T4	Frequency 119 135	tous les 6 jours
+T5	StatusTime 39 43	fume
+A1	StatusTime T5 current
+R1	Status Arg1:T2 Arg2:T5	
+R2	Amount Arg1:T2 Arg2:T3	
+R3	Frequency Arg1:T2 Arg2:T4	
+T6	Alcohol 156 164	d'alcool
+T7	Drug 171 190	drogues récréatives
+T8	StatusTime 140 155	ne consomme pas
+A2	StatusTime T8 none
+R4	Status Arg1:T6 Arg2:T8	
+R5	Status Arg1:T7 Arg2:T8	

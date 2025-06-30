@@ -1,0 +1,15 @@
+T1	Alcohol 14 21	alcoolo
+T2	Tobacco 22 31	tabagique
+T3	StatusTime 14 31	alcoolo-tabagique
+A1	StatusTime T3 current
+R1	Status Arg1:T2 Arg2:T3	
+R2	Status Arg1:T1 Arg2:T3	
+T4	Employment_Other 33 46	en invalidité
+T5	Last_job 85 97	chaudronnier
+T6	Living_Alone 120 128	vit seul
+T7	Descendants_Yes 148 156	son fils
+T8	Type 152 156	fils
+T9	Amount 148 151	son
+R3	Type Arg1:T7 Arg2:T8	
+R4	Amount Arg1:T7 Arg2:T9	
+T10	Job 85 97	chaudronnier

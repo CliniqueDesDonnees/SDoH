@@ -1,0 +1,19 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Living_WithOthers 40 79	vit avec son mari et leurs deux enfants
+T3	MaritalStatus_InRelationship 44 57	avec son mari
+T4	Descendants_Yes 67 79	deux enfants
+T5	Amount 67 71	deux
+T6	Type 72 79	enfants
+R1	Amount Arg1:T4 Arg2:T5	
+R2	Type Arg1:T4 Arg2:T6	
+T7	Employment_Working 86 95	travaille
+T8	Job 96 121	dans un bureau d'affaires
+T9	Last_job 96 121	dans un bureau d'affaires
+T10	StatusTime 128 150	nie toute consommation
+A1	StatusTime T10 none
+T11	Tobacco 154 159	tabac
+T12	Alcohol 161 169	d'alcool
+T13	Drug 176 183	drogues
+R3	Status Arg1:T11 Arg2:T10	
+R4	Status Arg1:T12 Arg2:T10	
+R5	Status Arg1:T13 Arg2:T10	

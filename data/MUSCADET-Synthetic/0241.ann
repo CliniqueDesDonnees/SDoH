@@ -1,0 +1,13 @@
+T1	Last_job 14 20	Docker
+T2	Employment_Other 21 34	en invalidité
+T3	Tobacco 36 42	fumait
+T4	Type 47 54	Gitanes
+T5	StatusTime 36 42	fumait
+A1	StatusTime T5 past
+R1	Status Arg1:T3 Arg2:T5	
+R2	Type Arg1:T3 Arg2:T4	
+T6	MaritalStatus_Divorced 114 121	Divorcé
+T7	Descendants_Yes 100 112	petite fille
+T8	Type 100 112	petite fille
+R3	Type Arg1:T7 Arg2:T8	
+T9	Job 14 20	Docker

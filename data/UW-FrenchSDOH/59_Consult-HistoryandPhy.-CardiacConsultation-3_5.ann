@@ -1,0 +1,12 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	Descendants_Yes 44 53	un enfant
+T3	Type 47 53	enfant
+T4	Amount 44 46	un
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Tobacco 129 134	fumer
+T6	StatusTime 117 125	a arrêté
+A1	StatusTime T6 past
+T7	History 135 147	il y a 6 ans
+R3	Status Arg1:T5 Arg2:T6	
+R4	History Arg1:T5 Arg2:T7	

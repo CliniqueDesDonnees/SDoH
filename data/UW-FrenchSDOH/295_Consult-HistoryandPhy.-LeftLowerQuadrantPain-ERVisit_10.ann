@@ -1,0 +1,42 @@
+T1	Tobacco 47 52	tabac
+T2	Alcohol 56 64	d'alcool
+T3	StatusTime 26 43	nie l'utilisation
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	
+T4	Type 93 102	marijuana
+T5	Type 145 152	cocaïne
+T6	StatusTime 71 86	admet consommer
+A2	StatusTime T6 current
+T7	Drug 93 102	marijuana
+R3	Type Arg1:T7 Arg2:T4	
+R4	Status Arg1:T7 Arg2:T6	
+T8	StatusTime 112 141	un antécédent de consommation
+A3	StatusTime T8 past
+T9	Drug 145 152	cocaïne
+T10	History 153 168	il y a cinq ans
+R5	History Arg1:T9 Arg2:T10	
+R6	Type Arg1:T9 Arg2:T5	
+R7	Status Arg1:T9 Arg2:T8	
+T11	Drug 285 292	drogues
+T12	StatusTime 251 275	tests urinaires positifs
+A4	StatusTime T12 past
+R8	Status Arg1:T11 Arg2:T12	
+T13	History 319 331	février 2008
+R9	History Arg1:T11 Arg2:T13	
+T14	Type 367 382	benzodiazépines
+T15	Type 388 401	barbituriques
+T16	Type 407 414	opiacés
+T17	Type 421 430	marijuana
+R10	Type Arg1:T11 Arg2:T14	
+R11	Type Arg1:T11 Arg2:T15	
+R12	Type Arg1:T11 Arg2:T16	
+R13	Type Arg1:T11 Arg2:T17	
+T18	History 454 461	en 2005
+T19	Drug 478 485	cocaïne
+T20	StatusTime 486 510	a également été détectée
+A5	StatusTime T20 past
+R14	Status Arg1:T19 Arg2:T20	
+R15	History Arg1:T19 Arg2:T18	
+T21	Type 478 485	cocaïne
+R16	Type Arg1:T19 Arg2:T21	

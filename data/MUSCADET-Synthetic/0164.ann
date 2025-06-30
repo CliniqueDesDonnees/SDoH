@@ -1,0 +1,15 @@
+T1	Last_job 14 35	Professeur des écoles
+T2	Employment_Working 14 35	Professeur des écoles
+T3	MaritalStatus_InRelationship 37 43	mariée
+T4	Living_WithOthers 45 62	vit avec son mari
+T5	MaritalStatus_InRelationship 49 62	avec son mari
+T6	Housing_Yes 63 78	dans une maison
+T7	Tobacco 120 125	tabac
+T8	StatusTime 126 129	= 0
+A1	StatusTime T8 none
+R1	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 131 133	OH
+T10	StatusTime 134 137	= 0
+A2	StatusTime T10 none
+R2	Status Arg1:T9 Arg2:T10	
+T11	Job 14 35	Professeur des écoles

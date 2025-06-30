@@ -1,0 +1,10 @@
+T1	Housing_Yes 59 82	vit dans un appartement
+T2	Living_WithOthers 14 41	Dort chez ses parents le WE
+T3	Employment_Student 112 132	étudiant en médecine
+T4	Alcohol 184 192	d'alcool
+T5	StatusTime 171 183	Consommation
+A1	StatusTime T5 current
+T6	Frequency 193 213	uniquement en soirée
+R1	Status Arg1:T4 Arg2:T5	
+R2	Frequency Arg1:T4 Arg2:T6	
+T7	PhysicalActivity_Yes 223 230	footing

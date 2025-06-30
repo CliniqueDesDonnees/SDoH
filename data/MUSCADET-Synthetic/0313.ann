@@ -1,0 +1,15 @@
+T1	Ethnicity 50 59	Groënland
+T2	Employment_Working 14 25	Journaliste
+T3	Last_job 14 25	Journaliste
+T4	PhysicalActivity_No 61 70	Peu actif
+T5	Tobacco 72 76	fume
+T6	Type 80 84	pipe
+T7	StatusTime 72 76	fume
+A1	StatusTime T7 current
+R1	Status Arg1:T5 Arg2:T7	
+R2	Type Arg1:T5 Arg2:T6	
+T8	Alcohol 102 110	d'alcool
+T9	StatusTime 86 101	ne consomme pas
+A2	StatusTime T9 none
+R3	Status Arg1:T8 Arg2:T9	
+T10	Job 14 25	Journaliste

@@ -1,0 +1,12 @@
+T1	Tobacco 14 23	tabagisme
+T2	StatusTime 24 29	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T5	Duration 55 69	pendant 10 ans
+R4	Duration Arg1:T1 Arg2:T5	
+T3	Amount 39 44	13 PA
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Amount 46 52	13 cig
+T6	Frequency 52 54	/J
+R3	Amount Arg1:T1 Arg2:T4	
+R5	Frequency Arg1:T1 Arg2:T6	

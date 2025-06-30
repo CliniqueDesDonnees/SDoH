@@ -1,0 +1,13 @@
+T1	Employment_Working 25 36	est employé
+T2	Job 48 83	officier des Marines des États-Unis
+T3	Last_job 48 83	officier des Marines des États-Unis
+T4	Alcohol 142 150	l'alcool
+T5	StatusTime 128 138	consommait
+A1	StatusTime T5 past
+R1	Status Arg1:T4 Arg2:T5	
+T6	Tobacco 265 270	tabac
+T7	Drug 277 284	drogues
+T8	StatusTime 231 261	n'a jamais utilisé de produits
+A2	StatusTime T8 none
+R2	Status Arg1:T6 Arg2:T8	
+R3	Status Arg1:T7 Arg2:T8	

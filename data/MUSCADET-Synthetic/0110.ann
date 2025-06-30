@@ -1,0 +1,36 @@
+T1	Living_WithOthers 14 27	vit en couple
+T2	MaritalStatus_InRelationship 18 27	en couple
+T3	Last_job 29 39	charcutier
+T4	Employment_Working 29 39	charcutier
+T5	Descendants_Yes 50 59	3 enfants
+T6	Type 52 59	enfants
+T7	Amount 50 51	3
+R1	Type Arg1:T5 Arg2:T6	
+R2	Amount Arg1:T5 Arg2:T7	
+T8	StatusTime 87 93	Actuel
+A1	StatusTime T8 current
+T9	Tobacco 96 118	12 cigarettes par jour
+T10	Type 99 109	cigarettes
+T12	Frequency 110 118	par jour
+R3	Status Arg1:T9 Arg2:T8	
+R6	Frequency Arg1:T9 Arg2:T12	
+T13	Alcohol 128 138	Alcoolisme
+T15	Frequency 160 168	par jour
+R8	Frequency Arg1:T13 Arg2:T15	
+T16	StatusTime 183 189	sevrée
+A2	StatusTime T16 past
+T17	History 190 203	depuis 10 ans
+R9	Status Arg1:T13 Arg2:T16	
+R10	History Arg1:T13 Arg2:T17	
+T18	Drug 222 228	drogue
+T19	StatusTime 205 221	ne prends pas de
+A3	StatusTime T19 none
+R11	Status Arg1:T18 Arg2:T19	
+T20	Job 29 39	charcutier
+T14	Amount 141 150	bouteille
+T21	Type 154 159	vodka
+R7	Amount Arg1:T13 Arg2:T14	
+R12	Type Arg1:T13 Arg2:T21	
+R4	Type Arg1:T9 Arg2:T10	
+T11	Amount 96 109	12 cigarettes
+R5	Amount Arg1:T9 Arg2:T11	

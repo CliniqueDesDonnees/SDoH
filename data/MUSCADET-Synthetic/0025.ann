@@ -1,0 +1,11 @@
+T1	Housing_Yes 17 40	vit dans un appartement
+T2	Living_WithOthers 17 56	vit dans un appartement avec son épouse
+T3	MaritalStatus_InRelationship 46 56	son épouse
+T4	Descendants_Yes 64 75	deux filles
+T5	Type 69 75	filles
+T6	Amount 64 68	deux
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Employment_Working 80 89	travaille
+T8	Last_job 101 121	inspecteur de police
+T9	Job 101 121	inspecteur de police

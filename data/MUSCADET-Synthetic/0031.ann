@@ -1,0 +1,16 @@
+T1	Housing_Yes 14 30	Réside à l'EHPAD
+T2	Tobacco 36 40	fume
+T3	StatusTime 33 44	ne fume pas
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	Alcohol 49 53	boit
+T5	StatusTime 46 57	ne boit pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	
+T6	Drug 65 71	drogue
+T7	StatusTime 59 75	ne se drogue pas
+A3	StatusTime T7 none
+R3	Status Arg1:T6 Arg2:T7	
+T8	Last_job 80 88	douanier
+T9	Education 96 109	license STAPS
+T10	Job 80 88	douanier

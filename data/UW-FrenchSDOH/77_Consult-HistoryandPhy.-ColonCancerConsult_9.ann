@@ -1,0 +1,25 @@
+T1	Tobacco 30 40	cigarettes
+T2	StatusTime 19 25	a fumé
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 85 94	Un paquet
+T4	Frequency 127 138	une semaine
+T5	Type 98 108	cigarettes
+R2	Type Arg1:T1 Arg2:T5	
+R3	Amount Arg1:T1 Arg2:T3	
+R4	Frequency Arg1:T1 Arg2:T4	
+T6	Alcohol 201 204	vin
+T7	StatusTime 177 185	consomme
+A2	StatusTime T7 current
+T8	Amount 186 197	deux verres
+T9	Type 201 204	vin
+T10	Frequency 205 213	par jour
+R5	Type Arg1:T6 Arg2:T9	
+R6	Frequency Arg1:T6 Arg2:T10	
+R7	Amount Arg1:T6 Arg2:T8	
+R8	Status Arg1:T6 Arg2:T7	
+T11	MaritalStatus_InRelationship 260 266	mariée
+T12	Descendants_No 274 287	pas d'enfants
+T13	Employment_Working 328 337	travaille
+T14	Job 344 357	esthéticienne
+T15	Last_job 344 357	esthéticienne

@@ -1,0 +1,14 @@
+T1	Tobacco 87 92	tabac
+T2	StatusTime 80 86	Pas de
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 99 105	alcool
+T4	StatusTime 93 99	pas d'
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Employment_Working 61 78	Ouvrière en usine
+T6	Last_job 61 78	Ouvrière en usine
+T7	MaritalStatus_Single 42 58	Pas de compagnon
+T8	Living_WithOthers 14 30	Vit avec sa mère
+T9	Housing_Yes 31 40	en maison
+T10	Job 61 78	Ouvrière en usine

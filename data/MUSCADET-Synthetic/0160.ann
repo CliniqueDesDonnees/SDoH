@@ -1,0 +1,12 @@
+T1	Ethnicity 14 30	Immigré du Zaïre
+T2	Tobacco 51 56	tabac
+T3	Alcohol 60 68	d'alcool
+T4	StatusTime 32 47	ne consomme pas
+A1	StatusTime T4 none
+R1	Status Arg1:T2 Arg2:T4	
+R2	Status Arg1:T3 Arg2:T4	
+T6	Descendants_Yes 87 95	1 enfant
+T7	Type 89 95	enfant
+T8	Amount 87 88	1
+R3	Type Arg1:T6 Arg2:T7	
+R4	Amount Arg1:T6 Arg2:T8	

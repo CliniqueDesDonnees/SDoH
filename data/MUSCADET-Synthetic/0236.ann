@@ -1,0 +1,12 @@
+T1	Last_job 14 22	Policier
+T2	Employment_Working 14 22	Policier
+T3	Tobacco 24 28	fume
+T4	Type 32 36	pipe
+T5	StatusTime 24 28	fume
+A1	StatusTime T5 current
+R1	Status Arg1:T3 Arg2:T5	
+R2	Type Arg1:T3 Arg2:T4	
+T6	Living_WithOthers 63 80	vit avec sa femme
+T7	MaritalStatus_InRelationship 67 80	avec sa femme
+T8	Housing_Yes 81 101	sdans un appartement
+T9	Job 14 22	Policier

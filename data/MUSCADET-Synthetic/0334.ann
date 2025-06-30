@@ -1,0 +1,14 @@
+T1	StatusTime 14 22	Consomme
+A1	StatusTime T1 current
+T2	Alcohol 36 39	vin
+T5	Frequency 40 54	tous les soirs
+R1	Frequency Arg1:T2 Arg2:T5	
+R4	Status Arg1:T2 Arg2:T1	
+T6	Tobacco 71 80	Tabagisme
+T7	StatusTime 81 86	sevré
+A2	StatusTime T7 past
+R5	Status Arg1:T6 Arg2:T7	
+T4	Amount 23 32	4 ballons
+T3	Type 36 39	vin
+R2	Amount Arg1:T2 Arg2:T4	
+R3	Type Arg1:T2 Arg2:T3	

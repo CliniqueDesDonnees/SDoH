@@ -1,0 +1,10 @@
+T1	Alcohol 14 17	CDA
+T2	StatusTime 14 17	CDA
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T4	Type 20 26	bières
+T5	Frequency 27 35	par jour
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T3	Amount 18 26	3 bières
+R2	Amount Arg1:T1 Arg2:T3	

@@ -1,0 +1,18 @@
+T1	Last_job 14 35	Responsable marketing
+T2	Employment_Working 14 35	Responsable marketing
+T3	PhysicalActivity_Yes 45 49	foot
+T4	Frequency 50 70	une fois par semaine
+R1	Frequency Arg1:T3 Arg2:T4	
+T5	Tobacco 78 82	fume
+T6	Alcohol 94 98	boit
+T7	StatusTime 91 102	ne boit pas
+A1	StatusTime T7 none
+R2	Status Arg1:T6 Arg2:T7	
+T8	StatusTime 75 86	ne fume pas
+A2	StatusTime T8 none
+R3	Status Arg1:T5 Arg2:T8	
+T9	Living_Alone 104 112	Vit seul
+T10	MaritalStatus_Single 114 125	célibataire
+T11	Descendants_No 127 138	sans enfant
+T12	Housing_Yes 140 154	loue un duplex
+T13	Job 14 35	Responsable marketing

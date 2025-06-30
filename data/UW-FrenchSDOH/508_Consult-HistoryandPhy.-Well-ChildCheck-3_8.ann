@@ -1,0 +1,6 @@
+T1	Living_WithOthers 25 52	vit à domicile avec sa mère
+T2	Housing_Yes 29 39	à domicile
+T3	Tobacco 304 313	tabagisme
+T4	StatusTime 297 303	pas de
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	

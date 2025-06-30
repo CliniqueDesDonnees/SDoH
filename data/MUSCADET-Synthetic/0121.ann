@@ -1,0 +1,31 @@
+T1	Last_job 23 32	plaquiste
+T2	Living_Alone 34 42	Vit seul
+T3	MaritalStatus_Widowed 53 57	veuf
+T4	Descendants_Yes 59 66	1 fille
+T5	Descendants_Yes 70 90	trois petits enfants
+T6	Type 76 90	petits enfants
+T7	Type 61 66	fille
+T8	Amount 59 60	1
+T9	Amount 70 75	trois
+R1	Type Arg1:T5 Arg2:T6	
+R2	Amount Arg1:T5 Arg2:T9	
+R3	Type Arg1:T4 Arg2:T7	
+R4	Amount Arg1:T4 Arg2:T8	
+T10	PhysicalActivity_Yes 93 105	fait du vélo
+T11	Tobacco 106 111	Tabac
+T14	StatusTime 118 123	sevré
+A1	StatusTime T14 past
+T15	History 124 137	depuis 30 ans
+R7	Status Arg1:T11 Arg2:T14	
+R8	History Arg1:T11 Arg2:T15	
+T16	Alcohol 143 155	d'alcoolisme
+T17	StatusTime 139 142	Pas
+A2	StatusTime T17 none
+T18	Drug 174 180	drogue
+T19	StatusTime 167 173	Pas de
+A3	StatusTime T19 none
+R9	Status Arg1:T18 Arg2:T19	
+R10	Status Arg1:T16 Arg2:T17	
+T20	Job 23 32	plaquiste
+T12	Amount 112 117	20 PA
+R5	Amount Arg1:T11 Arg2:T12	

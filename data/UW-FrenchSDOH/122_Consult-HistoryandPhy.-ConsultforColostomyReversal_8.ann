@@ -1,0 +1,22 @@
+T1	Tobacco 49 53	fume
+T2	Amount 54 77	un paquet de cigarettes
+T3	Type 67 77	cigarettes
+T4	Frequency 78 86	par jour
+T5	Duration 94 107	depuis 15 ans
+T6	StatusTime 49 53	fume
+A1	StatusTime T6 current
+R1	Status Arg1:T1 Arg2:T6	
+R2	Amount Arg1:T1 Arg2:T2	
+R3	Type Arg1:T1 Arg2:T3	
+R4	Frequency Arg1:T1 Arg2:T4	
+R5	Duration Arg1:T1 Arg2:T5	
+T7	Drug 137 144	drogues
+T8	StatusTime 112 136	nie toute utilisation de
+A2	StatusTime T8 none
+R6	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 183 191	l'alcool
+T10	StatusTime 171 179	consomme
+A3	StatusTime T10 current
+T11	Frequency 192 209	occasionnellement
+R7	Status Arg1:T9 Arg2:T10	
+R8	Frequency Arg1:T9 Arg2:T11	

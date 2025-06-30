@@ -1,0 +1,11 @@
+T1	Housing_No 14 47	Vit dans une location saisonnière
+T2	Tobacco 52 56	fume
+T3	StatusTime 49 60	ne fume pas
+R1	Status Arg1:T2 Arg2:T3	
+T4	Alcohol 67 71	boit
+T5	StatusTime 61 66	ni ne
+A1	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	
+T6	Income 134 137	AME
+A2	StatusTime T3 none
+

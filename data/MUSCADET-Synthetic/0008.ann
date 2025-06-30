@@ -1,0 +1,21 @@
+T1	MaritalStatus_InRelationship 14 23	en couple
+T2	Employment_Working 39 49	Agent SNCF
+T3	Last_job 39 49	Agent SNCF
+T4	Tobacco 70 79	tabagique
+T5	StatusTime 51 69	Pas de consomation
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	Alcohol 81 87	Alcool
+T7	Frequency 88 104	très occasionnel
+T8	StatusTime 88 104	très occasionnel
+A2	StatusTime T8 current
+R3	Frequency Arg1:T6 Arg2:T7	
+R2	Status Arg1:T6 Arg2:T8	
+T9	Drug 106 113	Cocaïne
+T10	StatusTime 114 121	festive
+A3	StatusTime T10 current
+R4	Status Arg1:T9 Arg2:T10	
+T11	Descendants_No 123 135	Pas d'enfant
+T12	Housing_Yes 137 156	vit dans une maison
+T13	Education 175 178	BTS
+T14	Job 39 49	Agent SNCF

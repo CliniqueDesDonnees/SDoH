@@ -1,0 +1,24 @@
+T1	Living_Alone 25 33	vit seul
+T2	Employment_Working 38 47	travaille
+T3	Job 62 90	dans les ressources humaines
+T4	Last_job 62 90	dans les ressources humaines
+T5	Alcohol 125 135	alcoolique
+T6	StatusTime 119 124	a été
+A1	StatusTime T6 past
+T7	History 164 171	en 1984
+R1	Status Arg1:T5 Arg2:T6	
+R2	History Arg1:T5 Arg2:T7	
+T8	Tobacco 197 202	fumer
+T9	StatusTime 176 193	a également cessé
+A2	StatusTime T9 past
+R3	Status Arg1:T8 Arg2:T9	
+T10	Duration 233 239	16 ans
+T11	Type 207 217	cigarettes
+R4	Type Arg1:T8 Arg2:T11	
+R5	Duration Arg1:T8 Arg2:T10	
+T12	History 218 225	en 1984
+R6	History Arg1:T8 Arg2:T12	
+T13	Drug 292 299	drogues
+T14	StatusTime 257 288	a un historique de consommation
+A3	StatusTime T14 past
+R7	Status Arg1:T13 Arg2:T14	

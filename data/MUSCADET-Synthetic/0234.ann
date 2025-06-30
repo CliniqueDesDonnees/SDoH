@@ -1,0 +1,11 @@
+T1	Last_job 14 21	Gantier
+T2	Employment_Working 14 33	Gantier en activité
+T3	Tobacco 38 42	fume
+T4	StatusTime 35 46	ne fume pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	Alcohol 51 55	boit
+T6	StatusTime 48 59	ne boit pas
+A2	StatusTime T6 past
+R2	Status Arg1:T5 Arg2:T6	
+T7	Job 14 21	Gantier

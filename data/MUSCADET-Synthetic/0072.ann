@@ -1,0 +1,18 @@
+T1	Employment_Working 14 23	travaille
+T2	Descendants_Yes 25 37	Deux enfants
+T3	Type 30 37	enfants
+T4	Amount 25 29	Deux
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Tobacco 61 66	tabac
+T6	StatusTime 54 60	Pas de
+A1	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 71 79	d'alcool
+T8	StatusTime 67 70	pas
+A2	StatusTime T8 none
+R4	Status Arg1:T7 Arg2:T8	
+T9	Drug 84 91	toxique
+T10	StatusTime 80 83	pas
+A3	StatusTime T10 none
+R5	Status Arg1:T9 Arg2:T10	

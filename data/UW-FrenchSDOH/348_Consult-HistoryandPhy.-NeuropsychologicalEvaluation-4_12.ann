@@ -1,0 +1,17 @@
+T3	Education 638 677	Bachelor of Science en soins infirmiers
+T4	Descendants_Yes 1074 1086	deux enfants
+T5	Type 1079 1086	enfants
+T6	Amount 1074 1078	deux
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	MaritalStatus_Divorced 950 962	a été mariée
+T8	Descendants_Yes 1109 1117	Son fils
+T9	Type 1113 1117	fils
+R3	Type Arg1:T8 Arg2:T9	
+T10	Descendants_Yes 1264 1272	sa fille
+T11	Type 1267 1272	fille
+R4	Type Arg1:T10 Arg2:T11	
+T12	Job 1648 1701	travaillé pour un centre de santé mentale ambulatoire
+T1	Job 1572 1608	travaillé pour le Centre Hospitalier
+T2	Job 1826 1867	travaillé pour le Centre Walter P. Carter
+T13	Job 1917 1942	infirmière en obstétrique

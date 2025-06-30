@@ -1,0 +1,27 @@
+T1	Housing_Yes 16 30	Vit à domicile
+T2	Living_WithOthers 16 55	Vit à domicile avec son mari et sa mère
+T3	MaritalStatus_InRelationship 31 44	avec son mari
+T4	Housing_Yes 56 75	dans un appartement
+T5	Descendants_No 85 98	Pas d' enfant
+T6	Last_job 109 121	garde chasse
+T7	Tobacco 123 132	Tabagisme
+T8	StatusTime 133 138	actif
+A1	StatusTime T8 current
+T10	Type 151 161	cigarettes
+T11	Frequency 162 170	par jour
+T12	History 171 184	depuis 40 ans
+R1	Status Arg1:T7 Arg2:T8	
+R3	Type Arg1:T7 Arg2:T10	
+R4	Frequency Arg1:T7 Arg2:T11	
+R5	History Arg1:T7 Arg2:T12	
+T13	Alcohol 189 193	d'OH
+T14	StatusTime 185 188	pas
+A2	StatusTime T14 none
+R6	Status Arg1:T13 Arg2:T14	
+T15	Drug 211 217	drogue
+T16	StatusTime 204 210	pas de
+A3	StatusTime T16 none
+R7	Status Arg1:T15 Arg2:T16	
+T17	Job 109 121	garde chasse
+T9	Amount 148 161	20 cigarettes
+R2	Amount Arg1:T7 Arg2:T9	

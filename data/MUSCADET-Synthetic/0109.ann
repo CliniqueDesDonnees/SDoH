@@ -1,0 +1,25 @@
+T1	Living_WithOthers 16 33	Vit avec sa femme
+T2	MaritalStatus_InRelationship 20 33	avec sa femme
+T3	Descendants_Yes 35 44	3 enfants
+T4	Type 37 44	enfants
+T5	Amount 35 36	3
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Alcohol 67 73	Alcool
+T7	StatusTime 74 82	régulier
+A1	StatusTime T7 current
+R3	Status Arg1:T6 Arg2:T7	
+T10	Tobacco 110 114	fume
+T11	StatusTime 107 118	ne fume pas
+A2	StatusTime T11 none
+T12	Drug 127 133	drogue
+T13	StatusTime 120 126	pas de
+A3	StatusTime T13 none
+R6	Status Arg1:T12 Arg2:T13	
+T14	Last_job 142 148	docker
+T15	Job 142 148	docker
+T8	Amount 84 94	2-3 verres
+T9	Type 98 104	whisky
+R4	Amount Arg1:T6 Arg2:T8	
+R5	Type Arg1:T6 Arg2:T9	
+R7	Status Arg1:T10 Arg2:T11	

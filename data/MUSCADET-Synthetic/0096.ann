@@ -1,0 +1,29 @@
+T1	Living_Alone 28 36	vit seul
+T2	MaritalStatus_InRelationship 37 51	en concubinage
+T3	MaritalStatus_Divorced 52 59	divorcé
+T4	Descendants_Yes 82 93	six enfants
+T5	Type 86 93	enfants
+T6	Amount 82 85	six
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Alcohol 131 140	éthylique
+T8	StatusTime 118 130	Consommation
+A1	StatusTime T8 current
+R3	Status Arg1:T7 Arg2:T8	
+T11	Frequency 165 173	par jour
+R6	Frequency Arg1:T7 Arg2:T11	
+T12	Tobacco 216 221	tabac
+T13	StatusTime 209 215	Pas de
+A2	StatusTime T13 none
+R7	Status Arg1:T12 Arg2:T13	
+T14	Drug 242 248	drogue
+T15	StatusTime 223 241	Ne consomme pas de
+A3	StatusTime T15 none
+R8	Status Arg1:T14 Arg2:T15	
+T16	Last_job 274 287	chef d'équipe
+T17	Employment_Other 250 261	A travaillé
+T18	Job 274 287	chef d'équipe
+T9	Type 158 164	bières
+R4	Type Arg1:T7 Arg2:T9	
+T10	Amount 152 164	1 à 2 bières
+R5	Amount Arg1:T7 Arg2:T10	

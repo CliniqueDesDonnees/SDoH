@@ -1,0 +1,30 @@
+T1	Living_WithOthers 14 47	Vit avec sa femme et ses 2 filles
+T2	MaritalStatus_InRelationship 18 31	avec sa femme
+T3	Descendants_Yes 39 47	2 filles
+T4	Type 41 47	filles
+T5	Amount 39 40	2
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Tobacco 83 88	Tabac
+T7	StatusTime 89 94	sevré
+A1	StatusTime T7 past
+R3	Status Arg1:T6 Arg2:T7	
+T8	History 95 108	depuis 33 ans
+R4	History Arg1:T6 Arg2:T8	
+T9	Alcohol 112 118	alcool
+T10	StatusTime 119 124	sevré
+A2	StatusTime T10 past
+R5	Status Arg1:T9 Arg2:T10	
+T11	History 125 138	depuis 15 ans
+R6	History Arg1:T9 Arg2:T11	
+T12	Descendants_Yes 141 150	2 enfants
+T13	Type 143 150	enfants
+T14	Amount 141 142	2
+R7	Type Arg1:T12 Arg2:T13	
+R8	Amount Arg1:T12 Arg2:T14	
+T15	Alcohol 165 173	d'alcool
+T16	StatusTime 174 185	occasionnel
+A3	StatusTime T16 current
+T17	Frequency 174 185	occasionnel
+R9	Frequency Arg1:T15 Arg2:T17	
+R10	Status Arg1:T15 Arg2:T16	

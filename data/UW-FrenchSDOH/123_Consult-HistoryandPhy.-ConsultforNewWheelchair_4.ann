@@ -1,0 +1,10 @@
+T1	Living_WithOthers 25 64	vit avec sa femme et leurs deux enfants
+T2	MaritalStatus_InRelationship 34 42	sa femme
+T3	Descendants_Yes 52 64	deux enfants
+T4	Type 57 64	enfants
+T5	Amount 52 56	deux
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Housing_Yes 88 121	dans un appartement de plain-pied
+T7	Employment_Unemployed 158 174	ne travaille pas
+T8	MaritalStatus_InRelationship 246 254	Sa femme

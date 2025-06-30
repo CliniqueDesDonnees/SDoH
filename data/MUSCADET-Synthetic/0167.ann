@@ -1,0 +1,6 @@
+T1	MaritalStatus_InRelationship 14 19	marié
+T2	PhysicalActivity_Yes 33 41	chi qong
+T3	Descendants_Yes 113 121	sa fille
+T4	Type 116 121	fille
+R1	Type Arg1:T3 Arg2:T4	
+T5	MaritalStatus_InRelationship 161 169	Sa femme

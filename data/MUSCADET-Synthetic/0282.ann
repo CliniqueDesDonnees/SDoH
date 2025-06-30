@@ -1,0 +1,12 @@
+T1	Living_WithOthers 14 27	Vit en couple
+T2	MaritalStatus_InRelationship 18 27	en couple
+T3	MaritalStatus_InRelationship 29 34	marié
+T4	Descendants_Yes 37 45	1 enfant
+T5	Amount 37 38	1
+R1	Amount Arg1:T4 Arg2:T5	
+T6	Alcohol 124 133	ethylique
+T7	StatusTime 111 123	Intoxication
+A1	StatusTime T7 current
+R2	Status Arg1:T6 Arg2:T7	
+T8	Amount 49 51	un
+R3	Amount Arg1:T4 Arg2:T8	

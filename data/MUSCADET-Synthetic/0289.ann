@@ -1,0 +1,18 @@
+T1	Alcohol 14 18	EtOH
+T2	Tobacco 31 36	Tabac
+T3	StatusTime 19 29	= 3 bieres
+A1	StatusTime T3 current
+T5	Type 23 29	bieres
+R2	Type Arg1:T1 Arg2:T5	
+R3	Status Arg1:T1 Arg2:T3	
+T6	Type 41 44	cig
+T8	Frequency 44 46	/J
+T9	StatusTime 39 46	5 cig/J
+A2	StatusTime T9 current
+R5	Frequency Arg1:T2 Arg2:T8	
+R6	Type Arg1:T2 Arg2:T6	
+R7	Status Arg1:T2 Arg2:T9	
+T7	Amount 39 44	5 cig
+R4	Amount Arg1:T2 Arg2:T7	
+T4	Amount 21 29	3 bieres
+R1	Amount Arg1:T1 Arg2:T4	

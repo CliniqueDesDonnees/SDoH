@@ -1,0 +1,22 @@
+T1	Last_job 14 41	Directeur d'usine de bitume
+T2	Employment_Working 14 41	Directeur d'usine de bitume
+T3	PhysicalActivity_Yes 63 67	Golf
+T4	PhysicalActivity_Yes 71 78	piscine
+T6	Frequency 88 99	par semaine
+R2	Frequency Arg1:T4 Arg2:T6	
+T7	MaritalStatus_InRelationship 112 117	Marié
+T8	Descendants_Yes 118 125	un fils
+T9	Type 121 125	fils
+T10	Amount 118 120	un
+R3	Type Arg1:T8 Arg2:T9	
+R4	Amount Arg1:T8 Arg2:T10	
+T11	Alcohol 133 139	éthylo
+T12	Tobacco 139 148	tabagisme
+T13	StatusTime 127 133	Pas d'
+A1	StatusTime T13 none
+R5	Status Arg1:T11 Arg2:T13	
+R6	Status Arg1:T12 Arg2:T13	
+T14	Education 165 197	doctorat de biochimie géologique
+T15	Job 14 41	Directeur d'usine de bitume
+T5	Amount 79 87	une fois
+R1	Amount Arg1:T4 Arg2:T5	

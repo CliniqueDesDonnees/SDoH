@@ -1,0 +1,19 @@
+T1	Employment_Working 26 35	maraicher
+T2	Last_job 26 35	maraicher
+T3	Tobacco 37 41	fume
+T4	StatusTime 37 41	fume
+A1	StatusTime T4 current
+R1	Status Arg1:T3 Arg2:T4	
+T6	Type 45 51	roulés
+T7	Frequency 52 60	par jour
+R3	Type Arg1:T3 Arg2:T6	
+R4	Frequency Arg1:T3 Arg2:T7	
+T8	Drug 99 106	hashish
+T9	StatusTime 87 95	consomme
+A2	StatusTime T9 current
+R5	Status Arg1:T8 Arg2:T9	
+T10	Frequency 121 130	en soirée
+R6	Frequency Arg1:T8 Arg2:T10	
+T11	Job 26 35	maraicher
+T5	Amount 42 51	10 roulés
+R2	Amount Arg1:T3 Arg2:T5	

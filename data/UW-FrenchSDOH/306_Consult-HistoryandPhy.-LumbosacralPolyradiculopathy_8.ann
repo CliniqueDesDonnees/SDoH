@@ -1,0 +1,13 @@
+T1	Last_job 30 47	ingénieure civile
+T2	Job 30 47	ingénieure civile
+T3	Employment_Working 51 60	travaille
+T4	Employment_Working 91 100	travaille
+T5	Tobacco 304 308	fume
+T6	StatusTime 301 312	ne fume pas
+A1	StatusTime T6 none
+R1	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 317 321	boit
+T8	StatusTime 314 325	ne boit pas
+A2	StatusTime T8 none
+R2	Status Arg1:T7 Arg2:T8	
+T9	Housing_Yes 74 84	à domicile

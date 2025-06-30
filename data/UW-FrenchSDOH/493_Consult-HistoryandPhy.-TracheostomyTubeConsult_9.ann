@@ -1,0 +1,10 @@
+T1	Tobacco 51 60	tabagisme
+T2	Duration 64 70	25 ans
+T3	StatusTime 25 47	présente un historique
+A1	StatusTime T3 past
+R1	Status Arg1:T1 Arg2:T3	
+R2	Duration Arg1:T1 Arg2:T2	
+T4	Alcohol 143 151	d'alcool
+T5	StatusTime 111 142	a également eu une consommation
+A2	StatusTime T5 past
+R3	Status Arg1:T4 Arg2:T5	

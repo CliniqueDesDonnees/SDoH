@@ -1,0 +1,18 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	Employment_Pensioner 38 46	retraité
+T3	Descendants_Yes 53 65	neuf enfants
+T4	Type 58 65	enfants
+T5	Amount 53 57	neuf
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Descendants_Yes 69 94	vingt-cinq petits-enfants
+T7	Type 80 94	petits-enfants
+T8	Amount 69 79	vingt-cinq
+R3	Type Arg1:T6 Arg2:T7	
+R4	Amount Arg1:T6 Arg2:T8	
+T9	Tobacco 99 103	fume
+T10	Amount 104 113	un paquet
+T11	Frequency 114 122	par jour
+T12	StatusTime 99 103	fume
+A1	StatusTime T12 current
+R5	Status Arg1:T9 Arg2:T12	

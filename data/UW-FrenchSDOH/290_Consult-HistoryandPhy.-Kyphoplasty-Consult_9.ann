@@ -1,0 +1,10 @@
+T1	Housing_Yes 26 43	réside localement
+T2	MaritalStatus_Widowed 54 59	veuve
+T3	Tobacco 69 73	fume
+T4	StatusTime 66 77	ne fume pas
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	Drug 112 119	drogues
+T6	StatusTime 95 108	n'utilise pas
+A2	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	

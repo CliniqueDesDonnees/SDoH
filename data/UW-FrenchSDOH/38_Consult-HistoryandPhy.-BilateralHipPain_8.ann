@@ -1,0 +1,31 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Employment_Working 43 55	est employée
+T3	Job 68 90	gestionnaire de bureau
+T4	Last_job 68 90	gestionnaire de bureau
+T5	Tobacco 97 101	fume
+T6	StatusTime 97 101	fume
+A1	StatusTime T6 current
+T7	Duration 137 150	depuis 20 ans
+T8	Amount 118 127	un paquet
+T9	Frequency 128 136	par jour
+T10	Type 106 116	cigarettes
+R1	Status Arg1:T5 Arg2:T6	
+R2	Type Arg1:T5 Arg2:T10	
+R3	Amount Arg1:T5 Arg2:T8	
+R4	Frequency Arg1:T5 Arg2:T9	
+R5	Duration Arg1:T5 Arg2:T7	
+T11	Alcohol 169 177	l'alcool
+T12	StatusTime 157 165	consomme
+A2	StatusTime T12 current
+T13	Amount 185 198	3 et 5 verres
+T14	Frequency 199 207	par jour
+R6	Status Arg1:T11 Arg2:T12	
+R7	Amount Arg1:T11 Arg2:T13	
+R8	Frequency Arg1:T11 Arg2:T14	
+T15	Drug 231 248	drogues illicites
+T16	StatusTime 214 227	n'utilise pas
+A3	StatusTime T16 none
+R9	Status Arg1:T15 Arg2:T16	
+T17	PhysicalActivity_Yes 255 273	fait de l'exercice
+T18	Frequency 274 287	mensuellement
+R10	Frequency Arg1:T17 Arg2:T18	

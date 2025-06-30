@@ -1,0 +1,9 @@
+T1	Housing_Yes 14 36	Habite dans une maison
+T2	Last_job 49 59	infirmière
+T3	Descendants_Yes 62 78	5 petits enfants
+T4	Type 64 78	petits enfants
+T5	Amount 62 63	5
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Education 85 111	diplôme d'ingénieur du son
+T7	Job 49 59	infirmière

@@ -1,0 +1,6 @@
+T1	Tobacco 29 34	fumer
+T2	Alcohol 51 59	l'alcool
+T3	StatusTime 25 28	nie
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	

@@ -1,0 +1,21 @@
+T1	Employment_Other 14 27	Père au foyer
+T2	Descendants_Yes 29 37	1 enfant
+T3	Type 31 37	enfant
+T4	Amount 29 30	1
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	MaritalStatus_Divorced 68 91	séparation avec la mère
+T6	Living_WithOthers 93 118	vit avec une connaissance
+T7	Housing_Yes 93 133	vit avec une connaissance dans un studio
+T8	Alcohol 143 145	OH
+T9	Tobacco 149 154	tabac
+T10	Drug 158 164	drogue
+T11	StatusTime 165 166	0
+A1	StatusTime T11 none
+R3	Status Arg1:T10 Arg2:T11	
+T12	StatusTime 155 156	0
+A2	StatusTime T12 none
+R4	Status Arg1:T9 Arg2:T12	
+T13	StatusTime 146 147	0
+A3	StatusTime T13 none
+R5	Status Arg1:T8 Arg2:T13	

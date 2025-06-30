@@ -1,0 +1,9 @@
+T1	PhysicalActivity_Yes 115 133	soulever des poids
+T2	PhysicalActivity_Yes 144 154	skateboard
+T3	PhysicalActivity_Yes 203 213	l'escalade
+T4	Alcohol 597 605	d'alcool
+T5	Drug 586 593	drogues
+T6	StatusTime 606 615	a été nié
+A1	StatusTime T6 none
+R1	Status Arg1:T4 Arg2:T6	
+R2	Status Arg1:T5 Arg2:T6	

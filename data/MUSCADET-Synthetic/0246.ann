@@ -1,0 +1,7 @@
+T1	Drug 14 25	Cocaïnomane
+T2	StatusTime 14 25	Cocaïnomane
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Last_job 92 110	jardinier paysager
+T4	Employment_Working 92 110	jardinier paysager
+T5	Job 92 110	jardinier paysager

@@ -1,0 +1,21 @@
+T1	Housing_Yes 48 74	réside dans un appartement
+T2	MaritalStatus_Single 99 110	célibataire
+T3	Living_Alone 114 122	vit seul
+T4	Employment_Working 127 136	travaille
+T5	Job 162 184	ingénieur informatique
+T6	Last_job 162 184	ingénieur informatique
+T7	Tobacco 192 196	fume
+T8	StatusTime 189 200	ne fume pas
+A1	StatusTime T8 none
+R1	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 216 224	l'alcool
+T10	StatusTime 204 212	consomme
+A2	StatusTime T10 current
+R2	Status Arg1:T9 Arg2:T10	
+T11	Frequency 236 243	modérée
+R3	Frequency Arg1:T9 Arg2:T11	
+T12	PhysicalActivity_Yes 289 320	pratique régulièrement du sport
+T13	Amount 369 379	trois fois
+T14	Frequency 380 391	par semaine
+R4	Amount Arg1:T12 Arg2:T13	
+R5	Frequency Arg1:T12 Arg2:T14	

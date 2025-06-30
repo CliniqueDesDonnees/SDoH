@@ -1,0 +1,12 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	Descendants_Yes 40 47	un fils
+T3	Type 43 47	fils
+T4	Amount 40 42	un
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Tobacco 125 130	tabac
+T6	Alcohol 134 142	d'alcool
+T7	StatusTime 82 121	n'y a pas d'antécédents de consommation
+A1	StatusTime T7 none
+R3	Status Arg1:T5 Arg2:T7	
+R4	Status Arg1:T6 Arg2:T7	

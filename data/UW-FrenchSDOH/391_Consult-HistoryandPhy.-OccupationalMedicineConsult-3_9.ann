@@ -1,0 +1,14 @@
+T1	Alcohol 48 56	d'alcool
+T2	StatusTime 25 47	nie toute consommation
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Tobacco 61 65	fume
+T4	StatusTime 61 65	fume
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	
+T5	Amount 74 91	un paquet et demi
+T6	Type 95 105	cigarettes
+T7	Frequency 106 114	par jour
+R3	Amount Arg1:T3 Arg2:T5	
+R4	Type Arg1:T3 Arg2:T6	
+R5	Frequency Arg1:T3 Arg2:T7	

@@ -1,0 +1,20 @@
+T2	History 42 55	il y a 17 ans
+T3	Amount 80 89	un paquet
+T4	Frequency 90 98	par jour
+T5	Duration 99 113	pendant 44 ans
+T6	Tobacco 36 41	fumer
+T1	StatusTime 25 32	a cessé
+A1	StatusTime T1 past
+R1	Status Arg1:T6 Arg2:T1	
+R2	History Arg1:T6 Arg2:T2	
+R3	Amount Arg1:T6 Arg2:T3	
+R4	Frequency Arg1:T6 Arg2:T4	
+R5	Duration Arg1:T6 Arg2:T5	
+T7	Alcohol 138 146	d'alcool
+T8	Drug 173 180	drogues
+T9	StatusTime 148 169	Nie toute utilisation
+A2	StatusTime T9 none
+R6	Status Arg1:T8 Arg2:T9	
+T10	StatusTime 115 137	Nie toute consommation
+A3	StatusTime T10 none
+R7	Status Arg1:T7 Arg2:T10	

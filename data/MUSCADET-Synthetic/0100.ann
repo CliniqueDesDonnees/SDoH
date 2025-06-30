@@ -1,0 +1,14 @@
+T1	Employment_Unemployed 43 64	en recherche d'emploi
+T2	Tobacco 82 87	tabac
+T3	StatusTime 88 91	+++
+A1	StatusTime T3 current
+R1	Status Arg1:T2 Arg2:T3	
+T4	Alcohol 97 105	d'alcool
+T5	Drug 114 120	drogue
+T6	StatusTime 107 113	pas de
+A2	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	
+T7	StatusTime 93 96	pas
+A3	StatusTime T7 none
+R3	Status Arg1:T4 Arg2:T7	
+T8	Education 135 150	CAP  menuisérie

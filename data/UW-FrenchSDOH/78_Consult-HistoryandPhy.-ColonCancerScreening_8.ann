@@ -1,0 +1,12 @@
+T1	Tobacco 17 21	fume
+T2	StatusTime 14 25	Ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 44 52	l'alcool
+T4	StatusTime 32 40	consomme
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	
+T5	Frequency 53 70	occasionnellement
+R3	Frequency Arg1:T3 Arg2:T5	
+T6	History 71 86	depuis cinq ans
+R4	History Arg1:T3 Arg2:T6	

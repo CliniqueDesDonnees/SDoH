@@ -1,0 +1,16 @@
+T1	MaritalStatus_Widowed 14 19	Veuve
+T2	Last_job 30 39	diplomate
+T3	Descendants_Yes 41 49	son fils
+T4	Descendants_Yes 67 75	sa fille
+T5	Type 70 75	fille
+T6	Type 45 49	fils
+R1	Type Arg1:T3 Arg2:T6	
+T7	Descendants_Yes 87 104	10 petits enfants
+T8	Type 90 104	petits enfants
+T9	Amount 87 89	10
+R2	Type Arg1:T7 Arg2:T8	
+R3	Amount Arg1:T7 Arg2:T9	
+R4	Type Arg1:T4 Arg2:T5	
+T10	Housing_Yes 177 193	Vit dans un loft
+T11	PhysicalActivity_Yes 211 223	Fait du vélo
+T12	Job 30 39	diplomate

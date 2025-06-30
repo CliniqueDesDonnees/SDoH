@@ -1,0 +1,11 @@
+T1	Employment_Student 14 33	En master de psycho
+T2	Descendants_No 35 47	pas d'enfant
+T3	Drug 76 83	toxique
+T4	Tobacco 76 83	toxique
+T5	Alcohol 76 83	toxique
+T6	StatusTime 60 75	pas de prise de
+A1	StatusTime T6 none
+R1	Status Arg1:T5 Arg2:T6	
+R2	Status Arg1:T3 Arg2:T6	
+R3	Status Arg1:T4 Arg2:T6	
+T7	PhysicalActivity_Yes 126 145	handisport (futsal)

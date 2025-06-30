@@ -1,0 +1,18 @@
+T1	Tobacco 14 19	Tabac
+T2	StatusTime 37 65	consommation ancienne sevrée
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T4	Type 70 80	cigarettes
+T5	Frequency 81 89	par jour
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	Alcohol 92 98	Alcool
+T7	StatusTime 114 145	nie toute consommation d'alcool
+A2	StatusTime T7 none
+R5	Status Arg1:T6 Arg2:T7	
+T8	Drug 147 153	Drogue
+T9	StatusTime 168 174	jamais
+A3	StatusTime T9 none
+R6	Status Arg1:T8 Arg2:T9	
+T3	Amount 67 80	20 cigarettes
+R2	Amount Arg1:T1 Arg2:T3	

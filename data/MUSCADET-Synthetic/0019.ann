@@ -1,0 +1,14 @@
+T1	Housing_Yes 14 28	Vit à domicile
+T2	Employment_Working 29 64	Travail saisonnier dans les vergers
+T3	Last_job 29 64	Travail saisonnier dans les vergers
+T4	Descendants_Yes 66 80	Quatre enfants
+T5	Type 73 80	enfants
+T6	Amount 66 72	Quatre
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Living_WithOthers 81 100	dont un au domicile
+T8	Housing_Yes 89 100	au domicile
+T9	PhysicalActivity_Yes 102 109	Sportif
+T10	PhysicalActivity_Yes 111 122	football ++
+T11	Education 141 144	BAC
+T12	Job 29 64	Travail saisonnier dans les vergers

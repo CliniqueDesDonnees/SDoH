@@ -1,0 +1,14 @@
+T1	Employment_Pensioner 56 64	retraité
+T2	Drug 180 190	substances
+T3	Alcohol 165 173	d'alcool
+T4	StatusTime 139 164	nie toute histoire d'abus
+A1	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T4	
+T5	Last_job 32 39	pasteur
+T6	Job 32 39	pasteur
+T7	MaritalStatus_InRelationship 303 311	sa femme
+T8	Descendants_Yes 315 323	son fils
+T9	Type 319 323	fils
+R3	Type Arg1:T8 Arg2:T9	
+T10	MaritalStatus_InRelationship 859 867	sa femme

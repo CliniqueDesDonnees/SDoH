@@ -1,0 +1,15 @@
+T1	Housing_Yes 25 39	vit à domicile
+T2	Living_WithOthers 25 53	vit à domicile avec sa fille
+T3	Descendants_Yes 45 53	sa fille
+T4	Type 48 53	fille
+R1	Type Arg1:T3 Arg2:T4	
+T5	Tobacco 61 65	fume
+T6	StatusTime 58 69	ne fume pas
+A1	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	
+T7	Alcohol 85 93	l'alcool
+T8	StatusTime 73 81	consomme
+A2	StatusTime T8 current
+T9	Frequency 94 111	occasionnellement
+R3	Status Arg1:T7 Arg2:T8	
+R4	Frequency Arg1:T7 Arg2:T9	

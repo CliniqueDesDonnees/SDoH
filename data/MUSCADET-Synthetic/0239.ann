@@ -1,0 +1,21 @@
+T1	Alcohol 14 24	Consommait
+T2	StatusTime 14 24	Consommait
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 31 39	5 et 10L
+T4	Type 43 51	vin rosé
+T5	Frequency 52 60	par jour
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T4	
+R4	Frequency Arg1:T1 Arg2:T5	
+T6	Tobacco 62 66	fume
+T7	StatusTime 62 75	fume toujours
+A2	StatusTime T7 current
+R5	Status Arg1:T6 Arg2:T7	
+T10	Frequency 89 97	par jour
+R8	Frequency Arg1:T6 Arg2:T10	
+T11	Descendants_Yes 139 147	sa fille
+T12	Type 142 147	fille
+R9	Type Arg1:T11 Arg2:T12	
+T8	Amount 76 88	4 cigarettes
+R6	Amount Arg1:T6 Arg2:T8	

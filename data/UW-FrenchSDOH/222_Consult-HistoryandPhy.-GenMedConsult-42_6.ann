@@ -1,0 +1,15 @@
+T1	Living_WithOthers 107 137	vit localement avec son épouse
+T2	MaritalStatus_InRelationship 36 41	marié
+T3	Employment_Pensioner 43 51	retraité
+T4	Tobacco 64 69	fumer
+T5	StatusTime 53 69	a cessé de fumer
+A1	StatusTime T5 past
+T6	History 70 77	en 1997
+R1	Status Arg1:T4 Arg2:T5	
+R2	History Arg1:T4 Arg2:T6	
+T7	Alcohol 97 105	d'alcool
+T8	StatusTime 79 96	consommation rare
+A2	StatusTime T8 current
+T9	Frequency 92 96	rare
+R3	Frequency Arg1:T7 Arg2:T9	
+R4	Status Arg1:T7 Arg2:T8	

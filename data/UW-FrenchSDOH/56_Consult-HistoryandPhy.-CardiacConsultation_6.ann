@@ -1,0 +1,6 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Living_WithOthers 43 60	vit avec son mari
+T3	MaritalStatus_InRelationship 52 60	son mari
+T4	Employment_Pensioner 71 80	retraités
+T5	Last_job 84 100	l'entreprise ABC
+T6	Job 84 100	l'entreprise ABC

@@ -1,0 +1,12 @@
+T1	Alcohol 65 73	l'alcool
+T2	StatusTime 44 52	consomme
+A1	StatusTime T2 current
+T3	Frequency 53 61	rarement
+R1	Status Arg1:T1 Arg2:T2	
+R2	Frequency Arg1:T1 Arg2:T3	
+T4	Tobacco 83 88	fumer
+T5	StatusTime 77 82	a nié
+A2	StatusTime T5 none
+R3	Status Arg1:T4 Arg2:T5	
+T6	Drug 105 112	drogues
+R4	Status Arg1:T6 Arg2:T5	

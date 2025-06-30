@@ -1,0 +1,29 @@
+T1	Housing_Yes 14 33	vit dans une maison
+T2	MaritalStatus_InRelationship 64 78	en concubinage
+T3	Duration 79 92	depuis 12 ans
+R1	Duration Arg1:T2 Arg2:T3	
+T4	Descendants_Yes 93 101	1 enfant
+T5	Type 95 101	enfant
+T6	Amount 93 94	1
+R2	Type Arg1:T4 Arg2:T5	
+R3	Amount Arg1:T4 Arg2:T6	
+T7	Last_job 109 112	VRP
+T8	Tobacco 114 123	Tabagisme
+T9	StatusTime 124 129	actif
+A1	StatusTime T9 current
+R4	Status Arg1:T8 Arg2:T9	
+T10	Amount 139 141	15
+T11	Type 142 149	paquets
+T12	Frequency 150 155	année
+R5	Amount Arg1:T8 Arg2:T10	
+R6	Type Arg1:T8 Arg2:T11	
+R7	Frequency Arg1:T8 Arg2:T12	
+T13	Alcohol 169 177	d'alcool
+T14	StatusTime 156 168	consommation
+A2	StatusTime T14 current
+R8	Status Arg1:T13 Arg2:T14	
+T17	Job 109 112	VRP
+T15	Amount 180 191	1 bouteille
+T16	Type 195 199	rosé
+R9	Amount Arg1:T13 Arg2:T15	
+R10	Type Arg1:T13 Arg2:T16	

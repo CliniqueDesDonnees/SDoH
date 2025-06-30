@@ -1,0 +1,9 @@
+T1	Ethnicity 36 41	Tibet
+T2	Living_Alone 71 79	Vit seul
+T3	Housing_Yes 81 99	Logement insalubre
+T4	Descendants_Yes 109 119	deux fille
+T5	Type 114 119	fille
+T6	Amount 109 113	deux
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Employment_Other 157 162	Moine

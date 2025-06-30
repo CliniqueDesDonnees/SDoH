@@ -1,0 +1,5 @@
+T1	Living_WithOthers 25 44	vit avec son épouse
+T2	MaritalStatus_InRelationship 34 44	son épouse
+T3	Descendants_Yes 64 75	ses enfants
+T4	Type 68 75	enfants
+R1	Type Arg1:T3 Arg2:T4	

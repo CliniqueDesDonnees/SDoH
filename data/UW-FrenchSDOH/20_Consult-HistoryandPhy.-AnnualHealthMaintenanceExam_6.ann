@@ -1,0 +1,26 @@
+T1	MaritalStatus_InRelationship 29 34	marié
+T2	MaritalStatus_InRelationship 36 46	Son épouse
+T3	PhysicalActivity_Yes 93 100	jogging
+T4	PhysicalActivity_Yes 107 120	cross-country
+T5	Amount 121 130	cinq fois
+T6	Frequency 131 142	par semaine
+R1	Amount Arg1:T4 Arg2:T5	
+R2	Frequency Arg1:T4 Arg2:T6	
+R3	Amount Arg1:T3 Arg2:T5	
+R4	Frequency Arg1:T3 Arg2:T6	
+T7	PhysicalActivity_Yes 157 168	musculation
+T8	Amount 169 178	deux fois
+T9	Frequency 179 190	par semaine
+R5	Amount Arg1:T7 Arg2:T8	
+R6	Frequency Arg1:T7 Arg2:T9	
+T10	Tobacco 198 202	fume
+T11	StatusTime 195 206	ne fume pas
+A1	StatusTime T11 none
+R7	Status Arg1:T10 Arg2:T11	
+T12	Alcohol 226 234	d'alcool
+T13	StatusTime 210 225	ne consomme pas
+A2	StatusTime T13 none
+R8	Status Arg1:T12 Arg2:T13	
+T14	Employment_Working 264 286	est médecin spécialisé
+T15	Last_job 268 314	médecin spécialisé en allergologie/immunologie
+T16	Job 268 314	médecin spécialisé en allergologie/immunologie

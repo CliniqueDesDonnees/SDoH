@@ -1,0 +1,10 @@
+T1	Tobacco 52 57	tabac
+T2	StatusTime 26 48	admet une consommation
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Amount 103 113	40 paquets
+T4	Frequency 114 120	années
+T5	Type 106 113	paquets
+R2	Amount Arg1:T1 Arg2:T3	
+R3	Type Arg1:T1 Arg2:T5	
+R4	Frequency Arg1:T1 Arg2:T4	

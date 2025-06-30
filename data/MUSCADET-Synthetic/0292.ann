@@ -1,0 +1,12 @@
+T1	Drug 14 22	Cannabis
+T2	Tobacco 26 31	tabac
+T3	Alcohol 35 37	OH
+T4	StatusTime 32 33	0
+A1	StatusTime T4 none
+T5	StatusTime 23 24	0
+A2	StatusTime T5 none
+R1	Status Arg1:T1 Arg2:T5	
+R2	Status Arg1:T2 Arg2:T4	
+T6	StatusTime 38 39	0
+A3	StatusTime T6 none
+R3	Status Arg1:T3 Arg2:T6	

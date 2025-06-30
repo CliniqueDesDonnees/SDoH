@@ -1,0 +1,15 @@
+T1	MaritalStatus_InRelationship 33 38	Marié
+T2	Tobacco 51 55	fume
+T3	StatusTime 51 55	fume
+A1	StatusTime T3 current
+R1	Status Arg1:T2 Arg2:T3	
+T4	Amount 56 78	1 paquet de cigarettes
+T5	Frequency 79 87	par jour
+T6	Type 68 78	cigarettes
+R2	Amount Arg1:T2 Arg2:T4	
+R3	Type Arg1:T2 Arg2:T6	
+R4	Frequency Arg1:T2 Arg2:T5	
+T7	Alcohol 117 125	d'alcool
+T8	StatusTime 89 116	Négation de la consommation
+A2	StatusTime T8 none
+R5	Status Arg1:T7 Arg2:T8	

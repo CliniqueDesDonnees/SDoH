@@ -1,0 +1,20 @@
+T1	MaritalStatus_Single 29 40	célibataire
+T2	Employment_Working 44 53	travaille
+T3	Job 60 71	charpentier
+T4	Last_job 60 71	charpentier
+T5	Tobacco 97 102	tabac
+T7	Duration 103 116	depuis 30 ans
+R1	Duration Arg1:T5 Arg2:T7	
+T8	StatusTime 172 188	récemment arrêté
+A2	StatusTime T8 past
+R2	Status Arg1:T5 Arg2:T8	
+T9	Amount 126 140	une demi-boîte
+T10	Frequency 141 149	par jour
+R3	Amount Arg1:T5 Arg2:T9	
+R4	Frequency Arg1:T5 Arg2:T10	
+T6	StatusTime 217 237	consommation modérée
+A1	StatusTime T6 current
+T11	Alcohol 238 246	d'alcool
+R5	Status Arg1:T11 Arg2:T6	
+T12	Frequency 258 271	occasionnelle
+R6	Frequency Arg1:T11 Arg2:T12	

@@ -1,0 +1,19 @@
+T1	Tobacco 22 26	fume
+T2	StatusTime 19 30	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 63 71	l'alcool
+T4	StatusTime 48 59	ne consomme
+A2	StatusTime T4 current
+R2	Status Arg1:T3 Arg2:T4	
+T5	Frequency 75 92	occasionnellement
+R3	Frequency Arg1:T3 Arg2:T5	
+T6	MaritalStatus_InRelationship 103 109	mariée
+T7	Descendants_Yes 115 127	deux enfants
+T8	Type 120 127	enfants
+T9	Amount 115 119	deux
+R4	Type Arg1:T7 Arg2:T8	
+R5	Amount Arg1:T7 Arg2:T9	
+T10	Employment_Working 156 165	travaille
+T11	Last_job 172 197	administratrice de projet
+T12	Job 172 197	administratrice de projet

@@ -1,0 +1,7 @@
+T1	Tobacco 29 33	fume
+T2	StatusTime 26 37	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Descendants_Yes 63 71	sa fille
+T4	Type 66 71	fille
+R2	Type Arg1:T3 Arg2:T4	

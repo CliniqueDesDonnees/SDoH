@@ -1,0 +1,6 @@
+T1	Tobacco 38 44	fumeur
+T2	StatusTime 38 44	fumeur
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Living_Alone 46 54	vit seul
+T4	MaritalStatus_Widowed 56 60	veuf

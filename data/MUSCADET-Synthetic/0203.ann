@@ -1,0 +1,6 @@
+T1	Ethnicity 57 67	Indochines
+T2	Tobacco 72 76	fume
+T3	StatusTime 69 80	ne fume pas
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	Housing_Yes 82 105	Vit dans un appartement

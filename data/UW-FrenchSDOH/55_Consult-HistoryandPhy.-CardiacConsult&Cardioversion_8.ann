@@ -1,0 +1,21 @@
+T1	Tobacco 28 32	fume
+T2	StatusTime 25 36	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 68 76	d'alcool
+T4	StatusTime 52 67	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Drug 124 141	drogues illicites
+T6	StatusTime 107 120	n'utilise pas
+A3	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	
+T7	MaritalStatus_InRelationship 150 155	marié
+T8	MaritalStatus_InRelationship 204 212	sa femme
+T9	PhysicalActivity_No 270 314	ne pratique pas d'exercice physique régulier
+T10	Employment_Working 407 416	travaille
+T11	Last_job 423 429	avocat
+T12	Job 423 429	avocat
+T13	Descendants_Yes 578 586	sa fille
+T14	Type 581 586	fille
+R4	Type Arg1:T13 Arg2:T14	

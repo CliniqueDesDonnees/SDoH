@@ -1,0 +1,14 @@
+T1	Tobacco 28 32	fume
+T2	StatusTime 25 36	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 70 78	d'alcool
+T4	StatusTime 54 69	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	MaritalStatus_Single 87 98	célibataire
+T6	Descendants_No 102 119	n'a pas d'enfants
+T7	Employment_Working 124 133	travaille
+T8	Last_job 140 163	représentant de la paie
+T9	Job 140 163	représentant de la paie
+T10	Job 201 233	dans le secteur de la bijouterie

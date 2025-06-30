@@ -1,0 +1,20 @@
+T1	Tobacco 26 36	tabagiques
+T2	StatusTime 83 88	arrêt
+A1	StatusTime T2 past
+T3	History 89 96	en 1991
+T4	Amount 64 74	20 paquets
+T5	Frequency 75 81	années
+R1	Amount Arg1:T1 Arg2:T4	
+R2	Frequency Arg1:T1 Arg2:T5	
+R3	Status Arg1:T1 Arg2:T2	
+R4	History Arg1:T1 Arg2:T3	
+T6	Alcohol 118 126	d'alcool
+T7	Drug 133 150	drogues illicites
+T8	StatusTime 98 117	Pas de consommation
+A2	StatusTime T8 none
+R5	Status Arg1:T6 Arg2:T8	
+R6	Status Arg1:T7 Arg2:T8	
+T9	MaritalStatus_InRelationship 152 157	Marié
+T10	Housing_Yes 176 186	à domicile
+T11	Last_job 201 258	employé chez Budd Automotors en tant que régleur d'outils
+T12	Job 201 258	employé chez Budd Automotors en tant que régleur d'outils

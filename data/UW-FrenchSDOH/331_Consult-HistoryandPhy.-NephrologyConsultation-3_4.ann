@@ -1,0 +1,23 @@
+T1	Tobacco 20 24	fume
+T2	StatusTime 17 28	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 56 64	d'alcool
+T4	StatusTime 33 55	nie toute consommation
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Drug 73 80	drogues
+T6	StatusTime 66 72	Pas de
+A3	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	
+T7	Employment_Other 159 172	en invalidité
+T8	Job 113 148	gardien dans une maison de retraite
+T9	Last_job 113 148	gardien dans une maison de retraite
+T10	History 173 189	depuis mars 2008
+R4	History Arg1:T7 Arg2:T10	
+T11	MaritalStatus_InRelationship 198 203	marié
+T12	Descendants_Yes 209 218	deux fils
+T13	Type 214 218	fils
+T14	Amount 209 213	deux
+R5	Type Arg1:T12 Arg2:T13	
+R6	Amount Arg1:T12 Arg2:T14	

@@ -1,0 +1,10 @@
+T1	Last_job 23 33	secrétaire
+T2	Employment_Unemployed 48 59	sans emploi
+T3	MaritalStatus_Single 62 73	célibataire
+T4	Descendants_Yes 83 90	enfants
+T5	Type 83 90	enfants
+T6	Tobacco 92 101	tabagisme
+T7	StatusTime 109 118	non sevré
+A1	StatusTime T7 current
+R1	Status Arg1:T6 Arg2:T7	
+T8	Job 23 33	secrétaire

@@ -1,0 +1,12 @@
+T1	Drug 50 57	drogues
+T2	StatusTime 25 45	a cessé de consommer
+A1	StatusTime T2 past
+T3	History 58 75	à l'âge de 25 ans
+R1	History Arg1:T1 Arg2:T3	
+R2	Status Arg1:T1 Arg2:T2	
+T4	Tobacco 203 213	cigarettes
+T5	StatusTime 194 198	fume
+A2	StatusTime T5 current
+R3	Status Arg1:T4 Arg2:T5	
+T6	Frequency 225 240	assez intensive
+R4	Frequency Arg1:T4 Arg2:T6	

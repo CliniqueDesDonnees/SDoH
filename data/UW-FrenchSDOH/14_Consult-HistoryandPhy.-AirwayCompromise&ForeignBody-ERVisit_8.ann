@@ -1,0 +1,8 @@
+T1	Drug 31 38	drogues
+T2	StatusTime 14 21	Négatif
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 50 58	l'alcool
+T4	Tobacco 65 70	tabac
+R2	Status Arg1:T3 Arg2:T2	
+R3	Status Arg1:T4 Arg2:T2	

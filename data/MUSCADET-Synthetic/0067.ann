@@ -1,0 +1,19 @@
+T1	Employment_Working 28 37	travaille
+T2	Last_job 14 27	Fonctionnaire
+T3	MaritalStatus_Single 55 66	Célibataire
+T4	Descendants_Yes 67 74	un fils
+T5	Type 70 74	fils
+T6	Amount 67 69	un
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Tobacco 115 124	tabagique
+T8	StatusTime 96 114	Pas d'intoxication
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Alcohol 139 147	d'alcool
+T10	Frequency 148 164	très occasionnel
+T11	StatusTime 148 164	très occasionnel
+A2	StatusTime T11 current
+R4	Frequency Arg1:T9 Arg2:T10	
+R5	Status Arg1:T9 Arg2:T11	
+T12	Job 14 27	Fonctionnaire

@@ -1,0 +1,13 @@
+T1	Tobacco 25 29	fumé
+T2	Alcohol 37 45	d'alcool
+T3	StatusTime 18 24	jamais
+A1	StatusTime T3 none
+R1	Status Arg1:T1 Arg2:T3	
+T4	StatusTime 30 36	ni but
+A2	StatusTime T4 none
+R2	Status Arg1:T2 Arg2:T4	
+T5	Descendants_Yes 70 82	deux enfants
+T6	Type 75 82	enfants
+T7	Amount 70 74	deux
+R3	Type Arg1:T5 Arg2:T6	
+R4	Amount Arg1:T5 Arg2:T7	

@@ -1,0 +1,6 @@
+T1	Alcohol 38 41	Ohc
+T2	StatusTime 38 41	Ohc
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	Last_job 21 36	cadre infirmier
+T4	Job 21 36	cadre infirmier

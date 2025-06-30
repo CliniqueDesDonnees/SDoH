@@ -1,0 +1,9 @@
+T1	MaritalStatus_InRelationship 30 36	mariée
+T2	Tobacco 140 149	tabagisme
+T3	StatusTime 115 136	n'a pas d'antécédents
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	Alcohol 169 177	d'alcool
+T5	StatusTime 153 168	ne consomme pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	

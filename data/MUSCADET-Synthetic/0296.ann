@@ -1,0 +1,9 @@
+T1	PhysicalActivity_Yes 22 26	velo
+T2	PhysicalActivity_Yes 36 49	course à pied
+T3	Frequency 50 69	toutes les semaines
+R1	Frequency Arg1:T2 Arg2:T3	
+R2	Frequency Arg1:T1 Arg2:T3	
+T4	Drug 87 93	drogue
+T5	StatusTime 71 86	pas de prise de
+A1	StatusTime T5 none
+R3	Status Arg1:T4 Arg2:T5	

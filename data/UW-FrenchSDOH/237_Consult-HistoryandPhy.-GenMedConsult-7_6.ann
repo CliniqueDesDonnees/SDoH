@@ -1,0 +1,9 @@
+T1	Alcohol 35 43	d'alcool
+T2	Tobacco 50 54	fume
+T3	StatusTime 47 58	ne fume pas
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	StatusTime 19 34	ne consomme pas
+A2	StatusTime T4 none
+R2	Status Arg1:T1 Arg2:T4	
+T5	Housing_Yes 72 138	actuellement dans un établissement de soins infirmiers spécialisés

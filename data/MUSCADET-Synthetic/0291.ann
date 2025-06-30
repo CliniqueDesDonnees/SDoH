@@ -1,0 +1,8 @@
+T1	Employment_Other 14 27	En invalidité
+T2	Living_WithOthers 29 46	vit avec sa femme
+T3	MaritalStatus_InRelationship 33 46	avec sa femme
+T4	Descendants_Yes 98 109	deux filles
+T5	Type 103 109	filles
+T6	Amount 98 102	deux
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	

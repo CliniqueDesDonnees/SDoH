@@ -1,0 +1,24 @@
+T1	Living_Alone 14 23	Vit seule
+T2	Education 90 110	master de sociologie
+T3	Last_job 69 80	psychologue
+T4	Tobacco 177 182	Tabac
+T5	StatusTime 183 188	sevré
+A1	StatusTime T5 past
+R1	Status Arg1:T4 Arg2:T5	
+T8	History 197 210	depuis 32 ans
+R4	History Arg1:T4 Arg2:T8	
+T9	Alcohol 212 218	Alcool
+T10	StatusTime 219 230	occasionnel
+A2	StatusTime T10 current
+T11	Frequency 219 230	occasionnel
+R5	Frequency Arg1:T9 Arg2:T11	
+R6	Status Arg1:T9 Arg2:T10	
+T12	Drug 239 245	drogue
+T13	StatusTime 232 238	Pas de
+A3	StatusTime T13 none
+R7	Status Arg1:T12 Arg2:T13	
+T14	Descendants_No 247 259	Pas d'enfant
+T15	Housing_Yes 261 279	Vit dans un duplex
+T16	Job 69 80	psychologue
+T6	Amount 190 195	16 PA
+R2	Amount Arg1:T4 Arg2:T6	

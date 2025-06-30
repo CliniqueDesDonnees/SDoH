@@ -1,0 +1,16 @@
+T1	Housing_Yes 14 33	vit seule chez elle
+T2	Living_Alone 14 23	vit seule
+T3	MaritalStatus_Widowed 36 41	veuve
+T4	History 42 56	depuis 58 mois
+R1	History Arg1:T3 Arg2:T4	
+T5	Descendants_No 58 69	sans enfant
+T6	Tobacco 78 83	tabac
+T7	StatusTime 71 77	pas de
+A1	StatusTime T7 none
+T8	Alcohol 87 95	d'alcool
+R2	Status Arg1:T6 Arg2:T7	
+R3	Status Arg1:T8 Arg2:T7	
+T9	Drug 116 122	drogue
+T10	StatusTime 109 115	pas de
+A2	StatusTime T10 none
+R4	Status Arg1:T9 Arg2:T10	

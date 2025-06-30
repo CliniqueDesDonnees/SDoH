@@ -1,0 +1,14 @@
+T1	Tobacco 22 26	fume
+T2	StatusTime 19 30	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 58 61	vin
+T4	Type 58 61	vin
+T5	StatusTime 37 45	consomme
+A2	StatusTime T5 current
+T6	Amount 46 54	un verre
+T7	Frequency 62 70	par jour
+R2	Type Arg1:T3 Arg2:T4	
+R3	Frequency Arg1:T3 Arg2:T7	
+R4	Amount Arg1:T3 Arg2:T6	
+R5	Status Arg1:T3 Arg2:T5	

@@ -1,0 +1,12 @@
+T1	Tobacco 21 30	tabagisme
+T2	StatusTime 14 20	Pas de
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 52 60	d'alcool
+T4	StatusTime 32 51	pas de consommation
+A2	StatusTime T4 none
+R2	Status Arg1:T3 Arg2:T4	
+T5	Drug 75 82	drogues
+T6	StatusTime 62 74	ni d'abus de
+A3	StatusTime T6 none
+R3	Status Arg1:T5 Arg2:T6	

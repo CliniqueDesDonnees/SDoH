@@ -1,0 +1,15 @@
+T1	Alcohol 14 23	Ethylisme
+T2	StatusTime 34 39	sevré
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	Tobacco 41 50	tabagisme
+T4	StatusTime 51 56	sevré
+A2	StatusTime T4 past
+R2	Status Arg1:T3 Arg2:T4	
+T5	Living_WithOthers 58 71	vit en couple
+T6	MaritalStatus_InRelationship 62 71	en couple
+T7	Descendants_Yes 73 85	deux enfants
+T8	Type 78 85	enfants
+T9	Amount 73 77	deux
+R3	Type Arg1:T7 Arg2:T8	
+R4	Amount Arg1:T7 Arg2:T9	

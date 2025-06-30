@@ -1,0 +1,4 @@
+T1	Tobacco 61 65	fume
+T2	StatusTime 58 69	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	

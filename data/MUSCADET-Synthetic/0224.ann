@@ -1,0 +1,10 @@
+T1	Income 28 32	SMIC
+T2	Housing_Yes 34 65	vit en HLM dans une appartement
+T3	Tobacco 142 147	fumer
+T4	StatusTime 116 138	N'arrive pas à arrêter
+A1	StatusTime T4 current
+R1	Status Arg1:T3 Arg2:T4	
+T5	Alcohol 162 170	d'alcool
+T6	StatusTime 149 161	Ne boit plus
+A2	StatusTime T6 past
+R2	Status Arg1:T5 Arg2:T6	

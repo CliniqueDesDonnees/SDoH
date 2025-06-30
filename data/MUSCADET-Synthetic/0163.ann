@@ -1,0 +1,12 @@
+T1	Descendants_Yes 100 109	6 enfants
+T2	Type 102 109	enfants
+T3	Amount 100 101	6
+R1	Type Arg1:T1 Arg2:T2	
+R2	Amount Arg1:T1 Arg2:T3	
+T4	Descendants_Yes 112 130	17 petites enfants
+T5	Type 115 130	petites enfants
+T6	Amount 112 114	17
+R3	Type Arg1:T4 Arg2:T5	
+R4	Amount Arg1:T4 Arg2:T6	
+T7	Last_job 158 168	Astronaute
+T8	Job 158 168	Astronaute

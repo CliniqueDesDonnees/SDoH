@@ -1,0 +1,10 @@
+T1	Housing_Yes 14 33	autonome à domicile
+T2	Living_WithOthers 34 52	vit avec son époux
+T3	MaritalStatus_InRelationship 43 52	son époux
+T4	Alcohol 74 82	d'alcool
+T5	StatusTime 54 73	Pas de consommation
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	Drug 89 95	drogue
+R2	Status Arg1:T6 Arg2:T5	
+T7	Employment_Other 97 111	Femme au foyer

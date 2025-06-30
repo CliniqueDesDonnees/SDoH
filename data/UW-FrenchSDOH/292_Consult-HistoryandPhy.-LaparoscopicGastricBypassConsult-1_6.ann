@@ -1,0 +1,23 @@
+T1	MaritalStatus_Single 27 38	célibataire
+T2	Alcohol 55 63	l'alcool
+T3	StatusTime 43 51	consomme
+A1	StatusTime T3 current
+R1	Status Arg1:T2 Arg2:T3	
+T4	Amount 73 91	dix à douze verres
+T5	Frequency 92 103	par semaine
+R2	Amount Arg1:T2 Arg2:T4	
+R3	Frequency Arg1:T2 Arg2:T5	
+T6	Tobacco 195 199	fume
+T8	Amount 200 217	un paquet et demi
+T9	Duration 227 240	depuis 15 ans
+T10	Frequency 218 226	par jour
+T11	Type 203 217	paquet et demi
+R5	Amount Arg1:T6 Arg2:T8	
+R6	Type Arg1:T6 Arg2:T11	
+R7	Frequency Arg1:T6 Arg2:T10	
+R8	Duration Arg1:T6 Arg2:T9	
+T7	StatusTime 247 265	a récemment arrêté
+A2	StatusTime T7 past
+R4	Status Arg1:T6 Arg2:T7	
+T12	History 275 295	depuis deux semaines
+R9	History Arg1:T6 Arg2:T12	

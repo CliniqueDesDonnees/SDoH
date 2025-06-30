@@ -1,0 +1,15 @@
+T1	MaritalStatus_Widowed 14 18	veuf
+T2	Descendants_Yes 20 29	2 enfants
+T3	Descendants_Yes 31 47	5 petits enfants
+T4	Type 22 29	enfants
+T5	Type 33 47	petits enfants
+T6	Amount 20 21	2
+T7	Amount 31 32	5
+R1	Type Arg1:T2 Arg2:T4	
+R2	Amount Arg1:T2 Arg2:T6	
+R3	Amount Arg1:T3 Arg2:T7	
+R4	Type Arg1:T3 Arg2:T5	
+T8	Housing_Yes 49 72	vit dans un appartement
+T9	Last_job 105 116	psychologue
+T10	Employment_Pensioner 117 130	à la retraite
+T11	Job 105 116	psychologue

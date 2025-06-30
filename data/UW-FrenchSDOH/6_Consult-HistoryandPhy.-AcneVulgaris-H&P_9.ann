@@ -1,0 +1,5 @@
+T1	Alcohol 142 150	d'alcool
+T2	StatusTime 119 141	admet une consommation
+A1	StatusTime T2 current
+R1	Status Arg1:T1 Arg2:T2	
+T3	PhysicalActivity_Yes 245 284	admet faire de l'exercice régulièrement

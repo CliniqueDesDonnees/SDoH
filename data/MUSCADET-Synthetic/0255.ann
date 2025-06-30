@@ -1,0 +1,9 @@
+T1	Employment_Working 14 46	Professeur d'histoire géographie
+T2	Last_job 14 46	Professeur d'histoire géographie
+T3	MaritalStatus_Single 48 59	célibataire
+T4	Descendants_Yes 61 70	un enfant
+T5	Type 64 70	enfant
+T6	Amount 61 63	un
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Job 14 46	Professeur d'histoire géographie

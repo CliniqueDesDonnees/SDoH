@@ -1,0 +1,9 @@
+T1	Living_WithOthers 54 83	vit avec son mari et sa fille
+T2	Housing_Yes 84 98	en appartement
+T3	MaritalStatus_InRelationship 58 71	avec son mari
+T4	Descendants_Yes 75 83	sa fille
+T5	Type 78 83	fille
+R1	Type Arg1:T4 Arg2:T5	
+T6	Employment_Working 100 109	travaille
+T7	Last_job 122 160	téléreceptionniste chez France telecom
+T8	Job 122 160	téléreceptionniste chez France telecom

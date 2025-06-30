@@ -1,0 +1,28 @@
+T1	Tobacco 20 24	fume
+T2	StatusTime 17 28	ne fume pas
+A1	StatusTime T2 none
+R1	Status Arg1:T1 Arg2:T2	
+T3	Alcohol 86 89	vin
+T4	Type 86 89	vin
+T5	Amount 74 82	un verre
+T6	StatusTime 47 55	consomme
+A2	StatusTime T6 current
+T7	Frequency 56 73	occasionnellement
+R2	Type Arg1:T3 Arg2:T4	
+R3	Amount Arg1:T3 Arg2:T5	
+R4	Frequency Arg1:T3 Arg2:T7	
+R5	Status Arg1:T3 Arg2:T6	
+T8	MaritalStatus_InRelationship 98 103	marié
+T9	Descendants_Yes 110 119	un enfant
+T10	Descendants_Yes 134 153	trois beaux-enfants
+T11	Type 140 153	beaux-enfants
+T12	Amount 134 139	trois
+T13	Type 113 119	enfant
+T14	Amount 110 112	un
+R6	Type Arg1:T9 Arg2:T13	
+R7	Amount Arg1:T9 Arg2:T14	
+R8	Amount Arg1:T10 Arg2:T12	
+R9	Type Arg1:T10 Arg2:T11	
+T15	Employment_Working 158 167	travaille
+T16	Job 168 177	pour ABCD
+T17	Last_job 168 177	pour ABCD

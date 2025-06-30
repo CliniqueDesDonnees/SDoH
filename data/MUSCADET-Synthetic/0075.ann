@@ -1,0 +1,13 @@
+T1	MaritalStatus_Divorced 12 20	divorcée
+T2	Descendants_Yes 30 42	deux enfants
+T3	Type 35 42	enfants
+T4	Amount 30 34	deux
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Last_job 44 51	juriste
+T6	Employment_Working 44 51	juriste
+T7	Tobacco 72 81	tabagique
+T8	StatusTime 52 71	pas de consommation
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Job 44 51	juriste

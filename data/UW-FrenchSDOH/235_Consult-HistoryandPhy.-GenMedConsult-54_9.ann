@@ -1,0 +1,8 @@
+T1	Living_WithOthers 26 48	vit avec son petit ami
+T2	MaritalStatus_InRelationship 35 48	son petit ami
+T3	Tobacco 83 88	tabac
+T4	Drug 120 127	drogues
+T5	StatusTime 55 79	a des antécédents d'abus
+A1	StatusTime T5 past
+R1	Status Arg1:T3 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	

@@ -1,0 +1,10 @@
+T1	Ethnicity 24 36	origine turc
+T2	MaritalStatus_InRelationship 37 43	Mariée
+T3	Descendants_Yes 44 53	4 enfants
+T4	Type 46 53	enfants
+T5	Amount 44 45	4
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Employment_Unemployed 55 71	Ne travaille pas
+T7	Last_job 103 108	maçon
+T8	Job 103 108	maçon

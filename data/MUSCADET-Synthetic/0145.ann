@@ -1,0 +1,21 @@
+T1	Living_WithOthers 17 34	Vit avec son mari
+T2	MaritalStatus_InRelationship 21 34	avec son mari
+T4	Type 119 128	demi fils
+T5	Type 108 112	fils
+T6	Amount 116 118	un
+T7	Amount 106 107	1
+T3	Descendants_Yes 106 112	1 fils
+T8	Descendants_Yes 116 128	un demi fils
+R1	Type Arg1:T3 Arg2:T5	
+R2	Amount Arg1:T3 Arg2:T7	
+R3	Type Arg1:T8 Arg2:T4	
+R4	Amount Arg1:T8 Arg2:T6	
+T9	Employment_Pensioner 147 155	retraité
+T10	Last_job 159 176	crédit associatif
+T11	Alcohol 212 220	d'alcool
+T12	Tobacco 227 232	tabac
+T13	StatusTime 192 211	pas de consommation
+A1	StatusTime T13 none
+R5	Status Arg1:T11 Arg2:T13	
+R6	Status Arg1:T12 Arg2:T13	
+T14	Job 159 176	crédit associatif

@@ -1,0 +1,32 @@
+T1	Tobacco 107 112	fumer
+T2	StatusTime 95 103	a arrêté
+A1	StatusTime T2 past
+R1	Status Arg1:T1 Arg2:T2	
+T3	History 113 138	il y a environ 6 semaines
+R2	History Arg1:T1 Arg2:T3	
+T4	Amount 41 57	6 à 7 cigarettes
+T5	Frequency 58 66	par jour
+T6	Duration 67 88	depuis plus de 50 ans
+R3	Amount Arg1:T1 Arg2:T4	
+T7	Type 47 57	cigarettes
+R4	Type Arg1:T1 Arg2:T7	
+R5	Frequency Arg1:T1 Arg2:T5	
+R6	Duration Arg1:T1 Arg2:T6	
+T8	Alcohol 157 165	l'alcool
+T9	StatusTime 145 153	consomme
+A2	StatusTime T9 current
+R7	Status Arg1:T8 Arg2:T9	
+T10	Frequency 166 183	occasionnellement
+R8	Frequency Arg1:T8 Arg2:T10	
+T11	MaritalStatus_InRelationship 194 200	mariée
+T12	Descendants_Yes 206 215	3 enfants
+T13	Type 208 215	enfants
+T14	Amount 206 207	3
+R9	Type Arg1:T12 Arg2:T13	
+R10	Amount Arg1:T12 Arg2:T14	
+T15	Housing_Yes 222 236	vit à domicile
+T16	Living_WithOthers 222 250	vit à domicile avec son mari
+T17	MaritalStatus_InRelationship 242 250	son mari
+T18	Job 286 322	secrétaire d'unité au Centre Médical
+T19	Last_job 286 322	secrétaire d'unité au Centre Médical
+T20	Employment_Other 257 279	travaillait auparavant

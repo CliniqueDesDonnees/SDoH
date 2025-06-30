@@ -1,0 +1,19 @@
+T1	Living_WithOthers 14 45	Vit à Cougloff avec sa compagne
+T2	MaritalStatus_InRelationship 29 45	avec sa compagne
+T3	Employment_Unemployed 47 57	Au chômage
+T4	Tobacco 59 68	Tabagisme
+T5	Type 78 82	pipe
+T6	StatusTime 70 74	fume
+A1	StatusTime T6 current
+R1	Status Arg1:T4 Arg2:T6	
+R2	Type Arg1:T4 Arg2:T5	
+T7	Alcohol 87 91	boit
+T9	Frequency 103 105	/J
+T10	StatusTime 87 91	boit
+A2	StatusTime T10 current
+R3	Status Arg1:T7 Arg2:T10	
+R5	Frequency Arg1:T7 Arg2:T9	
+T11	Type 95 103	apéritif
+R6	Type Arg1:T7 Arg2:T11	
+T8	Amount 92 103	un apéritif
+R4	Amount Arg1:T7 Arg2:T8	

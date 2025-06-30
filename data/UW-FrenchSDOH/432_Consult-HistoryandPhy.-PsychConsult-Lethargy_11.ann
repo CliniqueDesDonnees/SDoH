@@ -1,0 +1,20 @@
+T1	Living_WithOthers 26 56	vit actuellement avec son mari
+T2	MaritalStatus_InRelationship 48 56	son mari
+T3	Education 102 121	Master en Éducation
+T4	Employment_Pensioner 159 172	à la retraite
+T5	Last_job 133 158	spécialiste de la lecture
+T6	Job 133 158	spécialiste de la lecture
+T7	Descendants_Yes 228 237	une fille
+T8	Type 232 237	fille
+R1	Type Arg1:T7 Arg2:T8	
+T9	Tobacco 265 270	tabac
+T10	Alcohol 272 280	d'alcool
+T11	Drug 287 304	drogues illicites
+T12	StatusTime 244 261	nie l'utilisation
+A1	StatusTime T12 none
+R2	Status Arg1:T9 Arg2:T12	
+R3	Status Arg1:T10 Arg2:T12	
+R4	Status Arg1:T11 Arg2:T12	
+T13	Descendants_Yes 312 320	sa fille
+T14	Type 315 320	fille
+R5	Type Arg1:T13 Arg2:T14	

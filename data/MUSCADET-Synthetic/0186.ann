@@ -1,0 +1,9 @@
+T1	PhysicalActivity_Yes 22 40	judo à haut niveau
+T2	Tobacco 49 56	toxique
+T3	Alcohol 49 56	toxique
+T4	Drug 49 56	toxique
+T5	StatusTime 42 48	pas de
+A1	StatusTime T5 none
+R1	Status Arg1:T2 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	
+R3	Status Arg1:T3 Arg2:T5	

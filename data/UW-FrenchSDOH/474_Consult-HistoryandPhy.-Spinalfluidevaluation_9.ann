@@ -1,0 +1,5 @@
+T1	Housing_Yes 53 67	vit à domicile
+T2	Tobacco 85 94	tabagisme
+T3	StatusTime 78 84	pas de
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	

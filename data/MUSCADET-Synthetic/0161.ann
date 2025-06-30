@@ -1,0 +1,39 @@
+T1	MaritalStatus_InRelationship 14 19	Pacsé
+T2	Last_job 49 54	clown
+T3	Employment_Working 49 54	clown
+T4	StatusTime 76 88	consommation
+A1	StatusTime T4 current
+T5	Drug 106 113	cocaïne
+T6	Type 106 113	cocaïne
+T7	Amount 92 102	deux rails
+R1	Amount Arg1:T5 Arg2:T7	
+R2	Type Arg1:T5 Arg2:T6	
+R3	Status Arg1:T5 Arg2:T4	
+T8	Frequency 114 139	avant les représentations
+R4	Frequency Arg1:T5 Arg2:T8	
+T9	Tobacco 141 151	tabagismes
+T11	Type 157 163	roulés
+T12	Frequency 164 172	par jour
+T13	StatusTime 141 151	tabagismes
+A2	StatusTime T13 current
+R5	Status Arg1:T9 Arg2:T13	
+R7	Type Arg1:T9 Arg2:T11	
+R8	Frequency Arg1:T9 Arg2:T12	
+T14	Drug 176 182	joints
+T15	Type 176 182	joints
+T16	Amount 174 175	3
+R9	Type Arg1:T14 Arg2:T15	
+R10	Amount Arg1:T14 Arg2:T16	
+T17	Frequency 183 190	le soir
+R11	Frequency Arg1:T14 Arg2:T17	
+T18	StatusTime 174 190	3 joints le soir
+A3	StatusTime T18 current
+R12	Status Arg1:T14 Arg2:T18	
+T19	Alcohol 196 204	d'alcool
+T20	StatusTime 192 195	Pas
+A4	StatusTime T20 none
+R13	Status Arg1:T19 Arg2:T20	
+T21	PhysicalActivity_No 206 230	Ne pratique pas de sport
+T22	Job 49 54	clown
+T10	Amount 154 163	20 roulés
+R6	Amount Arg1:T9 Arg2:T10	

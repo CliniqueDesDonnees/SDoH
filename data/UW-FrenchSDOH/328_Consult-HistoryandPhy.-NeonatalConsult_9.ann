@@ -1,0 +1,4 @@
+T1	Living_WithOthers 25 53	vit avec sa mère et son père
+T2	Descendants_Yes 105 112	un fils
+T3	Type 108 112	fils
+R1	Type Arg1:T2 Arg2:T3	

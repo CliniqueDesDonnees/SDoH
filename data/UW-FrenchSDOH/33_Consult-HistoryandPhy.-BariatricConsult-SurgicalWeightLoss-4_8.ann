@@ -1,0 +1,15 @@
+T1	Employment_Other 30 44	femme au foyer
+T2	MaritalStatus_InRelationship 55 61	mariée
+T3	Descendants_Yes 67 79	deux enfants
+T4	Type 72 79	enfants
+T5	Amount 67 71	deux
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Tobacco 118 122	fumé
+T7	Alcohol 135 143	d'alcool
+T8	StatusTime 123 134	ni consommé
+A1	StatusTime T8 none
+T9	StatusTime 107 117	n'a jamais
+A2	StatusTime T9 none
+R3	Status Arg1:T6 Arg2:T9	
+R4	Status Arg1:T7 Arg2:T8	

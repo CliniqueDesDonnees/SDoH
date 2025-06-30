@@ -1,0 +1,9 @@
+T1	MaritalStatus_Divorced 23 31	divorcée
+T2	Tobacco 95 100	tabac
+T3	Alcohol 102 110	d'alcool
+T4	Drug 117 124	drogues
+T5	StatusTime 74 91	nie l'utilisation
+A1	StatusTime T5 none
+R1	Status Arg1:T2 Arg2:T5	
+R2	Status Arg1:T3 Arg2:T5	
+R3	Status Arg1:T4 Arg2:T5	

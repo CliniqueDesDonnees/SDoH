@@ -1,0 +1,14 @@
+T1	Living_WithOthers 14 30	Vit chez sa mère
+T2	Last_job 58 76	Assistante scoiale
+T3	Employment_Working 58 76	Assistante scoiale
+T4	Tobacco 97 106	tabagique
+T5	StatusTime 78 96	Pas d'intoxication
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	Alcohol 108 114	Alcool
+T7	StatusTime 117 129	exceptionnel
+A2	StatusTime T7 current
+T8	Frequency 117 129	exceptionnel
+R2	Frequency Arg1:T6 Arg2:T8	
+R3	Status Arg1:T6 Arg2:T7	
+T9	Job 58 76	Assistante scoiale

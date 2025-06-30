@@ -1,0 +1,22 @@
+T1	Last_job 14 27	Ostréiculteur
+T2	Employment_Working 28 39	en activité
+T3	MaritalStatus_InRelationship 41 46	Marié
+T4	Descendants_Yes 47 62	quatres enfants
+T5	Type 55 62	enfants
+T6	Amount 47 54	quatres
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	PhysicalActivity_Yes 89 96	footing
+T8	Amount 103 109	2 fois
+T9	Frequency 110 121	par semaine
+R3	Amount Arg1:T7 Arg2:T8	
+R4	Frequency Arg1:T7 Arg2:T9	
+T10	Alcohol 142 151	oenolique
+T11	StatusTime 123 141	Pas d'intoxication
+A1	StatusTime T11 none
+R5	Status Arg1:T10 Arg2:T11	
+T12	Tobacco 156 160	fume
+T13	StatusTime 153 164	ne fume pas
+A2	StatusTime T13 none
+R6	Status Arg1:T12 Arg2:T13	
+T14	Job 14 27	Ostréiculteur

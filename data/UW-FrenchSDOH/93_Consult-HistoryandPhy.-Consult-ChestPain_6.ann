@@ -1,0 +1,13 @@
+T1	Employment_Working 19 28	travaille
+T2	Job 29 56	dans une maison de retraite
+T3	Last_job 29 56	dans une maison de retraite
+T4	Tobacco 66 70	fume
+T5	StatusTime 63 74	ne fume pas
+A1	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+T6	Tobacco 214 219	fumer
+T7	StatusTime 202 210	a arrêté
+A2	StatusTime T7 past
+R2	Status Arg1:T6 Arg2:T7	
+T8	History 220 227	en 1972
+R3	History Arg1:T6 Arg2:T8	

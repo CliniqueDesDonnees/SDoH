@@ -1,0 +1,33 @@
+T1	Housing_Yes 14 47	Vit à Saint Alban  en appartement
+T2	MaritalStatus_InRelationship 48 59	accompagnée
+T3	Descendants_Yes 60 69	2 enfants
+T4	Type 62 69	enfants
+T5	Amount 60 61	2
+R1	Type Arg1:T3 Arg2:T4	
+R2	Amount Arg1:T3 Arg2:T5	
+T6	Tobacco 70 75	Tabac
+T8	Frequency 89 94	année
+R4	Frequency Arg1:T6 Arg2:T8	
+T7	Type 81 88	paquets
+R5	Type Arg1:T6 Arg2:T7	
+T11	History 119 136	depuis ses 18 ans
+T12	Type 99 109	cigarettes
+T13	Frequency 110 118	par jour
+R6	History Arg1:T6 Arg2:T11	
+T14	StatusTime 96 118	20 cigarettes par jour
+A1	StatusTime T14 current
+T15	Tobacco 96 118	20 cigarettes par jour
+R7	Status Arg1:T15 Arg2:T14	
+R9	Type Arg1:T15 Arg2:T12	
+R10	Frequency Arg1:T15 Arg2:T13	
+R11	History Arg1:T15 Arg2:T11	
+T16	Employment_Pensioner 139 147	Retraité
+T17	Last_job 155 165	charcutier
+T18	Job 155 165	charcutier
+T9	Amount 78 88	35 paquets
+R3	Amount Arg1:T6 Arg2:T9	
+T10	Amount 96 109	20 cigarettes
+R8	Amount Arg1:T15 Arg2:T10	
+T19	StatusTime 78 94	35 paquets année
+A2	StatusTime T19 current
+R12	Status Arg1:T6 Arg2:T19

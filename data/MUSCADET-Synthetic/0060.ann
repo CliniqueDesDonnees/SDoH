@@ -1,0 +1,22 @@
+T1	Employment_Pensioner 51 60	retraitée
+T2	Last_job 28 50	dans l'agroalimentaire
+T3	History 61 73	depuis 8 ans
+R1	History Arg1:T1 Arg2:T3	
+T4	Tobacco 74 79	tabac
+T5	StatusTime 80 85	sevré
+A1	StatusTime T5 past
+R2	Status Arg1:T4 Arg2:T5	
+T6	History 86 99	depuis 18 ans
+R3	History Arg1:T4 Arg2:T6	
+T9	PhysicalActivity_No 117 150	pas d'activité physique régulière
+T10	Alcohol 152 162	A consommé
+T11	StatusTime 188 193	sevré
+A2	StatusTime T11 past
+R6	Status Arg1:T10 Arg2:T11	
+T12	History 194 206	depuis 5 ans
+R7	History Arg1:T10 Arg2:T12	
+T13	Job 28 50	dans l'agroalimentaire
+T14	Type 176 182	pastis
+R8	Type Arg1:T10 Arg2:T14	
+T7	Amount 99 104	20 PA
+R4	Amount Arg1:T4 Arg2:T7	

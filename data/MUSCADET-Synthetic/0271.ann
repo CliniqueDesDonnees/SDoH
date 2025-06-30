@@ -1,0 +1,14 @@
+T1	Last_job 23 46	secrétaire de direction
+T2	MaritalStatus_Widowed 48 53	veuve
+T3	Descendants_Yes 55 65	trois fils
+T4	Type 61 65	fils
+T5	Amount 55 60	trois
+T6	Housing_Yes 67 89	vivait seule en maison
+T7	Housing_Yes 177 186	sa maison
+T8	Descendants_Yes 207 215	son fils
+T9	Type 211 215	fils
+R1	Type Arg1:T8 Arg2:T9	
+T10	PhysicalActivity_Yes 309 326	Multisport senior
+T11	PhysicalActivity_Yes 341 347	marche
+T12	PhysicalActivity_Yes 354 363	l'aquagym
+T13	Job 23 46	secrétaire de direction

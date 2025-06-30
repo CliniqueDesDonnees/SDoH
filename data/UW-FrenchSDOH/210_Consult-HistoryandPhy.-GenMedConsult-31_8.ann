@@ -1,0 +1,21 @@
+T1	MaritalStatus_InRelationship 23 29	mariée
+T2	Living_WithOthers 31 48	vit avec son mari
+T3	MaritalStatus_InRelationship 35 48	avec son mari
+T4	Descendants_Yes 55 64	2 enfants
+T5	Type 57 64	enfants
+T6	Amount 55 56	2
+R1	Type Arg1:T4 Arg2:T5	
+R2	Amount Arg1:T4 Arg2:T6	
+T7	Descendants_Yes 78 87	4 enfants
+T8	Type 80 87	enfants
+T9	Amount 78 79	4
+R3	Type Arg1:T7 Arg2:T8	
+R4	Amount Arg1:T7 Arg2:T9	
+T10	Tobacco 137 142	tabac
+T11	Alcohol 178 186	d'alcool
+T12	StatusTime 100 133	Pas d'antécédents de consommation
+A1	StatusTime T12 none
+T13	StatusTime 144 177	Pas d'antécédents de consommation
+A2	StatusTime T13 none
+R5	Status Arg1:T11 Arg2:T13	
+R6	Status Arg1:T10 Arg2:T12	

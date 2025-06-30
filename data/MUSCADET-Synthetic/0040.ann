@@ -1,0 +1,30 @@
+T1	MaritalStatus_Single 22 33	célibataire
+T2	Education 35 47	CAP coiffure
+T3	StatusTime 48 67	pas de consommation
+A1	StatusTime T3 none
+T4	Tobacco 68 77	tabagique
+R1	Status Arg1:T4 Arg2:T3	
+T5	Alcohol 83 87	d'OH
+T6	StatusTime 79 82	Pas
+A2	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	
+T7	Frequency 102 109	le soir
+T8	Type 95 101	joints
+T9	Drug 95 101	joints
+T11	StatusTime 95 101	joints
+A3	StatusTime T11 current
+R3	Status Arg1:T9 Arg2:T11	
+R4	Type Arg1:T9 Arg2:T8	
+R5	Frequency Arg1:T9 Arg2:T7	
+T12	Drug 111 128	protoxyde d'azote
+T13	Frequency 129 134	le WE
+R7	Frequency Arg1:T12 Arg2:T13	
+T14	StatusTime 111 128	protoxyde d'azote
+A4	StatusTime T14 current
+R8	Status Arg1:T12 Arg2:T14	
+T15	Job 162 170	pécheurs
+T16	Job 172 182	saisonnier
+T17	Job 184 192	manœuvre
+T18	Job 198 205	cariste
+T10	Amount 89 101	1 à 2 joints
+R6	Amount Arg1:T9 Arg2:T10	

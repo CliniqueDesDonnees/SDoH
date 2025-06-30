@@ -1,0 +1,15 @@
+T1	Living_Alone 47 59	vivait seule
+T2	Housing_Yes 60 75	dans une maison
+T3	Housing_Yes 128 138	à domicile
+T4	Tobacco 288 305	fumait auparavant
+T5	StatusTime 288 305	fumait auparavant
+A1	StatusTime T5 past
+T6	History 321 342	il y a environ 10 ans
+R1	History Arg1:T4 Arg2:T6	
+R2	Status Arg1:T4 Arg2:T5	
+T7	Amount 356 369	1 à 2 paquets
+T8	Frequency 370 378	par jour
+T9	Duration 388 402	de 18 à 54 ans
+R3	Amount Arg1:T4 Arg2:T7	
+R4	Frequency Arg1:T4 Arg2:T8	
+R5	Duration Arg1:T4 Arg2:T9	

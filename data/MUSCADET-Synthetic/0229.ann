@@ -1,0 +1,15 @@
+T1	Tobacco 7 13	fumeur
+T2	History 14 40	depuis l'âge de ses 10 ans
+T3	StatusTime 7 13	fumeur
+A1	StatusTime T3 current
+R1	Status Arg1:T1 Arg2:T3	
+R2	History Arg1:T1 Arg2:T2	
+T4	Drug 96 102	drogue
+T5	Alcohol 106 114	d'alcool
+T6	StatusTime 77 92	N'a jamais pris
+A2	StatusTime T6 none
+R3	Status Arg1:T4 Arg2:T6	
+R4	Status Arg1:T5 Arg2:T6	
+T7	Last_job 116 144	Réceptionniste dans un hôtel
+T8	Employment_Working 116 144	Réceptionniste dans un hôtel
+T9	Job 116 144	Réceptionniste dans un hôtel

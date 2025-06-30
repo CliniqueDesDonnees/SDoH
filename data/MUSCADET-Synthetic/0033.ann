@@ -1,0 +1,23 @@
+T1	MaritalStatus_InRelationship 14 19	Marié
+T2	Descendants_Yes 20 32	deux enfants
+T3	Type 25 32	enfants
+T4	Amount 20 24	deux
+R1	Type Arg1:T2 Arg2:T3	
+R2	Amount Arg1:T2 Arg2:T4	
+T5	Employment_Working 34 43	Travaille
+T6	Last_job 50 83	responsable de dessin indrustriel
+T7	Tobacco 104 113	tabagique
+T8	StatusTime 85 103	Pas d'intoxication
+A1	StatusTime T8 none
+R3	Status Arg1:T7 Arg2:T8	
+T9	Drug 137 145	cannabis
+T10	StatusTime 114 133	pas de consommation
+A2	StatusTime T10 none
+R4	Status Arg1:T9 Arg2:T10	
+T11	Alcohol 155 185	consommation déclarée d'alcool
+T12	StatusTime 186 199	occasionnelle
+A3	StatusTime T12 current
+T13	Frequency 186 199	occasionnelle
+R5	Status Arg1:T11 Arg2:T12	
+R6	Frequency Arg1:T11 Arg2:T13	
+T14	Job 50 83	responsable de dessin indrustriel

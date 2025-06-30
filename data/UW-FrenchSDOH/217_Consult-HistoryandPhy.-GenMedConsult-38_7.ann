@@ -1,0 +1,11 @@
+T1	Tobacco 56 65	tabagisme
+T2	Alcohol 83 91	d'alcool
+T3	Drug 112 119	drogues
+T4	StatusTime 27 52	nie avoir des antécédents
+A1	StatusTime T4 none
+R1	Status Arg1:T1 Arg2:T4	
+R2	Status Arg1:T2 Arg2:T4	
+R3	Status Arg1:T3 Arg2:T4	
+T5	Employment_Working 182 191	travaille
+T6	Job 198 229	infirmière dans une pouponnière
+T7	Last_job 198 229	infirmière dans une pouponnière

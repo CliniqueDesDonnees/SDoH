@@ -1,0 +1,11 @@
+T1	Alcohol 45 53	d'alcool
+T2	StatusTime 25 44	nie la consommation
+A1	StatusTime T2 none
+T3	Drug 87 94	drogues
+T4	StatusTime 66 86	nie l'utilisation de
+A2	StatusTime T4 none
+R1	Status Arg1:T3 Arg2:T4	
+T5	Tobacco 183 188	tabac
+T6	StatusTime 162 182	nie l'utilisation de
+A3	StatusTime T6 none
+R2	Status Arg1:T5 Arg2:T6	

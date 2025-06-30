@@ -1,0 +1,9 @@
+T1	PhysicalActivity_Yes 77 84	Tai Chi
+T2	Tobacco 89 93	fume
+T3	StatusTime 86 97	ne fume pas
+A1	StatusTime T3 none
+T4	Alcohol 102 106	boit
+T5	StatusTime 99 110	ne boit pas
+A2	StatusTime T5 none
+R1	Status Arg1:T4 Arg2:T5	
+R2	Status Arg1:T2 Arg2:T3	

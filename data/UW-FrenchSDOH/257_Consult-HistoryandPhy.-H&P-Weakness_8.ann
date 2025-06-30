@@ -1,0 +1,13 @@
+T1	Housing_Yes 26 52	réside au Life Care Center
+T2	Tobacco 62 66	fume
+T3	StatusTime 59 70	ne fume pas
+A1	StatusTime T3 none
+R1	Status Arg1:T2 Arg2:T3	
+T4	Alcohol 88 96	d'alcool
+T5	StatusTime 72 87	ne consomme pas
+A2	StatusTime T5 none
+R2	Status Arg1:T4 Arg2:T5	
+T6	Drug 117 124	drogues
+T7	StatusTime 100 113	n'utilise pas
+A3	StatusTime T7 none
+R3	Status Arg1:T6 Arg2:T7	

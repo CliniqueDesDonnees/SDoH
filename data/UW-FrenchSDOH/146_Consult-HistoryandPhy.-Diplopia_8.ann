@@ -1,0 +1,21 @@
+T1	Living_WithOthers 25 42	vit avec sa femme
+T2	MaritalStatus_InRelationship 34 42	sa femme
+T3	Employment_Unemployed 105 116	sans emploi
+T4	Last_job 53 91	développeur de logiciels informatiques
+T5	Job 53 91	développeur de logiciels informatiques
+T6	Tobacco 143 147	fume
+T7	Amount 148 179	moins d'un paquet de cigarettes
+T8	StatusTime 143 147	fume
+A1	StatusTime T8 current
+R1	Status Arg1:T6 Arg2:T8	
+T9	Frequency 180 188	par jour
+T10	Type 159 179	paquet de cigarettes
+R2	Amount Arg1:T6 Arg2:T7	
+R3	Type Arg1:T6 Arg2:T10	
+R4	Frequency Arg1:T6 Arg2:T9	
+T11	Alcohol 216 224	d'alcool
+T12	Drug 231 238	drogues
+T13	StatusTime 193 215	nie toute consommation
+A2	StatusTime T13 none
+R5	Status Arg1:T11 Arg2:T13	
+R6	Status Arg1:T12 Arg2:T13	

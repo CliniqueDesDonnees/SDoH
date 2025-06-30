@@ -1,0 +1,6 @@
+T1	Tobacco 29 38	tabagisme
+T2	Alcohol 58 66	d'alcool
+T3	StatusTime 14 25	Antécédents
+A1	StatusTime T3 past
+R1	Status Arg1:T1 Arg2:T3	
+R2	Status Arg1:T2 Arg2:T3	

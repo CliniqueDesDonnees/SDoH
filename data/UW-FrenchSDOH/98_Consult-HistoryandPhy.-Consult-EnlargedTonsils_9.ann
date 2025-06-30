@@ -1,0 +1,8 @@
+T1	MaritalStatus_Single 30 41	célibataire
+T2	Employment_Student 52 61	étudiante
+T3	Tobacco 89 94	tabac
+T4	Alcohol 98 106	d'alcool
+T5	StatusTime 68 88	nie l'utilisation de
+A1	StatusTime T5 none
+R1	Status Arg1:T3 Arg2:T5	
+R2	Status Arg1:T4 Arg2:T5	
