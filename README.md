@@ -29,7 +29,7 @@ SDOH/
 - **MUSCADET-Synthetic**: Synthetic social history sections written by a physician.
 - **UW-FrenchSDOH**: French-translated social history sections from the University of Washington SDOH dataset, originally derived from MTSamples.
 
-All datasets are stored in BRAT format under `annotation/data/`.
+All datasets are distributed under the CC BY-NC 4.0 licence and stored in BRAT format in `annotation/data/`.
 
 ### 📝 Annotation
 
