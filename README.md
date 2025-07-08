@@ -4,7 +4,7 @@
 
 A sequence-to-sequence (seq2seq) approach for extracting **Social Determinants of Health (SDOH)** from **French clinical notes** using the [Flan-T5-Large](https://huggingface.co/google/flan-t5-large) language model. A total of 13 SDoH categories is included in this study: living condition, marital status, descendants, employment status, occupation, tobacco use, alcohol use, drug use, housing, education, physical activity, income, and ethnicity/country of birth.
 
-Description of the method and results are available in our paper: [Improving Social Determinants of Health Documentation in French EHRs Using Large Language Models](https://huggingface.co/google/flan-t5-large)
+Description of the method and results are available in our paper: [Improving Social Determinants of Health Documentation in French EHRs Using Large Language Models](https://arxiv.org/abs/2507.03433)
 
 This repository contains resources to reproduce our implementation: annotated corpora, annotation guidelines, and scripts for inter-annotator agreement computation, and model fine-tuning and evaluation.
 
