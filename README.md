@@ -53,13 +53,13 @@ pip install pycm==4.0
 
 ```bibtex
 @misc{bazoge2025sdoh,
-      title={Improving Social Determinants of Health Documentation in French EHRs Using Large Language Models}, 
-      author={Adrien Bazoge and Pacôme Constant dit Beaufils and Mohammed Hmitouch and Romain Bourcier and Emmanuel Morin and Richard Dufour and Béatrice Daille and Pierre-Antoine Gourraud and Matilde Karakachoff},
+      title={MediQAl: A French Medical Question Answering Dataset for Knowledge and Reasoning Evaluation}, 
+      author={Adrien Bazoge},
       year={2025},
-      eprint={2507.03433},
+      eprint={-},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.03433}, 
+      url={-}, 
 }
 ```
 
