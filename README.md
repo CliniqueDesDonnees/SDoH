@@ -52,7 +52,7 @@ pip install pycm==4.0
 ## 📖 Citation
 
 ```bibtex
-@misc{bazoge2025sdoh,
+@article{bazoge2025sdoh,
     title={Improving social determinants of health documentation in French electronic health records using large language models}, 
     author={Adrien Bazoge and Pacôme Constant dit Beaufils and Mohammed Hmitouch and Romain Bourcier and Emmanuel Morin and Richard Dufour and Béatrice Daille and Pierre-Antoine Gourraud and Matilde Karakachoff},
     journal={Scientific Reports},
